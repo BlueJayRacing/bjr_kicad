@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\justi\Documents\bajashared\reidcain\WIP\rearbox\rearbox.kicad_sch</source>
+    <date>4/5/2024 4:37:45 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rearbox.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rearbox_board_power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rearbox_ADCs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baca739a-68ce-4085-8674-4f6b175431bd</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bce5b781-bb20-4ca3-9a47-e93069b6e3a7</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6867bdf-1d8a-401e-8df6-2746e3500d7c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7cfafaa-7c02-48c0-af0d-3c8312fbf614</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfe9bc96-4924-4f51-8f08-ab3591caac0e</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6add6f81-ace4-4e20-bfbf-de64d24c5015</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>211335da-b0ed-40ff-aec5-68411fe0a5ac</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c193d6c-b6d1-4f21-b643-7c91a8fd743e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77af9fb-16d6-4b9f-b9ac-f9ce503366ab</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TXB0108PWR</value>
+      <footprint>mainboxfp:SOP65P640X120-20N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0108.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TXB0108PWR</field>
+        <field name="Mouser Part Number">595-TXB0108PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D</field>
+      </fields>
+      <libsource lib="mainbox" part="TXB0108PWR" description="8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="595-TXB0108PWR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TXB0108PWR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e4f39b3-9343-4c13-aa91-3ee878746da4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x10</value>
+      <footprint>peripheralio:SMD_picoblade_hori_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6b86217-25cb-4a70-a292-cdf6a1e18017</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x08</value>
+      <footprint>peripheralio:SMD_picoblade_hori_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f38f78ce-e4d3-4a50-b657-22c3255365ec</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>330</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d92231b-6483-4010-816c-42371b7b5b87</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81c87cf7-e477-4051-a6b5-9d90b6e37f24</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22450dd1-5102-4b7c-b94b-39dffd46507d</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>HX1188FNLT</value>
+      <footprint>Magnetic_breakout:HX1188FNLT</footprint>
+      <datasheet>https://productfinder.pulseeng.com/products/datasheets/hx1188fnl.pdf</datasheet>
+      <fields>
+        <field name="Height">5.99</field>
+        <field name="Manufacturer_Name">Pulse Electronics</field>
+        <field name="Manufacturer_Part_Number">HX1188FNLT</field>
+        <field name="Mouser Part Number">673-HX1188FNLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1188FNLT?qs=tJ9riMc3cOc7BmUs9nU7TQ%3D%3D</field>
+      </fields>
+      <libsource lib="BestMagnetic" part="HX1188FNLT" description="Audio Transformers / Signal Transformers 100BaseTX SMD NonPoE 350uH 1-Port"/>
+      <property name="Height" value="5.99"/>
+      <property name="Mouser Part Number" value="673-HX1188FNLT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1188FNLT?qs=tJ9riMc3cOc7BmUs9nU7TQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Pulse Electronics"/>
+      <property name="Manufacturer_Part_Number" value="HX1188FNLT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="Audio Transformers / Signal Transformers 100BaseTX SMD NonPoE 350uH 1-Port"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae12e0e3-8a14-4a5a-9fce-14676a1a7a45</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>DEV-16771</value>
+      <footprint>mainboxfp:MODULE_DEV-16771</footprint>
+      <fields>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.07mm</field>
+        <field name="PARTREV">4.1</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="mainbox" part="DEV-16771" description="teensy 4.1"/>
+      <property name="PARTREV" value="4.1"/>
+      <property name="MANUFACTURER" value="SparkFun Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.07mm"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rearbox.kicad_sch"/>
+      <property name="ki_description" value="teensy 4.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59bab718-c6ae-4dc4-b644-84eff312ed16</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>8c31839e-f61e-4ec7-8220-c6bf1ae51f5d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>c3cef379-c28d-4755-8d21-e3108b55e8c7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>c8ad1c4e-30a8-4dfa-884c-5d07e67eb04a</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>61a3d75b-76bb-409d-9073-c0cdbb15938c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>22130520-9130-4c53-857b-5a47ebb7ce1e</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>ecc09631-7409-4dfe-83c0-7e71e75c3d88</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1 uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>1b6f0c14-7b7b-4a3a-beef-3bc165617a6c</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>REF3425QDBVRQ1</value>
+      <footprint>mainboxfp:SOT95P280X145-6N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/REF34-Q1</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">REF3425QDBVRQ1</field>
+        <field name="Mouser Part Number">595-REF3425QDBVRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3425QDBVRQ1?qs=byeeYqUIh0PPHbjoW1bAYw%3D%3D</field>
+      </fields>
+      <libsource lib="mainbox" part="REF3425QDBVRQ1" description="Automotive low-drift low-power small-footprint series voltage reference"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-REF3425QDBVRQ1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3425QDBVRQ1?qs=byeeYqUIh0PPHbjoW1bAYw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="REF3425QDBVRQ1"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Automotive low-drift low-power small-footprint series voltage reference"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>67b41674-0649-49c5-852d-b1538c1870a9</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>MIC2876-5.5YMT-TR</value>
+      <footprint>mainboxfp:SON50P200X200X60-9N-D</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580787</datasheet>
+      <fields>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MIC2876-AYMT-T5</field>
+        <field name="Mouser Part Number">998-MIC2876-AYMTT5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2876-AYMT-T5?qs=Y3Q3JoKAO1SruyMlvzsx%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="mainbox" part="MIC2876-5.5YMT-TR" description="Microchip Technology MIC2876-AYMT-T5, Buck Boost Regulator 4.8A, Adjustable, 2 MHz 8-Pin, UDFN"/>
+      <property name="Height" value="0.6"/>
+      <property name="Mouser Part Number" value="998-MIC2876-AYMTT5"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2876-AYMT-T5?qs=Y3Q3JoKAO1SruyMlvzsx%2Fw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MIC2876-AYMT-T5"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Microchip Technology MIC2876-AYMT-T5, Buck Boost Regulator 4.8A, Adjustable, 2 MHz 8-Pin, UDFN"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>b9b8c62c-7976-433e-a3ca-4e30dafa5464</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>wireless_strain_gauge_v2:SMD_picoblade_hori_1x04</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>1a5f3d9b-2138-4f47-adef-2c1b898a55b6</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>eff97cc2-22d7-438a-bac5-86acb1f307be</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>55b6e5ed-f247-4d29-aed3-8875dcba6eb0</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>8ffd6371-f88e-42e0-b890-f47a1c6da491</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>173010578</value>
+      <footprint>mainboxfp:173010578</footprint>
+      <datasheet>https://katalog.we-online.com/pm/datasheet/173010378.pdf</datasheet>
+      <fields>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">173010578</field>
+        <field name="Mouser Part Number">710-173010578</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/173010578?qs=%252BUQ4csG8RsfFs4nK53SHEg%3D%3D</field>
+      </fields>
+      <libsource lib="mainbox" part="173010578" description="Wurth Electronics FDSM Fixed Step Down Regulator Module"/>
+      <property name="Height" value="8.5"/>
+      <property name="Mouser Part Number" value="710-173010578"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/173010578?qs=%252BUQ4csG8RsfFs4nK53SHEg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="173010578"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="Wurth Electronics FDSM Fixed Step Down Regulator Module"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>407b2d72-b79f-41b6-bc5a-1be2992e7de0</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LT6658AHMSE-5-PBF</value>
+      <footprint>mainboxfp:MSE_16_ADI</footprint>
+      <datasheet>LT6658AHMSE-5-PBF</datasheet>
+      <libsource lib="mainbox" part="LT6658AHMSE-5-PBF" description="5v ref 150 mA out"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="rearbox_board_power.kicad_sch"/>
+      <property name="ki_description" value="5v ref 150 mA out"/>
+      <property name="ki_keywords" value="LT6658AHMSE-5#PBF"/>
+      <sheetpath names="/power/" tstamps="/7c6f7fea-52c0-4668-b083-ffc60ac4a406/"/>
+      <tstamps>fb96fe5e-d573-40a2-8d13-7dfb1fad6113</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>1fada26a-b20a-4cb0-8b93-8f9051c262f5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>f28182c3-6f41-4a12-aaaf-a8bd57233115</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>4b48e0bc-4040-45bf-9a26-a9491d936275</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>cc03b1ef-1813-4e1e-95da-10ea0c539bde</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>37da24c6-82ac-450d-bfad-69bbb67f8d3e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>f5631af9-cc2e-4d3a-a126-e5804f036e71</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>c1ab5e68-7402-47e5-9894-d9522990019f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>052ce755-dd5a-4f5d-9397-1cf31dbb2f33</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>INA821ID</value>
+      <footprint>mainboxfp:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina821.pdf</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA821ID</field>
+        <field name="Mouser Part Number">595-INA821ID</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D</field>
+      </fields>
+      <libsource lib="wireless_strain_gauge_v2" part="INA821ID" description="Instrumentation Amplifiers Precision Low Power INA"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="595-INA821ID"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="INA821ID"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Instrumentation Amplifiers Precision Low Power INA"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>4ff49b13-e8e9-43aa-bbe1-3198ecadda60</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>69e76179-b2ea-49bd-ae8a-081d1dc04ea4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>47</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>783353c7-0c72-4a12-b750-a4f5f2c0c29e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ADS1120IPWR</value>
+      <footprint>wireless_strain_gauge_v2:SOP65P640X120-16N</footprint>
+      <fields>
+        <field name="Description">
+16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface
+</field>
+      </fields>
+      <libsource lib="wireless_strain_gauge_v2" part="ADS1120IPWR" description=""/>
+      <property name="MF" value=""/>
+      <property name="Description" value="&#xA;16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface&#xA;"/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>e45fc67b-283b-49c3-b282-51f68cbd07cb</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1120IPWR</value>
+      <footprint>wireless_strain_gauge_v2:SOP65P640X120-16N</footprint>
+      <fields>
+        <field name="Description">
+16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface
+</field>
+      </fields>
+      <libsource lib="wireless_strain_gauge_v2" part="ADS1120IPWR" description=""/>
+      <property name="MF" value=""/>
+      <property name="Description" value="&#xA;16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface&#xA;"/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Sheetname" value="ADCs"/>
+      <property name="Sheetfile" value="rearbox_ADCs.kicad_sch"/>
+      <sheetpath names="/ADCs/" tstamps="/e3e2c198-6f96-4057-b239-d3f35ff94122/"/>
+      <tstamps>8b24c9be-8a94-4a28-af99-38b14f986ad4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BestMagnetic" part="HX1188FNLT">
+      <description>Audio Transformers / Signal Transformers 100BaseTX SMD NonPoE 350uH 1-Port</description>
+      <docs>https://productfinder.pulseeng.com/products/datasheets/hx1188fnl.pdf</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">HX1188FNLT</field>
+        <field name="Footprint">HX1188FNLT</field>
+        <field name="Datasheet">https://productfinder.pulseeng.com/products/datasheets/hx1188fnl.pdf</field>
+        <field name="Height">5.99</field>
+        <field name="Mouser Part Number">673-HX1188FNLT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/HX1188FNLT?qs=tJ9riMc3cOc7BmUs9nU7TQ%3D%3D</field>
+        <field name="Manufacturer_Name">Pulse Electronics</field>
+        <field name="Manufacturer_Part_Number">HX1188FNLT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="passive"/>
+        <pin num="2" name="TCT" type="passive"/>
+        <pin num="3" name="TD-" type="passive"/>
+        <pin num="4" name="NC_1" type="passive"/>
+        <pin num="5" name="NC_2" type="passive"/>
+        <pin num="6" name="RD+" type="passive"/>
+        <pin num="7" name="RCT" type="passive"/>
+        <pin num="8" name="RD-" type="passive"/>
+        <pin num="9" name="RX-" type="passive"/>
+        <pin num="10" name="CMT_1" type="passive"/>
+        <pin num="11" name="RX+" type="passive"/>
+        <pin num="12" name="NC_3" type="passive"/>
+        <pin num="13" name="NC_4" type="passive"/>
+        <pin num="14" name="TX-" type="passive"/>
+        <pin num="15" name="CMT_2" type="passive"/>
+        <pin num="16" name="TX+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="173010578">
+      <description>Wurth Electronics FDSM Fixed Step Down Regulator Module</description>
+      <docs>https://katalog.we-online.com/pm/datasheet/173010378.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">173010578</field>
+        <field name="Footprint">173010578</field>
+        <field name="Datasheet">https://katalog.we-online.com/pm/datasheet/173010378.pdf</field>
+        <field name="Height">8.5</field>
+        <field name="Mouser Part Number">710-173010578</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/173010578?qs=%252BUQ4csG8RsfFs4nK53SHEg%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">173010578</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="DEV-16771">
+      <description>teensy 4.1</description>
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">DEV-16771</field>
+        <field name="Footprint">mainboxfp:MODULE_DEV-16771</field>
+        <field name="PARTREV">4.1</field>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.07mm</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="0" name="RX1" type="bidirectional"/>
+        <pin num="1" name="TX1" type="bidirectional"/>
+        <pin num="2" name="OUT2" type="output"/>
+        <pin num="3" name="LRCLK2" type="bidirectional"/>
+        <pin num="3.3V_1" name="3.3V" type="power_in"/>
+        <pin num="3.3V_2" name="3.3V__1" type="power_in"/>
+        <pin num="3.3V_3" name="3.3V__2" type="power_in"/>
+        <pin num="4" name="BCLK2" type="bidirectional"/>
+        <pin num="5" name="IN2" type="bidirectional"/>
+        <pin num="5V" name="5V" type="power_in"/>
+        <pin num="6" name="OUT1D" type="output"/>
+        <pin num="7" name="RX2" type="bidirectional"/>
+        <pin num="8" name="TX2" type="bidirectional"/>
+        <pin num="9" name="OUT1C" type="output"/>
+        <pin num="10" name="CS1" type="bidirectional"/>
+        <pin num="11" name="MOSI" type="bidirectional"/>
+        <pin num="12" name="MISO" type="bidirectional"/>
+        <pin num="13" name="SCK" type="bidirectional"/>
+        <pin num="14" name="A0" type="bidirectional"/>
+        <pin num="15" name="A1" type="bidirectional"/>
+        <pin num="16" name="A2" type="bidirectional"/>
+        <pin num="17" name="A3" type="bidirectional"/>
+        <pin num="18" name="A4" type="bidirectional"/>
+        <pin num="19" name="A5" type="bidirectional"/>
+        <pin num="20" name="A6" type="bidirectional"/>
+        <pin num="21" name="A7" type="bidirectional"/>
+        <pin num="22" name="A8" type="bidirectional"/>
+        <pin num="23" name="A9" type="bidirectional"/>
+        <pin num="24" name="A10" type="bidirectional"/>
+        <pin num="25" name="A11" type="bidirectional"/>
+        <pin num="26" name="A12" type="bidirectional"/>
+        <pin num="27" name="A13" type="bidirectional"/>
+        <pin num="28" name="RX7" type="bidirectional"/>
+        <pin num="29" name="TX7" type="bidirectional"/>
+        <pin num="30" name="CRX3" type="bidirectional"/>
+        <pin num="31" name="CTX3" type="bidirectional"/>
+        <pin num="32" name="OUT1B" type="output"/>
+        <pin num="33" name="MCLK2" type="bidirectional"/>
+        <pin num="34" name="RX8" type="bidirectional"/>
+        <pin num="35" name="TX8" type="bidirectional"/>
+        <pin num="36" name="CS2" type="bidirectional"/>
+        <pin num="37" name="CS3" type="bidirectional"/>
+        <pin num="38" name="A14" type="bidirectional"/>
+        <pin num="39" name="A15" type="bidirectional"/>
+        <pin num="40" name="A16" type="bidirectional"/>
+        <pin num="41" name="A17" type="bidirectional"/>
+        <pin num="D+" name="D+" type="bidirectional"/>
+        <pin num="D-" name="D-" type="bidirectional"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND__1" type="power_in"/>
+        <pin num="GND3" name="GND__2" type="power_in"/>
+        <pin num="GND4" name="GND__3" type="power_in"/>
+        <pin num="GND5" name="GND__4" type="power_in"/>
+        <pin num="LED" name="LED" type="bidirectional"/>
+        <pin num="ON/OFF" name="ON/OFF" type="bidirectional"/>
+        <pin num="PROGRAM" name="PROGRAM" type="bidirectional"/>
+        <pin num="R+" name="R+" type="bidirectional"/>
+        <pin num="R-" name="R-" type="bidirectional"/>
+        <pin num="T+" name="T+" type="bidirectional"/>
+        <pin num="T-" name="T-" type="bidirectional"/>
+        <pin num="USB_GND1" name="USB_GND" type="power_in"/>
+        <pin num="USB_GND2" name="USB_GND__1" type="power_in"/>
+        <pin num="VBAT" name="VBAT" type="passive"/>
+        <pin num="VIN" name="VIN" type="input"/>
+        <pin num="VUSB" name="VUSB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="LT6658AHMSE-5-PBF">
+      <description>5v ref 150 mA out</description>
+      <docs>LT6658AHMSE-5-PBF</docs>
+      <footprints>
+        <fp>MSE_16_ADI</fp>
+        <fp>MSE_16_ADI-M</fp>
+        <fp>MSE_16_ADI-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6658AHMSE-5-PBF</field>
+        <field name="Footprint">MSE_16_ADI</field>
+        <field name="Datasheet">LT6658AHMSE-5-PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BYPASS" type="unspecified"/>
+        <pin num="4" name="DNC" type="no_connect"/>
+        <pin num="5" name="NR" type="unspecified"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VOUT2_S" type="output"/>
+        <pin num="8" name="VOUT2_F" type="output"/>
+        <pin num="9" name="*OD" type="output"/>
+        <pin num="10" name="VIN2" type="input"/>
+        <pin num="11" name="VIN1" type="input"/>
+        <pin num="12" name="VOUT1_F" type="output"/>
+        <pin num="13" name="VOUT1_S" type="output"/>
+        <pin num="14" name="VIN" type="input"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="DNC" type="no_connect"/>
+        <pin num="EPAD" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="MIC2876-5.5YMT-TR">
+      <description>Microchip Technology MIC2876-AYMT-T5, Buck Boost Regulator 4.8A, Adjustable, 2 MHz 8-Pin, UDFN</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580787</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MIC2876-5.5YMT-TR</field>
+        <field name="Footprint">SON50P200X200X60-9N-D</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en580787</field>
+        <field name="Height">0.6</field>
+        <field name="Mouser Part Number">998-MIC2876-AYMTT5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2876-AYMT-T5?qs=Y3Q3JoKAO1SruyMlvzsx%2Fw%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MIC2876-AYMT-T5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="PGND" type="passive"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="AGND" type="passive"/>
+        <pin num="5" name="OUTS" type="passive"/>
+        <pin num="6" name="EN" type="passive"/>
+        <pin num="7" name="/PG" type="passive"/>
+        <pin num="8" name="OUT" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="REF3425QDBVRQ1">
+      <description>Automotive low-drift low-power small-footprint series voltage reference</description>
+      <docs>http://www.ti.com/lit/gpn/REF34-Q1</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">REF3425QDBVRQ1</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/REF34-Q1</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-REF3425QDBVRQ1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3425QDBVRQ1?qs=byeeYqUIh0PPHbjoW1bAYw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">REF3425QDBVRQ1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_F" type="passive"/>
+        <pin num="2" name="GND_S" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="IN" type="passive"/>
+        <pin num="5" name="OUT_S" type="passive"/>
+        <pin num="6" name="OUT_F" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainbox" part="TXB0108PWR">
+      <description>8-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15-kV ESD Protect</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0108.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TXB0108PWR</field>
+        <field name="Footprint">SOP65P640X120-20N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/txb0108.pdf</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">595-TXB0108PWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0108PWR?qs=oFXvjAmG9EgEUWGWzOVFCA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TXB0108PWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="VCCA" type="passive"/>
+        <pin num="3" name="A2" type="passive"/>
+        <pin num="4" name="A3" type="passive"/>
+        <pin num="5" name="A4" type="passive"/>
+        <pin num="6" name="A5" type="passive"/>
+        <pin num="7" name="A6" type="passive"/>
+        <pin num="8" name="A7" type="passive"/>
+        <pin num="9" name="A8" type="passive"/>
+        <pin num="10" name="OE" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="B8" type="passive"/>
+        <pin num="13" name="B7" type="passive"/>
+        <pin num="14" name="B6" type="passive"/>
+        <pin num="15" name="B5" type="passive"/>
+        <pin num="16" name="B4" type="passive"/>
+        <pin num="17" name="B3" type="passive"/>
+        <pin num="18" name="B2" type="passive"/>
+        <pin num="19" name="VCCB" type="passive"/>
+        <pin num="20" name="B1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wireless_strain_gauge_v2" part="ADS1120IPWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1120IPWR</field>
+        <field name="Description">
+16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCLK" type="input"/>
+        <pin num="2" name="~{CS}" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="4" name="DGND" type="power_in"/>
+        <pin num="5" name="AVSS" type="power_in"/>
+        <pin num="6" name="AIN3/REFN1" type="bidirectional"/>
+        <pin num="7" name="AIN2" type="bidirectional"/>
+        <pin num="8" name="REFN0" type="bidirectional"/>
+        <pin num="9" name="REFP0" type="bidirectional"/>
+        <pin num="10" name="AIN1" type="bidirectional"/>
+        <pin num="11" name="AIN0/REFP1" type="bidirectional"/>
+        <pin num="12" name="AVDD" type="power_in"/>
+        <pin num="13" name="DVDD" type="power_in"/>
+        <pin num="14" name="~{DRDY}" type="output"/>
+        <pin num="15" name="DOUT/~DRDY" type="output"/>
+        <pin num="16" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="wireless_strain_gauge_v2" part="INA821ID">
+      <description>Instrumentation Amplifiers Precision Low Power INA</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina821.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">INA821ID</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina821.pdf</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-INA821ID</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA821ID</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="passive"/>
+        <pin num="2" name="RG_1" type="passive"/>
+        <pin num="3" name="RG_2" type="passive"/>
+        <pin num="4" name="+IN" type="passive"/>
+        <pin num="5" name="-VS" type="passive"/>
+        <pin num="6" name="REF" type="passive"/>
+        <pin num="7" name="OUT" type="passive"/>
+        <pin num="8" name="+VS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="mainbox">
+      <uri>C:\Users\justi\Documents\bajashared\reidcain/symbols/mainbox.kicad_sym</uri>
+    </library>
+    <library logical="wireless_strain_gauge_v2">
+      <uri>C:\Users\justi\Documents\bajashared\reidcain/symbols/wireless_strain_gauge_v2.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="!CS1">
+      <node ref="U1" pin="2" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="10" pinfunction="CS1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="!CS2">
+      <node ref="U2" pin="2" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="0" pinfunction="RX1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Rx+">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="T1" pin="11" pinfunction="RX+" pintype="passive"/>
+    </net>
+    <net code="4" name="/Rx-">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="T1" pin="9" pinfunction="RX-" pintype="passive"/>
+    </net>
+    <net code="5" name="/Tx+">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="T1" pin="16" pinfunction="TX+" pintype="passive"/>
+    </net>
+    <net code="6" name="/Tx-">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="T1" pin="14" pinfunction="TX-" pintype="passive"/>
+    </net>
+    <net code="7" name="2.5v">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="REF" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="OUT_S" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="OUT_F" pintype="passive"/>
+    </net>
+    <net code="8" name="3v3">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="OE" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VCCA" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U4" pin="3.3V_1" pinfunction="3.3V" pintype="power_in"/>
+    </net>
+    <net code="9" name="5.2v">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="IC4" pin="5" pinfunction="OUTS" pintype="passive"/>
+      <node ref="IC4" pin="8" pinfunction="OUT" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="VIN2" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="VIN1" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="*OD" pintype="output"/>
+    </net>
+    <net code="10" name="5v">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC3" pin="3" pinfunction="EN" pintype="passive"/>
+      <node ref="IC3" pin="4" pinfunction="IN" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="IC4" pin="6" pinfunction="EN" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U4" pin="VIN" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="11" name="5vanalog">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="19" pinfunction="VCCB" pintype="passive"/>
+    </net>
+    <net code="12" name="5vref">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="+VS" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="REFP0" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="REFP0" pintype="bidirectional"/>
+      <node ref="U5" pin="12" pinfunction="VOUT1_F" pintype="output"/>
+      <node ref="U5" pin="13" pinfunction="VOUT1_S" pintype="output"/>
+      <node ref="U5" pin="7" pinfunction="VOUT2_S" pintype="output"/>
+      <node ref="U5" pin="8" pinfunction="VOUT2_F" pintype="output"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="B8" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="B7" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="B6" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="B5" pintype="passive"/>
+      <node ref="IC1" pin="16" pinfunction="B4" pintype="passive"/>
+      <node ref="IC1" pin="17" pinfunction="B3" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="A3" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="A4" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="A5" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="A6" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="A7" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="A8" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="-VS" pintype="passive"/>
+      <node ref="IC3" pin="1" pinfunction="GND_F" pintype="passive"/>
+      <node ref="IC3" pin="2" pinfunction="GND_S" pintype="passive"/>
+      <node ref="IC4" pin="2" pinfunction="PGND" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="AGND" pintype="passive"/>
+      <node ref="IC4" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="REFN0" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="CLK" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="AVSS" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="REFN0" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="GND1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="GND2" pinfunction="GND__1" pintype="power_in"/>
+      <node ref="U4" pin="GND3" pinfunction="GND__2" pintype="power_in"/>
+      <node ref="U4" pin="GND4" pinfunction="GND__3" pintype="power_in"/>
+      <node ref="U4" pin="GND5" pinfunction="GND__4" pintype="power_in"/>
+      <node ref="U4" pin="USB_GND1" pinfunction="USB_GND" pintype="power_in"/>
+      <node ref="U4" pin="USB_GND2" pinfunction="USB_GND__1" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="EPAD" pinfunction="EPAD" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="LED" pinfunction="LED" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC1-A1)">
+      <node ref="IC1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(IC1-A2)">
+      <node ref="IC1" pin="3" pinfunction="A2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="LRCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(IC2-RG_1)">
+      <node ref="IC2" pin="2" pinfunction="RG_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(IC2-RG_2)">
+      <node ref="IC2" pin="3" pinfunction="RG_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(IC4-SW)">
+      <node ref="IC4" pin="1" pinfunction="SW" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(IC4-{slash}PG)">
+      <node ref="IC4" pin="7" pinfunction="/PG" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(T1-CMT_1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="T1" pin="10" pinfunction="CMT_1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(T1-CMT_2)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="T1" pin="15" pinfunction="CMT_2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(T1-RCT)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="T1" pin="7" pinfunction="RCT" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(T1-TCT)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="TCT" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U5-BYPASS)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="BYPASS" pintype="unspecified"/>
+    </net>
+    <net code="28" name="Net-(U5-NR)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="NR" pintype="unspecified"/>
+    </net>
+    <net code="29" name="Rd+">
+      <node ref="T1" pin="6" pinfunction="RD+" pintype="passive"/>
+      <node ref="U4" pin="R+" pinfunction="R+" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Rd-">
+      <node ref="T1" pin="8" pinfunction="RD-" pintype="passive"/>
+      <node ref="U4" pin="R-" pinfunction="R-" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="SCLK1">
+      <node ref="U1" pin="1" pinfunction="SCLK" pintype="input"/>
+      <node ref="U4" pin="13" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="SCLK2">
+      <node ref="U2" pin="1" pinfunction="SCLK" pintype="input"/>
+      <node ref="U4" pin="27" pinfunction="A13" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="SDI1">
+      <node ref="U1" pin="16" pinfunction="DIN" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="SDI2">
+      <node ref="U2" pin="16" pinfunction="DIN" pintype="input"/>
+      <node ref="U4" pin="26" pinfunction="A12" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="SDO1">
+      <node ref="U1" pin="15" pinfunction="DOUT/~DRDY" pintype="output"/>
+      <node ref="U4" pin="12" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="SDO2">
+      <node ref="U2" pin="15" pinfunction="DOUT/~DRDY" pintype="output"/>
+      <node ref="U4" pin="1" pinfunction="TX1" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Td+">
+      <node ref="T1" pin="1" pinfunction="TD+" pintype="passive"/>
+      <node ref="U4" pin="T+" pinfunction="T+" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Td-">
+      <node ref="T1" pin="3" pinfunction="TD-" pintype="passive"/>
+      <node ref="U4" pin="T-" pinfunction="T-" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="aux1">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AIN2" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="aux2">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="AIN1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="dclk1">
+      <node ref="U4" pin="16" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="dclk2">
+      <node ref="U4" pin="19" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="dout1">
+      <node ref="U4" pin="15" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="dout2">
+      <node ref="U4" pin="18" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="drdy1">
+      <node ref="U1" pin="14" pinfunction="~{DRDY}" pintype="output"/>
+      <node ref="U4" pin="17" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="drdy2">
+      <node ref="U2" pin="14" pinfunction="~{DRDY}" pintype="output"/>
+      <node ref="U4" pin="20" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="hall1">
+      <node ref="IC1" pin="18" pinfunction="B2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="48" name="hall2">
+      <node ref="IC1" pin="20" pinfunction="B1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="49" name="linpot1">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="AIN0/REFP1" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="linpot2">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="AIN0/REFP1" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="rst1">
+      <node ref="U4" pin="9" pinfunction="OUT1C" pintype="output"/>
+    </net>
+    <net code="52" name="rst2">
+      <node ref="U4" pin="14" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="sg">
+      <node ref="IC2" pin="7" pinfunction="OUT" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="AIN1" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="sg+">
+      <node ref="IC2" pin="4" pinfunction="+IN" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="55" name="sg-">
+      <node ref="IC2" pin="1" pinfunction="-IN" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="56" name="syncin1">
+      <node ref="U4" pin="7" pinfunction="RX2" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="syncin2">
+      <node ref="U4" pin="8" pinfunction="TX2" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(J3-Pin_1-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J3-Pin_2-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J3-Pin_3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J3-Pin_4-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(T1-NC_1-Pad4)">
+      <node ref="T1" pin="4" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(T1-NC_2-Pad5)">
+      <node ref="T1" pin="5" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(T1-NC_3-Pad12)">
+      <node ref="T1" pin="12" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(T1-NC_4-Pad13)">
+      <node ref="T1" pin="13" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-AIN2-Pad7)">
+      <node ref="U1" pin="7" pinfunction="AIN2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-AIN3{slash}REFN1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="AIN3/REFN1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U2-AIN3{slash}REFN1-Pad6)">
+      <node ref="U2" pin="6" pinfunction="AIN3/REFN1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U4-3.3V__1-Pad3.3V_2)">
+      <node ref="U4" pin="3.3V_2" pinfunction="3.3V__1" pintype="power_in+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U4-3.3V__2-Pad3.3V_3)">
+      <node ref="U4" pin="3.3V_3" pinfunction="3.3V__2" pintype="power_in+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U4-A7-Pad21)">
+      <node ref="U4" pin="21" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U4-A8-Pad22)">
+      <node ref="U4" pin="22" pinfunction="A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U4-A9-Pad23)">
+      <node ref="U4" pin="23" pinfunction="A9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U4-A10-Pad24)">
+      <node ref="U4" pin="24" pinfunction="A10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U4-A11-Pad25)">
+      <node ref="U4" pin="25" pinfunction="A11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-A14-Pad38)">
+      <node ref="U4" pin="38" pinfunction="A14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U4-A15-Pad39)">
+      <node ref="U4" pin="39" pinfunction="A15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U4-A16-Pad40)">
+      <node ref="U4" pin="40" pinfunction="A16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U4-A17-Pad41)">
+      <node ref="U4" pin="41" pinfunction="A17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U4-BCLK2-Pad4)">
+      <node ref="U4" pin="4" pinfunction="BCLK2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4-CRX3-Pad30)">
+      <node ref="U4" pin="30" pinfunction="CRX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4-CS2-Pad36)">
+      <node ref="U4" pin="36" pinfunction="CS2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U4-CS3-Pad37)">
+      <node ref="U4" pin="37" pinfunction="CS3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U4-CTX3-Pad31)">
+      <node ref="U4" pin="31" pinfunction="CTX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-IN2-Pad5)">
+      <node ref="U4" pin="5" pinfunction="IN2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-MCLK2-Pad33)">
+      <node ref="U4" pin="33" pinfunction="MCLK2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-OUT1B-Pad32)">
+      <node ref="U4" pin="32" pinfunction="OUT1B" pintype="output+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-OUT1D-Pad6)">
+      <node ref="U4" pin="6" pinfunction="OUT1D" pintype="output+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad5V)">
+      <node ref="U4" pin="5V" pinfunction="5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-PadD+)">
+      <node ref="U4" pin="D+" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U4-PadD-)">
+      <node ref="U4" pin="D-" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-PadON{slash}OFF)">
+      <node ref="U4" pin="ON/OFF" pinfunction="ON/OFF" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U4-PadPROGRAM)">
+      <node ref="U4" pin="PROGRAM" pinfunction="PROGRAM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-PadVBAT)">
+      <node ref="U4" pin="VBAT" pinfunction="VBAT" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U4-PadVUSB)">
+      <node ref="U4" pin="VUSB" pinfunction="VUSB" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U4-RX7-Pad28)">
+      <node ref="U4" pin="28" pinfunction="RX7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U4-RX8-Pad34)">
+      <node ref="U4" pin="34" pinfunction="RX8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U4-TX7-Pad29)">
+      <node ref="U4" pin="29" pinfunction="TX7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U4-TX8-Pad35)">
+      <node ref="U4" pin="35" pinfunction="TX8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U5-DNC-Pad4)">
+      <node ref="U5" pin="4" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U5-DNC-Pad16)">
+      <node ref="U5" pin="16" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-NC-Pad15)">
+      <node ref="U5" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
