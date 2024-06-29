@@ -1,0 +1,38 @@
+name: Restrict Subfolder Access
+
+on: [pull_request]
+
+jobs:
+  restrict_subfolders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Check changed files
+        run: |
+          # Get the list of files changed in the PR
+          files=$(git diff --name-only origin/main...HEAD)
+
+          # Define user-subfolder mapping
+          declare -A user_folders=(
+            ["reidcain"]="\21xt\02-mainbox"
+            ["justiin-wang"]="21xt\03-wireless_strain_gauge"
+            ["doe"]="doe-projects"
+          )
+
+          # Get the GitHub username of the PR author
+          pr_author=$(jq -r '.pull_request.user.login' "$GITHUB_EVENT_PATH")
+
+          # Get the subfolder the user is allowed to modify
+          allowed_folder=${user_folders[$pr_author]}
+
+          # Check if the changed files are within the allowed folder
+          for file in $files; do
+            if [[ ! $file == $allowed_folder/* ]]; then
+              echo "Error: $pr_author is not allowed to modify $file"
+              exit 1
+            fi
+          done
+
+          echo "All changes are within the allowed folder"
