@@ -7,33 +7,48 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 2  # Fetch at least two commits for diff
+        uses: actions/checkout@v4
 
-      - name: Check changed files
+      - name: Get changed files
+        id: get_changed_files
         run: |
           # Get the list of files changed in the push
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || echo "")
+          files=$(git diff --name-only HEAD^ HEAD)
 
+          echo "files=$files" >> $GITHUB_ENV
+
+      - name: Check folder access
+        run: |
           # Define user-subfolder mapping
           declare -A user_folders=(
             ["justiin-wang"]="\21xt\03-wireless_strain_gauge\"
             ["aarenclwong"]="\21xt\02-mainbox\"
+            [""]=".github \21xt\00-footprints\"  # Unassigned folders
           )
 
           # Get the GitHub username of the pusher
-          pusher=${{ github.actor }}
+          pusher=$(echo $GITHUB_ACTOR)
 
-          # Get the subfolder the user is allowed to modify
-          allowed_folder=${user_folders[$pusher]}
+          # Get the subfolders the user is allowed to modify
+          allowed_folders="${user_folders[$pusher]} ${user_folders[""]}"
 
-          # Check if the changed files are within the allowed folder
+          # Get the list of changed files from the previous step
+          files=${{ env.files }}
+
+          # Check if the changed files are within the allowed folders
           for file in $files; do
-            if [[ ! $file == $allowed_folder/* ]]; then
+            allowed=false
+            for folder in $allowed_folders; do
+              if [[ $file == $folder/* ]]; then
+                allowed=true
+                break
+              fi
+            done
+
+            if [[ $allowed == false ]]; then
               echo "Error: $pusher is not allowed to modify $file"
               exit 1
             fi
           done
 
-          echo "All changes are within the allowed folder"
+          echo "All changes are within the allowed folders"
