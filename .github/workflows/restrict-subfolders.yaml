@@ -20,16 +20,16 @@ jobs:
             ["aarenclwong"]="\21xt\02-mainbox"
           )
 
-          # Get the GitHub username of the PR author
-          pr_author=$(jq -r '.pull_request.user.login' "$GITHUB_EVENT_PATH")
+          # Get the GitHub username of the pusher
+          pusher=${{ github.actor }}
 
           # Get the subfolder the user is allowed to modify
-          allowed_folder=${user_folders[$pr_author]}
+          allowed_folder=${user_folders[$pusher]}
 
           # Check if the changed files are within the allowed folder
           for file in $files; do
             if [[ ! $file == $allowed_folder/* ]]; then
-              echo "Error: $pr_author is not allowed to modify $file"
+              echo "Error: $pusher is not allowed to modify $file"
               exit 1
             fi
           done
