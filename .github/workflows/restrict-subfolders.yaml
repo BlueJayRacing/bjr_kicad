@@ -7,16 +7,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2  # Fetch at least two commits for diff
+
       - name: Check changed files
         run: |
           # Get the list of files changed in the push
-          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || echo "")
 
           # Define user-subfolder mapping
           declare -A user_folders=(
-            ["justiin-wang"]="\21xt\03-wireless_strain_gauge\*"
-            ["aarenclwong"]="\21xt\02-mainbox\*"
+	    ["justiin-wang"]="\21xt\03-wireless_strain_gauge\"
+            ["aarenclwong"]="\21xt\02-mainbox\"
           )
 
           # Get the GitHub username of the pusher
@@ -27,7 +30,6 @@ jobs:
 
           # Check if the changed files are within the allowed folder
           for file in $files; do
-            echo "asdfsadf"
             if [[ ! $file == $allowed_folder/* ]]; then
               echo "Error: $pusher is not allowed to modify $file"
               exit 1
