@@ -13,7 +13,7 @@ jobs:
         id: get_changed_files
         run: |
           # Get the list of files changed in the push
-          files=$(git diff --name-only HEAD^ HEAD)
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || echo "")
 
           echo "files=$files" >> $GITHUB_ENV
 
