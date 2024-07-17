@@ -2145,6 +2145,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 128.27 56.515 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c6b04242-5163-433c-b17c-6919043c7060)
+    (property "Reference" "#PWR018" (at 128.27 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 128.27 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 128.27 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 128.27 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd8cd491-c154-47c5-b139-dc9ba55d4d50))
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 158.75 123.825 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc177736-1d07-43cb-820d-b98d625046cd)
@@ -2241,6 +2266,31 @@
       (project "mainbox1.0"
         (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 148.59 122.555 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dc4e9591-ff90-4acf-a0ae-d3385dc0a1e6)
+    (property "Reference" "#PWR017" (at 148.59 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 148.59 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 148.59 122.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 148.59 122.555 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d2fc40ec-920f-4db2-bb4f-ae7cce45154c))
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
