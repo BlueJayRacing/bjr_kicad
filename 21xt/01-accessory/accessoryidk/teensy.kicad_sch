@@ -1423,7 +1423,7 @@
   (symbol (lib_id "21xt_symbols:DEV-16771") (at 96.52 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f542397-0e43-4b27-a890-500af92dc340)
-    (property "Reference" "U3" (at 96.52 35.56 0)
+    (property "Reference" "U1" (at 96.52 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DEV-16771" (at 96.52 38.1 0)
@@ -1515,7 +1515,7 @@
     (instances
       (project "accessoryidk"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1632,7 +1632,7 @@
     (property "Value" "LED" (at 123.5075 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 121.92 60.96 0)
+    (property "Footprint" "Diode_SMD:D_0603_1608Metric" (at 121.92 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 60.96 0)
