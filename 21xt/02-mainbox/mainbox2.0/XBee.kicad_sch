@@ -613,13 +613,6 @@
     (uuid 3b580c1d-14ee-4478-9325-1d1bb22ebcfb)
   )
 
-  (global_label "DINXBee" (shape input) (at 90.805 143.51 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 067ad180-a0cc-4339-8ff5-b7bcc157a9d6)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6522 143.51 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "DOUTXBee" (shape output) (at 173.99 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 246e3f8c-f31e-4287-b89f-0cdc11c4bcb0)
@@ -653,13 +646,6 @@
     (uuid eafef3b0-2689-4676-b13b-691ecd656f96)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.441 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "DOUTXBee" (shape input) (at 90.805 140.97 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ed5c01c7-e1cc-4c76-b1e6-88201ac4da05)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 103.3455 140.97 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
@@ -1038,7 +1024,7 @@
     (property "Value" "R-78B3.3-1.5L" (at 102.87 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "21xt_footprints:R78B5015L -" (at 4.14 110.49 0)
+    (property "Footprint" "21xt_footprints:CONV_R-78B3.3-1.5" (at 4.14 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.arrow.com/en/products/r-78b3.3-1.5l/recom-power" (at -95.86 110.49 0)
@@ -1293,42 +1279,6 @@
       (project "Mainboard_priv"
         (path "/fef72a68-b3e4-4609-8f5e-093085beb166/ccbaf9e4-0c9b-47b5-a316-0ae6750baa2c"
           (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 85.725 143.51 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f3dbc945-b3bd-4408-9757-27e294d1ca5e)
-    (property "Reference" "J4" (at 85.725 135.255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x02" (at 85.725 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 85.725 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 85.725 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 479c4c94-603d-4e25-b2b8-b4ef24e50f47))
-    (pin "2" (uuid b01cbaa6-f61b-4015-8a5c-8f74621b0f8c))
-    (instances
-      (project "mainbox1.0"
-        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3/dd0157a9-838c-4507-b641-fb16517bbb6e"
-          (reference "J4") (unit 1)
-        )
-      )
-      (project "mainbox2.0"
-        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023/5d6e883b-1bc0-4ce9-8a5a-9d01f2a447ea"
-          (reference "J6") (unit 1)
-        )
-      )
-      (project "Mainboard_priv"
-        (path "/fef72a68-b3e4-4609-8f5e-093085beb166/ccbaf9e4-0c9b-47b5-a316-0ae6750baa2c"
-          (reference "J1") (unit 1)
         )
       )
     )
