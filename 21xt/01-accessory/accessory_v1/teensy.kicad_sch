@@ -437,78 +437,6 @@
         )
       )
     )
-    (symbol "Device:Battery_Cell" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "BT" (at 2.54 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Battery_Cell" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 1.524 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 1.524 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "battery cell" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single-cell battery" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Battery_Cell_0_1"
-        (rectangle (start -2.286 1.778) (end 2.286 1.524)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.524 1.016) (end 1.524 0.508)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.778)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 3.048)
-            (xy 1.778 3.048)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.556)
-            (xy 1.27 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Battery_Cell_1_1"
-        (pin passive line (at 0 5.08 270) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -913,6 +841,7 @@
   (no_connect (at 260.35 77.47) (uuid c5fa59ad-e3fb-493b-8e3b-c0a6bd38123c))
   (no_connect (at 76.2 101.6) (uuid caa52d7f-7c0c-41c1-b6ee-ffe60e1c99a4))
   (no_connect (at 76.2 127) (uuid ce5cb424-6962-4ef1-b8a8-dd982eb2b303))
+  (no_connect (at 116.84 55.88) (uuid d15cb8d6-6ee5-4e45-b0fe-115da0e5fe12))
   (no_connect (at 76.2 78.74) (uuid d8f39046-33ae-4349-8680-006e83b46e14))
   (no_connect (at 116.84 137.16) (uuid d9387239-d070-45bc-935f-f86e81c3873a))
   (no_connect (at 76.2 71.12) (uuid dfe9fe26-927d-4c53-953d-d0445a045b7d))
@@ -1024,10 +953,6 @@
     (stroke (width 0) (type default))
     (uuid d4187ed8-dd7c-4976-97af-8c029779a3f5)
   )
-  (wire (pts (xy 143.51 55.88) (xy 116.84 55.88))
-    (stroke (width 0) (type default))
-    (uuid d5b4a53a-0de6-4355-b897-5371ef33ef5a)
-  )
   (wire (pts (xy 116.84 45.72) (xy 121.92 45.72))
     (stroke (width 0) (type default))
     (uuid dea85f47-5589-4dc1-af0b-df8eabdcdd2c)
@@ -1050,7 +975,7 @@
   )
 
   (text "3v coin cell to power 32.768 kHz crystal oscillator"
-    (at 153.67 59.69 0)
+    (at 147.32 45.72 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 154496e1-d63b-4548-b88e-7b0a55839ff6)
   )
@@ -1245,7 +1170,7 @@
     )
     (pin "1" (uuid 7bfa39ee-6a3b-4569-a514-0f0c2aaf833f))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "TP1") (unit 1)
         )
@@ -1270,7 +1195,7 @@
     )
     (pin "1" (uuid 4613124e-fad5-4f40-8fb8-8a532ea955b4))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR035") (unit 1)
         )
@@ -1296,7 +1221,7 @@
     (pin "2" (uuid 8354fd96-904b-4f4e-b789-b4c9648e73d0))
     (pin "1" (uuid f0ed1dd5-0541-4703-8647-8701fc209e5d))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "R9") (unit 1)
         )
@@ -1322,7 +1247,7 @@
     (pin "2" (uuid 02986bd5-ebf8-4a1c-ae83-aa49bd803aa8))
     (pin "1" (uuid d11a6c8d-597d-470e-b251-084cc234ba2c))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "D8") (unit 1)
         )
@@ -1348,7 +1273,7 @@
     (pin "1" (uuid 4901b448-e2c7-4de4-a1fe-09f863cd48dc))
     (pin "2" (uuid ce1f41c2-b951-4b83-9daf-9118a7065f03))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C27") (unit 1)
         )
@@ -1374,7 +1299,7 @@
     (pin "1" (uuid 760c6c87-6f6f-41c6-9579-bc809097e3c3))
     (pin "2" (uuid 7edb4335-a50d-4ae7-84e4-c8c117920d2e))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C22") (unit 1)
         )
@@ -1400,7 +1325,7 @@
     (pin "1" (uuid e09d8df8-24a3-49ba-abdf-462fd2c84018))
     (pin "2" (uuid 73bb10d8-1d18-483b-b290-0a2e36b75d0b))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C23") (unit 1)
         )
@@ -1455,34 +1380,9 @@
     (pin "6" (uuid 054171ef-aa8e-4e6d-a9f2-5d505e584260))
     (pin "15" (uuid a1c9f93d-a50b-47b5-ad44-eb88f56977f1))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "T1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDA") (at 151.13 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4fc44c86-6347-42c1-bb72-26155567d937)
-    (property "Reference" "#PWR039" (at 157.48 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 154.94 55.88 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 151.13 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 151.13 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cfd86cab-0a30-48bb-a3e9-e8ca1fe8e467))
-    (instances
-      (project "accessoryidk"
-        (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
-          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1506,7 +1406,7 @@
     (pin "2" (uuid da505c4c-9364-4406-95f6-55764b578795))
     (pin "1" (uuid 0dc3f36a-920c-45fa-996a-3ed1df5e3dba))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "R10") (unit 1)
         )
@@ -1532,7 +1432,7 @@
     (pin "1" (uuid cc992e94-df36-49d5-95b8-ef2ee4599420))
     (pin "2" (uuid 8d9d4dd4-a64d-48ad-9339-3167c022f8fd))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C25") (unit 1)
         )
@@ -1557,7 +1457,7 @@
     )
     (pin "1" (uuid 17f63403-52ae-4725-a1ca-b20dfd7476c7))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR029") (unit 1)
         )
@@ -1658,7 +1558,7 @@
     (pin "7" (uuid d69e739a-cc5d-4713-8cbe-b9211d719e23))
     (pin "8" (uuid 549a58bd-c010-4b9c-a0ab-4899d0d990fe))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "U1") (unit 1)
         )
@@ -1683,7 +1583,7 @@
     )
     (pin "1" (uuid 3f1f8424-67e6-4c97-9ab6-fe109a6cc3bc))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR014") (unit 1)
         )
@@ -1708,7 +1608,7 @@
     )
     (pin "1" (uuid 63518731-af7e-45e6-9b0b-2074a42e893e))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR030") (unit 1)
         )
@@ -1733,35 +1633,9 @@
     )
     (pin "1" (uuid e63bbda5-8d89-46d7-a3bf-a876e938e34c))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Battery_Cell") (at 148.59 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ccc31012-8c03-43c9-844c-108502830fbc)
-    (property "Reference" "BT1" (at 146.7485 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Battery_Cell" (at 146.7485 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 147.066 55.88 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 147.066 55.88 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid cca79804-962d-4a54-91c1-49b157db41d1))
-    (pin "1" (uuid bf9877ea-88ce-4da6-9645-6adb93fe79db))
-    (instances
-      (project "accessoryidk"
-        (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
-          (reference "BT1") (unit 1)
         )
       )
     )
@@ -1785,7 +1659,7 @@
     (pin "2" (uuid 45e50986-3152-4b9d-b2e2-7947292fadf9))
     (pin "1" (uuid b3b3a50c-2b49-4330-893f-8533efa71e0f))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "R8") (unit 1)
         )
@@ -1810,7 +1684,7 @@
     )
     (pin "1" (uuid aa78f043-1005-4b55-85d1-fa131bef5c50))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "#PWR013") (unit 1)
         )
@@ -1836,7 +1710,7 @@
     (pin "1" (uuid 38dd6efa-d165-457a-8ef4-9a8c89bb23dc))
     (pin "2" (uuid e81b6029-520b-4761-b6c0-be0dd86cce2e))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C24") (unit 1)
         )
@@ -1862,7 +1736,7 @@
     (pin "1" (uuid f3e12feb-2286-4c47-90b8-b68b3c590de9))
     (pin "2" (uuid 719c6b70-cead-4208-b50b-963c617aeac7))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "D1") (unit 1)
         )
@@ -1888,7 +1762,7 @@
     (pin "1" (uuid 89968c86-b9bd-4db8-ad00-50c0682ab17f))
     (pin "2" (uuid 0647327a-5bd5-4353-b64d-09da0c9f3643))
     (instances
-      (project "accessoryidk"
+      (project "accessory_v1"
         (path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
           (reference "C26") (unit 1)
         )
