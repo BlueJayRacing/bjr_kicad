@@ -434,7 +434,6 @@
     (uuid f35b66d7-8f34-4fae-aa34-9d5a51102d24)
   )
 
-  (no_connect (at 215.646 76.708) (uuid 4d499142-b068-48dd-9420-6e10a3596c60))
   (no_connect (at 215.646 79.248) (uuid edb9f8d6-36b5-4a42-a71b-9d21d01f6060))
 
   (wire (pts (xy 131.572 74.93) (xy 133.477 74.93))
@@ -698,6 +697,13 @@
     (uuid e39b935d-ee60-4240-a2b0-e7feabd08652)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 80.3873 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "5.5V" (shape input) (at 215.646 76.708 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e5b360a6-a2c5-4a77-a421-83d34688c597)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 222.7436 76.708 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
