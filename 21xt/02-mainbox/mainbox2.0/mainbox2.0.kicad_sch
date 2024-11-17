@@ -193,46 +193,6 @@
     )
   )
 
-  (sheet (at 130.175 41.91) (size 38.1 15.875) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 377f968a-989f-4d41-9e1c-9c63164be553)
-    (property "Sheetname" "Digital" (at 130.175 41.1984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Digital_sch.kicad_sch" (at 130.175 58.3696 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "mainbox1.0"
-        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "3"))
-      )
-      (project "mainbox2.0"
-        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 59.055 90.17) (size 43.18 24.765) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 387ec664-b2e9-4e3f-b4ff-2893d2dd7543)
-    (property "Sheetname" "Strain Gauge" (at 59.055 89.4584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "StrainGauge_sch.kicad_sch" (at 59.055 115.5196 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "mainbox1.0"
-        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "5"))
-      )
-      (project "mainbox2.0"
-        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "3"))
-      )
-    )
-  )
-
   (sheet (at 132.715 88.9) (size 48.895 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -253,19 +213,19 @@
     )
   )
 
-  (sheet (at 30.48 136.525) (size 45.085 26.67) (fields_autoplaced)
+  (sheet (at 53.34 96.52) (size 50.8 26.035) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
-    (uuid bc5d7da3-57e2-498e-8ba6-f1dd0d32babf)
-    (property "Sheetname" "H-Bridge" (at 30.48 135.8134 0)
+    (uuid 6de31634-6634-4e58-8493-bf6a38be7497)
+    (property "Sheetname" "PCIe" (at 53.34 95.8084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "untitled.kicad_sch" (at 30.48 163.7796 0)
+    (property "Sheetfile" "untitled.kicad_sch" (at 53.34 123.1396 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "mainbox2.0"
-        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "8"))
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "6"))
       )
     )
   )
