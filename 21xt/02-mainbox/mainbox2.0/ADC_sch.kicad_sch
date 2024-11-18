@@ -555,10 +555,25 @@
     (uuid ed78f699-fcff-476a-8a53-a5c4eed44880)
   )
 
+  (arc (start 317.5 44.45) (mid 274.8538 85.1771) (end 215.9 83.82)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 0031e890-81c7-4a51-881a-64ac835a2630)
+  )
+  (arc (start 318.77 44.45) (mid 281.2754 99.4101) (end 215.9 111.76)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 19b2116f-c6ca-4796-a361-787c5139d1a4)
+  )
+
   (text "NOTE FOR REFOUT:On power-up, if the internal reference is not being used, \nwrite to the ADC mode register, disabling the internal reference. \nThis is controlled by the REF_EN bit (Bit 15) in the ADC mode register"
     (at 178.435 173.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a10dda0-cb19-491c-999b-1c57e15444fa)
+  )
+  (text "make sure label direction is proper" (at 321.31 45.72 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8f53724d-0f0b-4426-bfb9-be303a7d57f9)
   )
 
   (global_label "ANI1" (shape output) (at 66.04 66.675 0) (fields_autoplaced)

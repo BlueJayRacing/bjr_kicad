@@ -720,6 +720,17 @@
     (uuid faab8a43-211b-40a2-a2a9-5734e5793aa7)
   )
 
+  (arc (start 313.69 99.06) (mid 259.7788 116.1831) (end 209.55 90.17)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 4fddb916-2ffb-430f-9f04-134b0fffee2c)
+  )
+
+  (text "goes to nothing?" (at 316.23 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0ecdcaa6-2dc9-489d-8f25-1782ead31435)
+  )
+
   (global_label "DO2" (shape input) (at 130.81 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0089f688-cc14-45b9-af5c-9183c92e0576)
@@ -960,9 +971,6 @@
     (pin "8" (uuid 057afa47-7f8e-4e64-aaa1-06dcc74de592))
     (instances
       (project "mainbox2.0"
-        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023/bf2c5ac3-2669-4246-9310-6950262cb4f7"
-          (reference "IC1") (unit 1)
-        )
         (path "/f7ca7218-80bf-4776-ba9d-a28b83375023/207b5b12-0ce1-4f26-8b0d-1e52ecb6d10e"
           (reference "IC1") (unit 1)
         )
