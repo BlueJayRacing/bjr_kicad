@@ -191,6 +191,18 @@
     (uuid e4052625-adf9-439a-b1e7-7eae8da62fb6)
   )
 
+  (arc (start 63.5 -10.16) (mid 87.1194 21.7176) (end 81.28 60.96)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 4bccc751-0e58-4b58-ada8-8f951c94165f)
+  )
+
+  (text "expose these pads as something we can jump to if needed,\n or better yet figure out with travis if these need to\n be pulled up or down.\n\nim pretty sure the write protection needs to be held\nso that we can actually save to this, and the hold \nprobably needs some sort of access.\nthese do not need to be high frequency as they are just\non off\n\nalso the chip select probably does not need to be high\nspeed either"
+    (at 67.31 -7.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d2a8ca32-f271-4acf-a28d-980cd8e0afa1)
+  )
+
   (global_label "SClk" (shape input) (at 126.873 69.977 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0edd2085-0d62-4a94-9236-b5b3f03a4ddd)
@@ -288,7 +300,7 @@
   (symbol (lib_id "power:GND1") (at 89.027 73.787 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5fab85e-380f-4d39-9b53-e015c6fe9fd6)
-    (property "Reference" "#PWR029" (at 89.027 80.137 0)
+    (property "Reference" "#PWR031" (at 89.027 80.137 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 91.567 76.073 0)
@@ -303,9 +315,6 @@
     (pin "1" (uuid ad35bb23-f396-411b-9703-e893b15d9798))
     (instances
       (project "wsg1.0"
-        (path "/03d0b5d1-0ab9-423a-b590-16c43c121de7"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/03d0b5d1-0ab9-423a-b590-16c43c121de7/d4cc5d07-d36d-400e-a1e4-f16f9f77e7c2"
           (reference "#PWR031") (unit 1)
         )
