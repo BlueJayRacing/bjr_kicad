@@ -3,9 +3,6 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.038099999999999995,
         "copper_line_width": 0.254,
         "copper_text_italic": false,
@@ -48,18 +45,13 @@
         "silk_text_thickness": 0.15239999999999998,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -98,7 +90,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -112,11 +104,13 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": true,
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.09999999999999999,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
@@ -127,10 +121,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.3,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -181,44 +173,10 @@
         0.508,
         0.762
       ],
-      "tuning_pattern_settings": {
-        "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 1.0
-        },
-        "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 0.6
-        },
-        "single_track_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 0.6
-        }
-      },
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.3,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.3
         },
         {
           "diameter": 0.6858,
@@ -230,13 +188,6 @@
         }
       ],
       "zones_allow_external_fillets": false
-    },
-    "ipc2581": {
-      "dist": "",
-      "distpn": "",
-      "internal_id": "",
-      "mfg": "",
-      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -446,7 +397,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -457,11 +408,18 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "bulkhead_library",
+      "21xt_footprints"
+    ],
+    "pinned_symbol_libs": [
+      "bulkhead_library",
+      "21xt_symbols",
+      "big_hbridge_symbols"
+    ]
   },
   "meta": {
-    "filename": "wsg1.0.kicad_pro",
+    "filename": "main_bulkhead.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -496,11 +454,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/wsg1.0.step",
-      "svg": "",
+      "step": "../../../../../Downloads/main_bulkhead.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -519,9 +474,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -531,6 +486,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -541,7 +497,7 @@
   },
   "sheets": [
     [
-      "71268190-1284-4b6c-bc36-2b5e270c0ee3",
+      "a4d92a89-8040-46a6-a6a3-2197dacf1146",
       ""
     ]
   ],
