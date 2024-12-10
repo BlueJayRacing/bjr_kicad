@@ -58,12 +58,17 @@
   (pad "3" thru_hole circle (at -4.45 -9.12) (size 2.64 2.64) (drill 1.76) (layers "*.Cu" "*.Mask") (tstamp 8e61b00e-0d84-405a-8914-b3584bd4b0c2))
   (pad "4" thru_hole circle (at 0 -9.12) (size 2.64 2.64) (drill 1.76) (layers "*.Cu" "*.Mask") (tstamp a59e1fcf-3f99-4283-ae79-f56b387bd4f2))
   (model "DTF13-4P-G003.stp"
-    (offset (xyz -30.11000016 4.559999874 11.99999982))
+    (offset (xyz -30.11 4.56 12))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model ":DESKTOP_PCB:DTF13-4P-G003/3D/DTF13-4P-G003.stp"
+  (model ":DESKTOP_PCB:DTF13-4P-G003/3D/DTF13-4P-G003.stp" hide
     (offset (xyz -30.15 4.5 8.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
+  (model ":DESKTOP_PCB:ATF13-4P-BM13.STEP"
+    (offset (xyz -27.9 4.5 9.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
