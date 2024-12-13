@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|28335000|21890000|4b6e6cf3-760e-42b3-bb85-71e7539d5be0|ef44c507-8f17-46a8-b273-7e066371d234",
+        "clearance|28460000|26815000|d50ef223-5cf4-44c8-86fb-9d8be8cbacb4|9cbad504-c491-4820-8325-239bd6b5b56b",
+        "clearance|33260000|21765000|c274b682-88be-406e-8d24-b432ac946b09|e15d585a-8eab-48c5-87c4-9d9ef5e60ec6",
+        "clearance|33260000|26815000|01fcaa25-637e-40dd-8577-fceae52571e9|72d7b01a-5195-404a-b934-93e8a904cfc5",
+        "clearance|5359998|68690001|a9acfc52-003e-4052-ba71-dce47606fa11|50a31565-d327-4ae2-8bcf-09a425fe2352",
+        "clearance|5559999|68490000|09c31da0-53aa-4f79-b597-0bb7de549ab3|50a31565-d327-4ae2-8bcf-09a425fe2352",
+        "clearance|5559999|68890002|5379b3b9-a2bc-446b-845c-e068a53015e1|a9acfc52-003e-4052-ba71-dce47606fa11",
+        "clearance|5760000|68690001|5379b3b9-a2bc-446b-845c-e068a53015e1|09c31da0-53aa-4f79-b597-0bb7de549ab3"
+      ],
       "meta": {
         "version": 2
       },
@@ -65,7 +74,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -122,10 +131,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.128,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -186,6 +195,10 @@
         {
           "diameter": 0.3,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -457,7 +470,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/accessoryidk_step.STEP",
+      "step": "../../../../../../Downloads/accessory_step.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -486,6 +499,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
