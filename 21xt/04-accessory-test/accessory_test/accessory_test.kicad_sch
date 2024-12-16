@@ -3780,14 +3780,6 @@
 		(uuid "15d11c34-d61e-4bda-ba6d-d9737aefcb05")
 	)
 	(no_connect
-		(at 251.46 63.5)
-		(uuid "1b6e9434-2796-4cee-b071-dc969abac600")
-	)
-	(no_connect
-		(at 251.46 58.42)
-		(uuid "1f8ba4d0-a96e-436e-98d1-738ec37e9c39")
-	)
-	(no_connect
 		(at 195.58 118.11)
 		(uuid "21437b0f-3862-4da0-aeb3-d5a654c94108")
 	)
@@ -3856,10 +3848,6 @@
 		(uuid "58ef049a-4ffb-4a0f-aaa0-d44f10a48ad5")
 	)
 	(no_connect
-		(at 251.46 66.04)
-		(uuid "59704234-2a76-4d70-94f6-ff31f36bbc29")
-	)
-	(no_connect
 		(at 25.4 91.44)
 		(uuid "5f81bed6-6b39-4d38-86b2-3ba9c22a2cd1")
 	)
@@ -3886,10 +3874,6 @@
 	(no_connect
 		(at 251.46 123.19)
 		(uuid "86a15a50-b049-4481-826e-3ba50e1811e0")
-	)
-	(no_connect
-		(at 251.46 55.88)
-		(uuid "91b746e2-3dc1-406c-b850-61544e295b96")
 	)
 	(no_connect
 		(at 219.71 133.35)
@@ -3940,10 +3924,6 @@
 		(uuid "e1acae9e-8ec8-4570-83d0-75f15d4b72e4")
 	)
 	(no_connect
-		(at 251.46 60.96)
-		(uuid "e5a286b6-e3e1-4ec7-b234-9a06f2cbde06")
-	)
-	(no_connect
 		(at 251.46 88.9)
 		(uuid "e901aae1-4dba-4aff-a281-33797d999e4b")
 	)
@@ -3962,10 +3942,6 @@
 	(no_connect
 		(at 251.46 50.8)
 		(uuid "f001d248-5237-4759-bd10-7465d674c2d4")
-	)
-	(no_connect
-		(at 251.46 53.34)
-		(uuid "f5de915f-06c3-4bce-8ddc-3784e59154c5")
 	)
 	(no_connect
 		(at 25.4 93.98)
@@ -4254,6 +4230,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 251.46 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04bcc21f-9088-443e-ac99-29b98217e423")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 251.46 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d1833a1-1af8-43c5-99f9-2a62d6d4b543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4588,6 +4608,28 @@
 			)
 		)
 	)
+	(global_label "S4"
+		(shape input)
+		(at 251.46 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53981931-dcea-4527-9328-34f4e8ae5d17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCLK"
 		(shape output)
 		(at 251.46 78.74 0)
@@ -4698,6 +4740,28 @@
 			)
 		)
 	)
+	(global_label "S1"
+		(shape input)
+		(at 251.46 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8039a229-39fb-4230-9462-0bccc33d167b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOUT3"
 		(shape input)
 		(at 25.4 78.74 0)
@@ -4777,6 +4841,28 @@
 		(uuid "8910cd38-3481-4cb8-99eb-d00d5db7a9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.7071 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6"
+		(shape input)
+		(at 251.46 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8df52c39-3cf5-415a-81db-cbc224400d45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,6 +5039,28 @@
 		(uuid "c0b38951-f5c4-47c0-a496-cef45a1b26ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.7071 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5"
+		(shape input)
+		(at 251.46 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3d367d1-d3ae-46f1-befc-2d7204534875")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.8642 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
