@@ -2777,11 +2777,11 @@
     (path "/dd0157a9-838c-4507-b641-fb16517bbb6e/a97b251b-41f5-42a3-b0a9-c6360163a071")
     (attr through_hole)
     (fp_text reference "J5" (at -1.776 -2.6398) (layer "F.SilkS")
-        (effects (font (size 0.48 0.48) (thickness 0.15)))
+        (effects (font (size 0.48 0.48) (thickness 0.12)))
       (tstamp 0156ada7-a9e6-462b-80e0-5d17014b7532)
     )
     (fp_text value "Conn_01x02" (at 3.4056 6.8952) (layer "F.Fab")
-        (effects (font (size 0.48 0.48) (thickness 0.15)))
+        (effects (font (size 0.48 0.48) (thickness 0.12)))
       (tstamp bb52fd02-8afb-4fb9-92d4-333831daa069)
     )
     (fp_line (start -2.95 -1.35) (end 2.95 -1.35)
@@ -2816,6 +2816,11 @@
       (net 1 "GND") (pinfunction "Pin_1") (pintype "passive") (solder_mask_margin 0.102) (tstamp 6685533f-853d-405e-b731-d5259f3cd786))
     (pad "2" thru_hole circle (at 1 0 180) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 13 "5VXbee") (pinfunction "Pin_2") (pintype "passive") (solder_mask_margin 0.102) (tstamp db1d3db0-231e-4cfe-946f-acecd9b52d1f))
+    (model "/Users/sophienoureddine/Downloads/2-pin-jst-connector-right-angle-1.snapshot.1/JST 2pin rightangle.stp"
+      (offset (xyz 3 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -3286,6 +3291,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp f59e8be0-a3dc-44fc-a3fd-62b975afb977))
     (pad "3" thru_hole circle (at 2.54 -2.25 180) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(D1-A)") (pinfunction "+VOUT") (pintype "passive") (solder_mask_margin 0.102) (tstamp 65c4c156-7c43-4796-98ae-77b303598f42))
+    (model "/Users/sophienoureddine/Downloads/StepFile-201.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -4476,6 +4486,11 @@
       (net 18 "ANI3") (pinfunction "Pin_10") (pintype "passive") (tstamp 962b00c2-3382-4257-9482-00f8103a242e))
     (pad "S1" smd rect (at -8.175 -1) (size 2.1 3) (layers "F.Cu" "F.Paste") (tstamp 183bc37e-0db9-4009-9f01-08bb727ed8a9))
     (pad "S2" smd rect (at 8.175 -1) (size 2.1 3) (layers "F.Cu" "F.Paste") (tstamp 00694f33-8612-4b88-8e5a-15ed74ea879b))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532611071.STEP"
+      (offset (xyz 0 1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -180))
+    )
   )
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "F.Cu")
@@ -4578,6 +4593,11 @@
       (net 7 "5.2V") (pinfunction "Pin_5") (pintype "passive") (solder_mask_margin 0.102) (tstamp 1400cb31-8bf4-4c7e-897a-0b80bff3402b))
     (pad "6" thru_hole circle (at 5 0 270) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "5.2V") (pinfunction "Pin_6") (pintype "passive") (solder_mask_margin 0.102) (tstamp 67f86461-d835-4a9e-9986-27ef093b8b52))
+    (model "/Users/sophienoureddine/Downloads/S6B-PH-K-S-LF--SN---3DModel-STEP-56544 (1).STEP"
+      (offset (xyz 0 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
@@ -4973,6 +4993,11 @@
       (solder_mask_margin 0.0762) (tstamp b4f2dd21-15e2-443e-9508-25872af6a68c))
     (pad "S2" smd rect (at 5.675 2.1 180) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.0762) (tstamp 69b03617-b80d-4666-af70-0aed4e8f2f59))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532610671.STEP"
+      (offset (xyz 0 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "21xt_footprints:MOLEX_0533980671 (1x6)" (layer "F.Cu")
@@ -5038,6 +5063,11 @@
       (solder_mask_margin 0.0762) (tstamp aef85a27-198c-4e72-8537-7f6d31b29e07))
     (pad "S2" smd rect (at 5.675 2.1 270) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.0762) (tstamp c0177d6b-8952-4725-afc3-e1ed53f3e807))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532610671.STEP"
+      (offset (xyz 0 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_arc (start 86.868 51.3014) (mid 87.453786 49.887186) (end 88.868 49.3014)
