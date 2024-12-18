@@ -582,11 +582,6 @@
     (fill (type none))
     (uuid 450ebbc9-ae67-4c00-bab9-f8a877949a66)
   )
-  (arc (start 312.42 151.13) (mid 262.5818 167.3099) (end 215.9 143.51)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 99d1d031-2602-48b5-8aa9-48eb1c19e2b8)
-  )
 
   (text "clk up to 50 MHz" (at 167.64 138.43 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -603,11 +598,6 @@
   (text "Gain = 2, output up to 2 * v_ref = 5" (at 167.64 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b41f98b-fcf3-4363-b75d-f1a38acabef6)
-  )
-  (text "if we want to balance things, then sam has to use the ground or 2v5 reful\nin order to power the quarter bridge externally, then one of the leads is\nthe current return path and the other lead is the signal at the end of the\nstrain gage, so the lead doesnt impact the voltage level when you measure it\nso you need to send what is labelled as sg1+ and QS1+ and for 2 out of the\nconnector and sam has to finish the circuit properly"
-    (at 5.08 49.53 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2ea77684-34d6-4b9e-840f-704d52b98909)
   )
   (text "SG Amplification" (at 92.71 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -641,19 +631,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 958a1f72-a0d3-49dd-84bc-f1e2116e2bdf)
   )
-  (text "make sure that the pins for gpio or digital can be used for cs if possible\nalso know which line you are going to share.\ni think im actually not opposed to the dac and adc being on the same\nspi bus, but you shoulldnt expose the adc's spi bus to sandra "
-    (at 320.04 91.44 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 97c8c0e1-c94d-408c-890e-76ce9368f291)
-  )
   (text "strain gauge1 input" (at 88.9 107.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a4d84806-7b47-4b21-9d0f-00ad5bab85c2)
-  )
-  (text "async or sync with what? it doesnt really matter\nwe just need to clock things in and out"
-    (at 314.96 151.13 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d48e131a-d958-4581-9f50-6852ca36b49e)
   )
 
   (global_label "sg1-" (shape input) (at 85.09 95.25 180) (fields_autoplaced)

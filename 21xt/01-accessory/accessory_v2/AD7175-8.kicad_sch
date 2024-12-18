@@ -552,28 +552,14 @@
     (uuid fc15a716-c309-470d-b485-ca54b014e3b4)
   )
 
-  (arc (start 125.73 226.06) (mid 115.0658 167.9855) (end 148.59 119.38)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 494424ab-8ebd-4525-9c7f-6bec517b3646)
-  )
-
   (text "NOTE FOR REFOUT:On power-up, if the internal reference is not being used, \nwrite to the ADC mode register, disabling the internal reference. \nThis is controlled by the REF_EN bit (Bit 15) in the ADC mode register"
     (at 177.8 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2e1ce263-0c0c-4fc2-87b7-4ac9a69450e5)
   )
-  (text "series resistors somewhere?" (at 129.54 228.6 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 30ec11d5-ff79-4a44-b4fc-6a913d7f0dee)
-  )
   (text "Communication Protocol: SPI" (at 194.31 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 57ee326c-d0c6-4453-a06c-7cefee05752b)
-  )
-  (text "same thing, jump these guys to test points" (at 312.42 34.29 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6dc2cb1d-563a-4143-84d8-45fc4886ed1a)
   )
 
   (global_label "2v5_reful" (shape input) (at 127 82.55 180) (fields_autoplaced)
