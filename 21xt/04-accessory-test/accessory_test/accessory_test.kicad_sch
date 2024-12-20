@@ -1857,127 +1857,6 @@
 				)
 			)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:PTVS12VZ1USK"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -5827,74 +5706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 58.42 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e9f0c12-bf10-4c22-be9b-e27ae06bc18c")
-		(property "Reference" "NT1"
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d43d4f0b-c544-4b43-9d97-f5f0ebadd9c3")
-		)
-		(pin "2"
-			(uuid "fe2e7376-9693-4b68-a415-d1de821f6ad7")
-		)
-		(instances
-			(project "accessory_test"
-				(path "/ff30e7ea-42b3-4dfc-9081-b802076eea15"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 223.52 133.35 0)
 		(unit 1)
@@ -6486,7 +6297,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 60.96 74.93 90)
+		(at 67.31 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6495,7 +6306,7 @@
 		(fields_autoplaced yes)
 		(uuid "803dfe86-7841-4d58-ba86-c215fc0a8e88")
 		(property "Reference" "#PWR01"
-			(at 67.31 74.93 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6315,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 64.77 74.93 90)
+			(at 71.12 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 74.93 0)
+			(at 67.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 74.93 0)
+			(at 67.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 74.93 0)
+			(at 67.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
