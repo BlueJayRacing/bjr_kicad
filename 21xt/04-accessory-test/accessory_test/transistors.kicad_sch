@@ -770,6 +770,28 @@
 		)
 		(uuid "db046272-c8af-42f1-977d-9212cebd5b2d")
 	)
+	(global_label "DOUT2"
+		(shape output)
+		(at 166.37 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ffe6028-8e88-4d05-b31d-90d30d4f42e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 105.6133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIN1"
 		(shape input)
 		(at 119.38 96.52 270)
@@ -794,7 +816,7 @@
 	)
 	(global_label "DIN2"
 		(shape input)
-		(at 166.37 96.52 270)
+		(at 168.91 96.52 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -802,9 +824,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3bd25c7c-d09b-4eaf-9316-fcf45acd3604")
+		(uuid "55214034-58bf-4786-a30c-1ec79d270eaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 103.92 90)
+			(at 168.91 103.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,28 +876,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOUT2"
-		(shape output)
-		(at 168.91 96.52 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b693fa7-25f1-4deb-b32e-e984fb603a4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 105.6133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
