@@ -2020,12 +2020,6 @@
 		(uuid "ba4d2825-4013-4a67-a6a0-158c95e15175")
 	)
 	(junction
-		(at 133.35 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be464bc6-fd0d-4dc8-b9f2-cd2225b2117a")
-	)
-	(junction
 		(at 213.36 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2048,6 +2042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec782175-0a78-4467-9bb2-6d089eb946e5")
+	)
+	(junction
+		(at 133.35 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f0dee6-5657-485d-b497-89763a57cfa9")
 	)
 	(no_connect
 		(at 157.48 100.33)
@@ -2144,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "0fef63c2-1d87-48ab-b95c-9a177fa5f1d4")
+	)
+	(wire
+		(pts
+			(xy 133.35 138.43) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129dbe0e-6311-459f-8f8d-e42b21385c92")
 	)
 	(wire
 		(pts
@@ -2304,16 +2314,6 @@
 			(type default)
 		)
 		(uuid "53f23852-8e45-4509-8d56-d35addd98aff")
-	)
-	(wire
-		(pts
-			(xy 133.35 138.43) (xy 138.43 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fb474c-f66e-4caf-a563-e3a56b5c4b85")
 	)
 	(wire
 		(pts
@@ -4944,72 +4944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 195.58 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96d908e4-268f-4409-bb70-5a65b800de10")
-		(property "Reference" "#PWR05"
-			(at 195.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 195.58 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18efa898-ec91-4bfe-b9cc-e04fc16d9f2a")
-		)
-		(instances
-			(project "accessory_test"
-				(path "/ff30e7ea-42b3-4dfc-9081-b802076eea15/763cc20e-268f-4e74-b8b7-a19d545f1b15"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "accessory_test:MAX5719GSD+")
 		(at 157.48 100.33 0)
 		(unit 1)
@@ -5300,6 +5234,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 195.58 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c41dcde0-6b48-426d-8240-a66ad34ae492")
+		(property "Reference" "#PWR038"
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0392ab-c0c8-445b-92ab-de6466d889ae")
+		)
+		(instances
+			(project "accessory_test"
+				(path "/ff30e7ea-42b3-4dfc-9081-b802076eea15/763cc20e-268f-4e74-b8b7-a19d545f1b15"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 118.11 58.42 0)
 		(unit 1)
@@ -5378,7 +5378,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca689570-0575-47f0-aae9-30f37e0a126d")
+		(uuid "cce7fd64-2ec4-47e7-8608-11713bbe55ae")
 		(property "Reference" "#PWR04"
 			(at 133.35 144.78 0)
 			(effects
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e7dc878-5dbc-4cff-9fab-58d09e500ff0")
+			(uuid "17597eab-99ca-4135-adf5-fac62bb8bf04")
 		)
 		(instances
 			(project "accessory_test"

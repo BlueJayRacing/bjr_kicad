@@ -3868,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 74.93) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ebbe22-bf92-4e64-9ffc-9e516bdd2c9e")
+	)
+	(wire
+		(pts
 			(xy 29.21 39.37) (xy 29.21 40.64)
 		)
 		(stroke
@@ -6297,7 +6307,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 67.31 76.2 90)
+		(at 60.96 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6306,7 +6316,7 @@
 		(fields_autoplaced yes)
 		(uuid "803dfe86-7841-4d58-ba86-c215fc0a8e88")
 		(property "Reference" "#PWR01"
-			(at 73.66 76.2 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6325,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 71.12 76.2 90)
+			(at 64.77 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 76.2 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 76.2 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 76.2 0)
+			(at 60.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
