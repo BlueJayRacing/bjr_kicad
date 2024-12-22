@@ -428,10 +428,22 @@
 		(uuid "01fe6705-13dd-433b-add4-dc1a3228b9c4")
 	)
 	(junction
+		(at 35.56 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30dda36a-c894-46b2-a1bc-ceda8d1d65ee")
+	)
+	(junction
 		(at 130.81 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae03e26-3dc5-4889-a7de-78023e0304a2")
+	)
+	(junction
+		(at 266.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b956bb4-43e0-49c7-8872-8dbd35bac277")
 	)
 	(junction
 		(at 200.66 147.32)
@@ -490,6 +502,16 @@
 			(type default)
 		)
 		(uuid "0c40a1f3-11d0-4cc7-8315-96d6724e5ad3")
+	)
+	(wire
+		(pts
+			(xy 266.7 109.22) (xy 266.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111be539-8105-444e-a4b4-b89b644e6ddc")
 	)
 	(wire
 		(pts
@@ -620,6 +642,16 @@
 			(type default)
 		)
 		(uuid "31ea4c18-1213-487e-82c5-22492ab131b0")
+	)
+	(wire
+		(pts
+			(xy 266.7 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384a2cd5-9b84-4c62-b713-a978090b382e")
 	)
 	(wire
 		(pts
@@ -783,6 +815,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 55.88) (xy 36.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97944033-847b-4e1e-9a59-da1fc6e481f3")
+	)
+	(wire
+		(pts
 			(xy 40.64 74.93) (xy 36.83 74.93)
 		)
 		(stroke
@@ -823,6 +865,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 53.34) (xy 35.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d4c2b5-8be7-4fa0-92bb-676756a70857")
+	)
+	(wire
+		(pts
 			(xy 115.57 19.05) (xy 115.57 21.59)
 		)
 		(stroke
@@ -853,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 109.22) (xy 217.17 109.22)
+			(xy 270.51 109.22) (xy 266.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 36.83 55.88)
+			(xy 33.02 55.88) (xy 35.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -961,9 +1013,9 @@
 		)
 		(uuid "1f23044e-fbef-4b23-a9e9-92647e71136e")
 	)
-	(text "width=0.16mm, length=2mm"
+	(text "6mΩ width=0.16mm, length=2mm"
 		(exclude_from_sim no)
-		(at 137.414 132.334 0)
+		(at 150.114 140.462 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,16 +1033,6 @@
 		)
 		(uuid "96c1ef45-7b7b-4224-b4bd-83a8f50f3c3f")
 	)
-	(text "3mΩ\nTrace\nwidth=0.32mm, length=2mm"
-		(exclude_from_sim no)
-		(at 128.778 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "99fd78a8-b887-4574-b450-c2a6f3c4bba9")
-	)
 	(text "basic idea of this circuit is, the two relays on the left cause \nchange in resistance by putting 2 in parallel w 10k or not,\nthe four relays on the right target different\nrangees of the adc (one low, two mid, one high)\nask justin for details"
 		(exclude_from_sim no)
 		(at 54.102 33.528 0)
@@ -1000,6 +1042,38 @@
 			)
 		)
 		(uuid "d2b00b10-3f42-4458-9a23-e1a631a95452")
+	)
+	(text "3mΩ width=0.32mm, length=2mm"
+		(exclude_from_sim no)
+		(at 149.606 99.822 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f83b8cb2-5d05-4d55-aa6f-4cdc898218c5")
+	)
+	(global_label "QS2-"
+		(shape output)
+		(at 266.7 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "198eb1e6-8638-404b-97b2-bb8c00a5eb9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 120.0671 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "S5"
 		(shape input)
@@ -1085,6 +1159,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QS2+"
+		(shape input)
+		(at 35.56 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85a47047-94bb-41bb-a677-040310fd556a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 45.0329 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
