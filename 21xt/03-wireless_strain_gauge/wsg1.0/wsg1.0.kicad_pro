@@ -125,10 +125,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.3,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -141,7 +141,7 @@
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
@@ -213,11 +213,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.3
         },
         {
