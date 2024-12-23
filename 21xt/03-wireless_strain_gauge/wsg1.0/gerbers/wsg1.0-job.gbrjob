@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.11"
+      "Version": "7.0.10"
     },
-    "CreationDate": "2024-12-08T12:57:22-05:00"
+    "CreationDate": "2024-12-22T23:47:13-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,36 +14,35 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 55.4,
-      "Y": 28.8
+      "X": 55.382,
+      "Y": 28.6167
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6,
+    "BoardThickness": 0.8,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.4,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "wsg1.0-F_Cu.gbr",
+      "Path": "wsg1.0-Front.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
@@ -58,7 +57,7 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "wsg1.0-B_Cu.gbr",
+      "Path": "wsg1.0-Back.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
@@ -115,14 +114,14 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "F.Cu"
+      "Name": "Front"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+      "Name": "Front/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from Front to In1.Cu)"
     },
     {
       "Type": "Copper",
@@ -131,7 +130,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.24,
+      "Thickness": 0.44,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -145,13 +144,13 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "In2.Cu/Back",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to Back)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "Back"
     },
     {
       "Type": "SolderMask",
