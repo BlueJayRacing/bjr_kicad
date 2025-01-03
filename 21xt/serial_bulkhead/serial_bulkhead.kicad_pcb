@@ -89,7 +89,7 @@
     (property "ki_keywords" "connector")
     (path "/727ad855-43ba-43fa-81a9-9053afadb469")
     (attr through_hole)
-    (fp_text reference "J5" (at 1.25 -3.55) (layer "F.SilkS")
+    (fp_text reference "J5" (at 1.25 -3.55) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 718fbf55-6f2e-4556-9437-8ba2fff03caa)
     )
@@ -170,7 +170,7 @@
     (fp_line (start 4.95 3.4) (end 4.95 -2.35)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cef8bf34-69c2-4090-b9e2-448638b9ef62))
     (pad "" np_thru_hole circle (at -1.6 2) (size 1.2 1.2) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 7172812d-47d3-43b1-b1f1-75245971115c))
-    (pad "1" thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1470588235)
       (net 9 "NAVOUT") (pinfunction "Pin_1") (pintype "passive") (tstamp 1457ada8-de02-417c-8794-be9b75bc157f))
     (pad "2" thru_hole oval (at 2.5 0) (size 1.7 2) (drill 1) (layers "*.Cu" "*.Mask")
       (net 10 "NAVIN") (pinfunction "Pin_2") (pintype "passive") (tstamp 79b38732-9148-45b7-8119-2ff5fc1703a2))
@@ -196,7 +196,7 @@
     (property "ki_description" "PICOFLEX LATCHED SMT HEADER 10w")
     (path "/0426d08d-66f7-4973-bd9d-1ff2cd465ec2")
     (attr through_hole)
-    (fp_text reference "J4" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "J4" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp a8ea5360-09a6-48db-b27e-8cab7be8e296)
     )
@@ -297,7 +297,7 @@
     (property "ki_description" "Body Features: O-Ring Material Silicone | Circular Connector Insulation Material Type Polyamide 67 GF30 | Environmental Protection IP67 | Environmental Protection Type Sealed | Shell Plating Material Nickel | Peripheral Seal Material Silicone | Shell Base Material Brass | Configuration Features: Number of Signal Positions 4 | Factory Installed Backshell No | Number of Positions 4 | Keying A | Keying & Polarized Position Locations A | Contacts Preloaded Yes | Number of Power Positions 0 | Contact Features: C")
     (path "/38ebcdff-2ba7-4e4d-bfda-a1b9c21bf7e1")
     (attr through_hole)
-    (fp_text reference "J3" (at -1.7 0.975) (layer "B.SilkS")
+    (fp_text reference "J3" (at -1.7 0.975) (layer "B.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 3b40d0f1-8b21-486e-88f1-9f2c6927a09d)
     )
@@ -376,7 +376,7 @@
     (property "ki_description" "Body Features: O-Ring Material Silicone | Circular Connector Insulation Material Type Polyamide 67 GF30 | Environmental Protection IP67 | Environmental Protection Type Sealed | Shell Plating Material Nickel | Peripheral Seal Material Silicone | Shell Base Material Brass | Configuration Features: Number of Signal Positions 4 | Factory Installed Backshell No | Number of Positions 4 | Keying A | Keying & Polarized Position Locations A | Contacts Preloaded Yes | Number of Power Positions 0 | Contact Features: C")
     (path "/e76d25fe-3963-47c6-a2b7-609dfd5300c2")
     (attr through_hole)
-    (fp_text reference "J2" (at -1.7 0.975) (layer "B.SilkS")
+    (fp_text reference "J2" (at -1.7 0.975) (layer "B.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 482e1f42-8b97-49e9-938d-4c2f5776c372)
     )
@@ -455,7 +455,7 @@
     (property "ki_description" "Body Features: O-Ring Material Silicone | Circular Connector Insulation Material Type Polyamide 67 GF30 | Environmental Protection IP67 | Environmental Protection Type Sealed | Shell Plating Material Nickel | Peripheral Seal Material Silicone | Shell Base Material Brass | Configuration Features: Number of Signal Positions 4 | Factory Installed Backshell No | Number of Positions 4 | Keying A | Keying & Polarized Position Locations A | Contacts Preloaded Yes | Number of Power Positions 0 | Contact Features: C")
     (path "/520afdcc-c556-47e0-b81e-ba371df2b363")
     (attr through_hole)
-    (fp_text reference "J1" (at -1.7 0.975) (layer "B.SilkS")
+    (fp_text reference "J1" (at -1.7 0.975) (layer "B.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 61d9baf8-d8c9-40a7-8fa5-5312388b2a47)
     )
