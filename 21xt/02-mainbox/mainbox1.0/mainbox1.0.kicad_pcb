@@ -415,6 +415,11 @@
       (net 3 "5VADC") (pinfunction "+VS__1") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp b6c6eeac-5eaa-48c8-aa07-03388fecd70c))
     (pad "17" smd rect (at 0 0 180) (size 2.6 2.6) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "EP") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp 0b7bc624-5a5a-4a85-a50a-f9a918610bb1))
+    (model "/Users/sophienoureddine/Downloads/AD8222ACPZ_R7 (2)/AD8222ACPZ-R7.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
@@ -863,6 +868,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ee55a57b-5f62-4cb0-adfa-6a3fbad1421c))
     (pad "5" smd rect (at 1.37795 -0.950001) (size 1.0033 0.508) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "5VADC") (pinfunction "OUT") (pintype "output") (tstamp b41c0120-36e0-4ea0-adaf-98ffe8decbe4))
+    (model "/Users/sophienoureddine/Downloads/LIB_TPS78001DDCR/TPS78001DDCR/3D/TPS78001DDCR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -1629,6 +1639,11 @@
       (net 100 "unconnected-(U4-DNC-Pad16)") (pinfunction "DNC") (pintype "no_connect") (tstamp 6ce97077-3c15-40b2-8991-3d89f6f25c61))
     (pad "EPAD" smd rect (at 0 0) (size 1.651 2.8448) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "EPAD") (pintype "unspecified") (tstamp 9e54c869-00f9-427a-b025-327cf4791390))
+    (model "/Users/sophienoureddine/Downloads/LT6658AHMSE_5_PBF/LT6658AHMSE-5_PBF.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -1935,6 +1950,11 @@
           (xy 354.059 197.879)
         )
       )
+    )
+    (model "/Users/sophienoureddine/Downloads/LIB_XBP9X-DMUS-011 (1)/XBP9X-DMUS-011/3D/XBP9X-DMUS-011.stp"
+      (offset (xyz 11 16 0))
+      (scale (xyz 0.4 0.4 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2757,11 +2777,11 @@
     (path "/dd0157a9-838c-4507-b641-fb16517bbb6e/a97b251b-41f5-42a3-b0a9-c6360163a071")
     (attr through_hole)
     (fp_text reference "J5" (at -1.776 -2.6398) (layer "F.SilkS")
-        (effects (font (size 0.48 0.48) (thickness 0.15)))
+        (effects (font (size 0.48 0.48) (thickness 0.12)))
       (tstamp 0156ada7-a9e6-462b-80e0-5d17014b7532)
     )
     (fp_text value "Conn_01x02" (at 3.4056 6.8952) (layer "F.Fab")
-        (effects (font (size 0.48 0.48) (thickness 0.15)))
+        (effects (font (size 0.48 0.48) (thickness 0.12)))
       (tstamp bb52fd02-8afb-4fb9-92d4-333831daa069)
     )
     (fp_line (start -2.95 -1.35) (end 2.95 -1.35)
@@ -2796,6 +2816,11 @@
       (net 1 "GND") (pinfunction "Pin_1") (pintype "passive") (solder_mask_margin 0.102) (tstamp 6685533f-853d-405e-b731-d5259f3cd786))
     (pad "2" thru_hole circle (at 1 0 180) (size 1.308 1.308) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 13 "5VXbee") (pinfunction "Pin_2") (pintype "passive") (solder_mask_margin 0.102) (tstamp db1d3db0-231e-4cfe-946f-acecd9b52d1f))
+    (model "/Users/sophienoureddine/Downloads/2-pin-jst-connector-right-angle-1.snapshot.1/JST 2pin rightangle.stp"
+      (offset (xyz 3 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -3096,7 +3121,7 @@
       (net 4 "5VASupply{slash}Ref") (pinfunction "REF+") (pintype "passive") (tstamp 80b60530-806e-4328-a8e2-daa08569e177))
     (pad "41" smd rect (at 0 0) (size 4.05 4.05) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "EP") (pintype "passive") (tstamp a2532874-4791-4140-8757-12263c8314ad))
-    (model "AD7175-8BCPZ-RL7.stp"
+    (model "/Users/sophienoureddine/Downloads/LIB_AD7175-8BCPZ-RL7 (1)/AD7175-8BCPZ-RL7/3D/AD7175-8BCPZ-RL7.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3266,6 +3291,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (solder_mask_margin 0.102) (tstamp f59e8be0-a3dc-44fc-a3fd-62b975afb977))
     (pad "3" thru_hole circle (at 2.54 -2.25 180) (size 1.508 1.508) (drill 1) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(D1-A)") (pinfunction "+VOUT") (pintype "passive") (solder_mask_margin 0.102) (tstamp 65c4c156-7c43-4796-98ae-77b303598f42))
+    (model "/Users/sophienoureddine/Downloads/StepFile-201.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -3601,6 +3631,11 @@
       (net 88 "Net-(U1-*OE)") (pinfunction "*OE") (pintype "input") (tstamp 137dbb0d-c944-440e-a581-24e0d739a574))
     (pad "20" smd rect (at 3.3782 -5.715 270) (size 2.159 0.5588) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 6c5345b0-1f03-484b-a36e-89c0b47479fc))
+    (model "/Users/sophienoureddine/Downloads/SN74LVC245ANS/SN74LVC245ANS.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -3976,6 +4011,11 @@
       (net 97 "unconnected-(U3-DNC-Pad16)") (pinfunction "DNC") (pintype "no_connect") (tstamp 22106450-ab68-4897-8e0f-f3debff96c38))
     (pad "EPAD" smd rect (at 0 0) (size 1.651 2.8448) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "EPAD") (pintype "unspecified") (tstamp 9d33e507-0822-4105-bf6b-4016911d939c))
+    (model "/Users/sophienoureddine/Downloads/LT6658AHMSE_2_5_PBF (1)/LT6658AHMSE-2.5_PBF.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
@@ -4446,6 +4486,11 @@
       (net 18 "ANI3") (pinfunction "Pin_10") (pintype "passive") (tstamp 962b00c2-3382-4257-9482-00f8103a242e))
     (pad "S1" smd rect (at -8.175 -1) (size 2.1 3) (layers "F.Cu" "F.Paste") (tstamp 183bc37e-0db9-4009-9f01-08bb727ed8a9))
     (pad "S2" smd rect (at 8.175 -1) (size 2.1 3) (layers "F.Cu" "F.Paste") (tstamp 00694f33-8612-4b88-8e5a-15ed74ea879b))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532611071.STEP"
+      (offset (xyz 0 1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -180))
+    )
   )
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "F.Cu")
@@ -4548,6 +4593,11 @@
       (net 7 "5.2V") (pinfunction "Pin_5") (pintype "passive") (solder_mask_margin 0.102) (tstamp 1400cb31-8bf4-4c7e-897a-0b80bff3402b))
     (pad "6" thru_hole circle (at 5 0 270) (size 1.2 1.2) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 7 "5.2V") (pinfunction "Pin_6") (pintype "passive") (solder_mask_margin 0.102) (tstamp 67f86461-d835-4a9e-9986-27ef093b8b52))
+    (model "/Users/sophienoureddine/Downloads/S6B-PH-K-S-LF--SN---3DModel-STEP-56544 (1).STEP"
+      (offset (xyz 0 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
@@ -4943,6 +4993,11 @@
       (solder_mask_margin 0.0762) (tstamp b4f2dd21-15e2-443e-9508-25872af6a68c))
     (pad "S2" smd rect (at 5.675 2.1 180) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.0762) (tstamp 69b03617-b80d-4666-af70-0aed4e8f2f59))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532610671.STEP"
+      (offset (xyz 0 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "21xt_footprints:MOLEX_0533980671 (1x6)" (layer "F.Cu")
@@ -5008,6 +5063,11 @@
       (solder_mask_margin 0.0762) (tstamp aef85a27-198c-4e72-8537-7f6d31b29e07))
     (pad "S2" smd rect (at 5.675 2.1 270) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask")
       (solder_mask_margin 0.0762) (tstamp c0177d6b-8952-4725-afc3-e1ed53f3e807))
+    (model "/Users/sophienoureddine/Downloads/molex-picoblade-connectors-1-25-mm-1.snapshot.1/532610671.STEP"
+      (offset (xyz 0 -2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_arc (start 86.868 51.3014) (mid 87.453786 49.887186) (end 88.868 49.3014)
@@ -5026,7 +5086,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e0dfd49d-6c5e-4bf5-9770-4e60d0de7f24))
   (gr_arc (start 170.4848 110.395) (mid 169.899014 111.809214) (end 168.4848 112.395)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e6707c27-4db6-4cdb-9ef9-cd673a77c6cb))
-  (gr_text "Blue Jay Racing @ JHU\n20XT\nFront Box Main Board" (at 88.646 54.61) (layer "F.SilkS") (tstamp 315b9e9c-a9de-4fbd-8431-52e692fa0f5a)
+  (gr_text "Blue Jay Racing @ JHU\n21XT\nFront Box Main Board" (at 88.646 54.61) (layer "F.SilkS") (tstamp 315b9e9c-a9de-4fbd-8431-52e692fa0f5a)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
 

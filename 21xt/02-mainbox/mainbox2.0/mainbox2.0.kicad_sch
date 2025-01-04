@@ -1,0 +1,276 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f7ca7218-80bf-4776-ba9d-a28b83375023)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 106.045 152.273 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 190cd17e-daf5-4536-ac23-677f626b9ea2)
+    (property "Reference" "H4" (at 108.966 151.003 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 108.966 153.543 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 106.045 152.273 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.045 152.273 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "mainbox"
+        (path "/74a4a134-0810-4589-92e6-3a00606f2ed6"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 105.791 146.177 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a42cdd5-c20d-4ada-aea7-1f03230413f3)
+    (property "Reference" "H3" (at 108.712 144.907 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 108.712 147.447 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 105.791 146.177 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 105.791 146.177 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "mainbox"
+        (path "/74a4a134-0810-4589-92e6-3a00606f2ed6"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 97.155 146.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4637457a-473f-4fd2-b394-8fb6429ed367)
+    (property "Reference" "H1" (at 100.076 144.78 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 100.076 147.32 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 97.155 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 97.155 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "mainbox"
+        (path "/74a4a134-0810-4589-92e6-3a00606f2ed6"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 97.409 152.146 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8e9d5f51-e312-44aa-8d47-2b3990f92ae7)
+    (property "Reference" "H2" (at 100.33 150.876 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 100.33 153.416 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.5mm" (at 97.409 152.146 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 97.409 152.146 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "mainbox"
+        (path "/74a4a134-0810-4589-92e6-3a00606f2ed6"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 202.565 90.17) (size 68.58 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 207b5b12-0ce1-4f26-8b0d-1e52ecb6d10e)
+    (property "Sheetname" "Pi5" (at 202.565 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Pi5.kicad_sch" (at 202.565 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "7"))
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 132.715 88.9) (size 48.895 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5d6e883b-1bc0-4ce9-8a5a-9d01f2a447ea)
+    (property "Sheetname" "XBee" (at 132.715 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "XBee.kicad_sch" (at 132.715 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "6"))
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 53.34 96.52) (size 50.8 26.035) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6de31634-6634-4e58-8493-bf6a38be7497)
+    (property "Sheetname" "PCIe" (at 53.34 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 53.34 123.1396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 43.18) (size 33.655 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bf2c5ac3-2669-4246-9310-6950262cb4f7)
+    (property "Sheetname" "ADC" (at 57.15 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC_sch.kicad_sch" (at 57.15 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "2"))
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 199.39 41.275) (size 50.165 19.685) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d6b14c35-cf65-4682-9cf4-903a8c506490)
+    (property "Sheetname" "Power" (at 199.39 40.5634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 199.39 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mainbox1.0"
+        (path "/386ce652-2291-4cad-85a5-fcca6d2077c3" (page "4"))
+      )
+      (project "mainbox2.0"
+        (path "/f7ca7218-80bf-4776-ba9d-a28b83375023" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
