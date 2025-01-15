@@ -6,9 +6,10 @@
 	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at -0.9556 -2.494 -90)
+		(at -0.02 -1.25 180)
 		(layer "F.SilkS")
-		(uuid "7b21486b-6db3-455b-a5f2-60c7d35554b7")
+		(hide yes)
+		(uuid "3e98ac51-ab25-4178-93b2-816137b367c1")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "45k"
+	(property "Value" "45.5"
 		(at 0 1.17 180)
 		(layer "F.Fab")
-		(uuid "4364f06e-d284-4e66-a833-50c2386ef202")
+		(uuid "63be1077-2169-49d2-b42c-bbed7b749aae")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +28,11 @@
 			)
 		)
 	)
-	(property "Footprint" "21xt_footprints:R_0402_1005Metric"
+	(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbae5bec-5390-4450-bc13-b7b221d036c8")
+		(uuid "0c391bc8-d755-4124-8773-8d89edf5a93e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f4843c8b-a2e5-487f-8517-1ba1fb80ae64")
+		(uuid "2be82f9f-ff90-44d1-ba97-3b4277e57eb4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +56,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "464f1e15-3fd0-4f8f-b934-7996f0f3da7a")
+		(uuid "495aef58-71e8-482d-88fe-a33d9e23bcfb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -72,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "daaa257d-7ec0-415b-9b11-238e8b4e89a6")
+		(uuid "8a3f4480-c84c-434d-b675-4a36f5d28cc5")
 	)
 	(fp_line
 		(start -0.153641 0.38)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3127614a-2a2d-46f1-b8a0-694ce4e7f2f9")
+		(uuid "875f4c7d-474c-42d7-a9cf-fd5b3ba33787")
 	)
 	(fp_line
 		(start -0.93 -0.47)
@@ -92,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a2e35353-6f8d-49db-b782-10f4d32b79a6")
+		(uuid "0b7d838d-4a77-4f3a-af97-a2a14bd19605")
 	)
 	(fp_line
 		(start -0.93 0.47)
@@ -102,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fdcb4d53-729c-4071-a390-3e0aa208c611")
+		(uuid "d219fce7-5790-4f79-92c1-650aca075486")
 	)
 	(fp_line
 		(start 0.93 -0.47)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a5382e06-5ee0-410e-a0d0-72c0496ae6a9")
+		(uuid "380484d1-6bbd-4812-b6e1-1c3d0b930997")
 	)
 	(fp_line
 		(start 0.93 0.47)
@@ -122,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "389b4930-b67a-4110-b9a3-a33da1267097")
+		(uuid "bedc08f0-7459-4907-aacd-1cbf9cb21a37")
 	)
 	(fp_line
 		(start -0.525 -0.27)
@@ -132,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "23eedf84-96e7-40a3-85fe-94eca2d70bdf")
+		(uuid "d58e887d-e21d-4bc9-9970-49547aab47bf")
 	)
 	(fp_line
 		(start -0.525 0.27)
@@ -142,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c6cbe339-9408-48b3-a0f3-84d857c5a83f")
+		(uuid "210ea7ea-a6f7-4a12-bd2e-2a07f5c35ea7")
 	)
 	(fp_line
 		(start 0.525 -0.27)
@@ -152,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8c93d94c-8b5a-4fd3-8220-631dccdaf528")
+		(uuid "eefd5dbd-95f5-4b65-a9fd-4ae1a0bc1d50")
 	)
 	(fp_line
 		(start 0.525 0.27)
@@ -162,12 +163,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8f922f74-d6b7-4c8f-b5c2-280fe8cdc61e")
+		(uuid "da943662-2df2-423c-a0df-70cecde4d542")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "f5dee8bf-7786-4b8c-932c-828bab1301b3")
+		(uuid "5896f2d3-3a77-42ad-bdfe-b88f81f2de8d")
 		(effects
 			(font
 				(size 0.26 0.26)
@@ -180,14 +181,14 @@
 		(size 0.54 0.64)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "83842925-37e9-4526-bdf1-7c6fc599aaad")
+		(uuid "bd956294-5b50-4da4-9045-338e30837f77")
 	)
 	(pad "2" smd roundrect
 		(at 0.51 0)
 		(size 0.54 0.64)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "44087f40-525d-4470-ba70-b99620719c3a")
+		(uuid "f2751ccb-c704-43e7-a62d-e1b7fb6d7d6e")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 		(offset

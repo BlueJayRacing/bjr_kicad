@@ -1,47 +1,272 @@
-(footprint "CAPPM7344X310N" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "CASE D")
-  (tags "Capacitor Polarised")
-  (attr smd)
-  (fp_text reference "C**" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp 23d976e3-285d-441c-864e-3360ecf0d1c6)
-  )
-  (fp_text value "CAPPM7344X310N" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp 28c7ece0-fc13-4677-bd3e-b27689f87565)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
-    (tstamp 87940cda-1c5e-4dab-9a59-86d2dd39dc96)
-  )
-  (fp_line (start -3.65 2.175) (end 3.65 2.175)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 2d9a9dd2-da15-4b3c-aec2-a536f45944cb))
-  (fp_line (start 3.65 -2.175) (end -4.25 -2.175)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp a1e1f5d4-f181-4d76-b7a2-751531532fea))
-  (fp_line (start -4.5 -2.5) (end 4.5 -2.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 070b58ac-a4ec-4ddf-895d-cfe1b0c0a553))
-  (fp_line (start -4.5 2.5) (end -4.5 -2.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b56d0cfd-596c-46f8-95da-d52213ed2d33))
-  (fp_line (start 4.5 -2.5) (end 4.5 2.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 223c6a17-2785-447d-bf97-26a31d46928e))
-  (fp_line (start 4.5 2.5) (end -4.5 2.5)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 63ccef8a-76c4-449f-b126-b02bcc697b92))
-  (fp_line (start -3.65 -2.175) (end 3.65 -2.175)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c6e857cc-dc23-4653-8514-1a0e5c50c651))
-  (fp_line (start -3.65 -1.025) (end -2.5 -2.175)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7c556d5a-1c94-4050-ad1b-d9d281212a17))
-  (fp_line (start -3.65 2.175) (end -3.65 -2.175)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 21bc2afd-38ab-4a44-9af4-54ab6dc921c1))
-  (fp_line (start 3.65 -2.175) (end 3.65 2.175)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 17c4cdca-4ba4-483d-ba20-c6dece712404))
-  (fp_line (start 3.65 2.175) (end -3.65 2.175)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c5d1064f-1634-4888-a46d-4a94d3fcd879))
-  (pad "1" smd rect (at -3.1 0) (size 2.3 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d19f885c-a90a-4ad2-b97f-7a3cd875392e))
-  (pad "2" smd rect (at 3.1 0) (size 2.3 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8a1aa6fe-caca-4e4d-9ffa-b17fcb13cd23))
-  (model ":BJR_KICAD:21xt/00-3dmodels/TAJD106M035RNJ.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPPM7344X310N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CASE D")
+	(tags "Capacitor Polarised")
+	(property "Reference" "REF**"
+		(at 0 0 -90)
+		(layer "F.SilkS")
+		(uuid "e3e7227c-ee20-4463-832e-4f9aa8f9d73f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TAJD106M035RNJ"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d399f9a2-e6a0-420c-acfb-aa4c09c5b56b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:CAPPM7344X310N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a5dfc9e-4479-486f-8a02-a4a6904feb8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://datasheets.avx.com/TAJ.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e06569f-c01c-4967-b0f3-ab677edbc54d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tantalum Capacitors - Solid SMD 35volts 10uF 20%"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cd53c4a-2fff-42dc-af5f-cddea666089f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "3.1"
+		(at 27.83 56.07 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f608e9d0-db30-43b2-ac86-90b8d42a6ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Kyocera AVX"
+		(at 27.83 56.07 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd1966c1-6afd-4ab9-be22-e47a2ccf9d1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TAJD106M035RNJ"
+		(at 27.83 56.07 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11bdd8fd-f40d-4be7-b868-de93825e5dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "581-TAJD106M035R"
+		(at 27.83 56.07 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9e58200-ec07-4d3e-b69e-25b2ee2026be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TAJD106M035RNJ?qs=srZBJ3srS4AUaIC0Brj4CQ%3D%3D"
+		(at 27.83 56.07 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d9a133e-1ae9-499a-a480-90876629f0a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.65 2.175)
+		(end 3.65 2.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04eac6a2-14ee-4f30-aa76-d665f72f6ef7")
+	)
+	(fp_line
+		(start 3.65 -2.175)
+		(end -4.25 -2.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30d7917e-b3c9-419b-9594-7d9cc5d13319")
+	)
+	(fp_line
+		(start -4.5 -2.5)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abafaa45-4fa5-4e4e-b047-ff12e8f4e71a")
+	)
+	(fp_line
+		(start -4.5 2.5)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "251488c4-d154-42bc-aefa-2588fe9e1464")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end 4.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "868e5289-d453-4ea3-b13a-948cce5ad507")
+	)
+	(fp_line
+		(start 4.5 2.5)
+		(end -4.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f0c040d-1932-4287-b3d9-614a266c4148")
+	)
+	(fp_line
+		(start -3.65 -2.175)
+		(end 3.65 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7109da8-31f6-4601-a843-d0710b2d7744")
+	)
+	(fp_line
+		(start -3.65 -1.025)
+		(end -2.5 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97c3e662-1601-47ba-a02d-fc57a9620b81")
+	)
+	(fp_line
+		(start -3.65 2.175)
+		(end -3.65 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bb61b34-10f5-42ec-b897-26cb2c7d2fa9")
+	)
+	(fp_line
+		(start 3.65 -2.175)
+		(end 3.65 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d1660db-0aab-4653-8435-929e5669c411")
+	)
+	(fp_line
+		(start 3.65 2.175)
+		(end -3.65 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f43b028-6258-4ce2-9f93-b8dbe1d19619")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "7e9bf15f-3cb5-4020-a320-bccac99031d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.1 0)
+		(size 2.3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a35b916e-2f2f-403f-9c84-11db8abd5ab4")
+	)
+	(pad "2" smd rect
+		(at 3.1 0)
+		(size 2.3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85e0d0d4-3845-422c-ada2-43ee57fb656f")
+	)
+	(model ":BJR_KICAD:21xt/00-3dmodels/TAJD106M035RNJ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

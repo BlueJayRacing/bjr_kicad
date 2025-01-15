@@ -6,10 +6,10 @@
 	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
-		(at 0 -1.16 0)
+		(at -0.17 -2.64 90)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c29f20e7-2e2f-4c0c-9b4d-5e90acabd9e5")
+		(uuid "8f97f77a-c337-432a-813d-728f855a524d")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "1uF"
 		(at 0 1.16 0)
 		(layer "F.Fab")
-		(uuid "60cae852-e9e9-4643-8b40-d726c9ec2f58")
+		(uuid "eb7f40cf-f93e-414a-afc5-b0c17188c066")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +28,11 @@
 			)
 		)
 	)
-	(property "Footprint" "21xt_footprints:C_0402_1005Metric"
+	(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "02b75f3b-30b8-49c4-8725-33e1d0e437b9")
+		(uuid "9c6f5294-566b-4dae-acd0-c8aaea9e7982")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d46f64dc-42bb-45d9-bf68-1a6f915ffe34")
+		(uuid "2526a94f-f490-424d-b9ba-e7bec8219109")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc19e7b1-aa52-466b-be00-c2bb06dbec1b")
+		(uuid "bace9f8b-e064-4606-9da3-924524736d19")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9ad3a109-cdb5-45fe-8e2a-04bb45403793")
+		(uuid "c8e45616-e339-4c03-b32f-156815531dfb")
 	)
 	(fp_line
 		(start -0.107836 0.36)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3932cfd8-6579-417d-a256-cc8a9217a767")
+		(uuid "f60625f9-5891-4abb-ac04-7705a012f588")
 	)
 	(fp_line
 		(start -0.91 -0.46)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "57773080-5819-45fe-b565-556b451a8475")
+		(uuid "68223e03-fef1-468c-8972-e39eef5e6833")
 	)
 	(fp_line
 		(start -0.91 0.46)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f3e3babc-a9a1-4200-bd57-48888c956478")
+		(uuid "3a4d7ffc-c733-4e70-927b-985fa554a1a2")
 	)
 	(fp_line
 		(start 0.91 -0.46)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bcb03133-1567-4a8b-bd40-ddb97d724fb1")
+		(uuid "26e5a310-6d6b-478c-8e6c-eed8bca51d89")
 	)
 	(fp_line
 		(start 0.91 0.46)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a298385f-10a9-4f89-8432-da79b45f03aa")
+		(uuid "2931aa4d-3297-4c73-950c-3f63d5e97385")
 	)
 	(fp_line
 		(start -0.5 -0.25)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c6c4c08a-0e1c-4a1b-8c98-b5348951216d")
+		(uuid "ddc2861f-8d62-48f2-87ae-a3653b3331c9")
 	)
 	(fp_line
 		(start -0.5 0.25)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0888e772-ae8d-4770-83dc-c2733c27c570")
+		(uuid "90b5dfaf-de76-4f31-aece-8670b9763156")
 	)
 	(fp_line
 		(start 0.5 -0.25)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "79a21606-627a-4301-b499-d77c9e82c36b")
+		(uuid "46cece33-5283-4822-9774-e047c2c6b239")
 	)
 	(fp_line
 		(start 0.5 0.25)
@@ -163,12 +163,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8107d43f-b7c2-414e-92ba-79d9a2019e75")
+		(uuid "43caaefd-7af1-40f9-baea-b59d42d4260f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f99aadab-e8c2-44f3-bd53-bb83f6b86b88")
+		(uuid "04d781c9-0431-4664-88f9-b139b81f05ad")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -181,14 +181,14 @@
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "624258c4-5274-46ca-a748-e70ea1bf70b0")
+		(uuid "fde5d8d7-4c53-4701-9189-902973156bd0")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "40aee6d5-046e-4aaf-8278-fd732016c90f")
+		(uuid "c03bfb43-74b2-4a48-b4bd-6890d3241702")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 		(offset
