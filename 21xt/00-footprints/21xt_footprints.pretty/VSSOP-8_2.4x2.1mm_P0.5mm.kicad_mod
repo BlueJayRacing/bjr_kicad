@@ -1,0 +1,358 @@
+(footprint "VSSOP-8_2.4x2.1mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.ti.com/lit/ml/mpds050d/mpds050d.pdf")
+	(tags "VSSOP DCU R-PDSO-G8 Pitch0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d9800f4-f77b-45b0-8e69-ed2144d2a97b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74LVC2T45DCTTG4"
+		(at 0 2.413 0)
+		(layer "F.Fab")
+		(uuid "903b8f56-4641-4a46-a181-7577a853d543")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:VSSOP-8_2.4x2.1mm_P0.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68137f1a-43c0-4f87-8b62-cd87de86d46a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee4d7e5d-68f1-472b-a3f7-8ec71fa1914b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TEXAS INSTRUMENTS - SN74LVC2T45DCTTG4 - TRANSCEIVER DUAL SUPPLY, 74LVC2T45"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6df52765-f4d5-44bf-b611-5d903b23e7b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e572f7ab-fb2c-4c6e-a1f6-402311fa4b24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55eeebc8-92b8-47b4-85f7-bd799317cdee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SN74LVC2T45DCTTG4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0356213-9ff4-4bfe-aebf-d0d3e70b1030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-N74LVC2T45DCTTG4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49ddd800-2a20-4e39-94fe-9d45e9de9726")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2T45DCTTG4?qs=XGzIaZb%2FFYLbZIU5ydXfng%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8337983d-2e73-4d8c-b75e-b509a4ccd996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -1.2)
+		(end -1.3 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04664354-92d7-442b-a4f6-78a4653d8c30")
+	)
+	(fp_line
+		(start -1.3 -1.1)
+		(end -1.7 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c6c6500-9d9e-40a6-a95d-529e74f5ee6b")
+	)
+	(fp_line
+		(start -1.3 1.2)
+		(end -1.3 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0218c67-2c50-43b4-8778-84163617fd92")
+	)
+	(fp_line
+		(start -1.3 1.2)
+		(end 1.3 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8007233-8abe-4aa4-bf5d-c5a3e2f2721a")
+	)
+	(fp_line
+		(start 1.3 -1.2)
+		(end -1.3 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b3d6894-43ce-439d-9176-bb2a2105bdd2")
+	)
+	(fp_line
+		(start 1.3 -1)
+		(end 1.3 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1301e5d-fc9f-4ab2-8d23-a2592555cef6")
+	)
+	(fp_line
+		(start 1.3 1.2)
+		(end 1.3 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c753ebe9-a504-4c23-9c3a-c04de2326e30")
+	)
+	(fp_line
+		(start -2.18 -1.3)
+		(end 2.18 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4660230b-9067-48d4-907a-e62b6a14068d")
+	)
+	(fp_line
+		(start -2.18 1.3)
+		(end -2.18 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2827d041-d591-4058-b821-0c19b4aa85f0")
+	)
+	(fp_line
+		(start 2.18 -1.3)
+		(end 2.18 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed885bb-38b1-4d04-933f-539616b7db13")
+	)
+	(fp_line
+		(start 2.18 1.3)
+		(end -2.18 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17ed7dd2-c529-42e0-851b-d1e14db838fe")
+	)
+	(fp_line
+		(start -1.2 -0.7)
+		(end -1.2 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "853be835-6b36-4c13-a653-90414e494d09")
+	)
+	(fp_line
+		(start -1.2 1.05)
+		(end 1.2 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c3f254c-36ee-4942-8b1d-845d7f0be58f")
+	)
+	(fp_line
+		(start -0.9 -1.05)
+		(end -1.2 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdcbaec0-15fc-4c73-a758-8e8ad435ef4e")
+	)
+	(fp_line
+		(start 1.2 -1.05)
+		(end -0.9 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1986165f-aaae-4669-a0a9-095c04da632f")
+	)
+	(fp_line
+		(start 1.2 1.05)
+		(end 1.2 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f70b4db-998b-4d57-9225-44f8a5613059")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b3ec1b0e-5300-4381-954f-161d0c9a1e42")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.55 -0.75)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4068b5e1-c697-453f-8915-70e8156ccc02")
+	)
+	(pad "2" smd rect
+		(at -1.55 -0.25)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e2cef96c-7c7c-4a7c-8c59-202ca9c743f8")
+	)
+	(pad "3" smd rect
+		(at -1.55 0.25)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f5b8662-77cc-45bd-bfb0-1d7e2304d83d")
+	)
+	(pad "4" smd rect
+		(at -1.55 0.75)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9b4ed1f8-b3a6-4166-afcb-96a6cb2088d7")
+	)
+	(pad "5" smd rect
+		(at 1.55 0.75)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "827a4955-b59a-4744-b0fa-a5b9491cca11")
+	)
+	(pad "6" smd rect
+		(at 1.55 0.25)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b2afadd4-9ce2-490b-941c-26f684c947f8")
+	)
+	(pad "7" smd rect
+		(at 1.55 -0.25)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50798c24-1a84-46d9-9f9b-96139bcfd42e")
+	)
+	(pad "8" smd rect
+		(at 1.55 -0.75)
+		(size 0.75 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94da6e52-90d1-4026-a390-aa3da9588cfa")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.4x2.1mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
