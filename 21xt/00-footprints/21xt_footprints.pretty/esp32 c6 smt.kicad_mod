@@ -494,16 +494,6 @@
 		(uuid "f541cb76-8519-47a5-aa79-7fba48a92633")
 	)
 	(pad "15" thru_hole roundrect
-		(at -2.008 5.5532 270)
-		(size 3 1.7)
-		(drill oval 1.75 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.0508)
-		(uuid "80d5b57a-8a2d-4b9e-b260-039f65d6087d")
-	)
-	(pad "16" thru_hole roundrect
 		(at 0.532 5.5532 270)
 		(size 3 1.7)
 		(drill oval 1.75 1.1)
@@ -512,6 +502,16 @@
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.0508)
 		(uuid "19b7f331-7cb9-4570-a32a-04d3d2ea6a83")
+	)
+	(pad "16" thru_hole roundrect
+		(at -2.008 5.5532 270)
+		(size 3 1.7)
+		(drill oval 1.75 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(uuid "80d5b57a-8a2d-4b9e-b260-039f65d6087d")
 	)
 	(pad "17" thru_hole circle
 		(at -1.5 -8.62)
