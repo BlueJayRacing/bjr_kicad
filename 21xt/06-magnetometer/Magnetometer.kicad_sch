@@ -1938,6 +1938,12 @@
 		(uuid "3179d356-e84e-4e5a-8ca1-a7d3df759774")
 	)
 	(junction
+		(at 118.11 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ecb7ea-fafd-4ea1-bebb-80c78eb522aa")
+	)
+	(junction
 		(at 34.29 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1960,12 +1966,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b26cf77-2335-42ad-8cf8-359a9ad4599d")
-	)
-	(junction
-		(at 118.11 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b10cce59-0096-485b-b627-216ad140778f")
 	)
 	(junction
 		(at 43.18 88.9)
@@ -2072,6 +2072,16 @@
 			(type default)
 		)
 		(uuid "14e0217b-3a82-4b1f-9cbd-4b1ccb70cb4a")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150ebb6c-2589-4a7b-bfc8-46c4675e2df7")
 	)
 	(wire
 		(pts
@@ -2245,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 118.11 91.44)
+			(xy 107.95 91.44) (xy 110.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2412,16 +2422,6 @@
 			(type default)
 		)
 		(uuid "b9653d48-01f6-4701-b4f9-ec8c6da61d81")
-	)
-	(wire
-		(pts
-			(xy 125.73 91.44) (xy 127 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be428902-9b6a-49e8-9d46-f428cab431a1")
 	)
 	(wire
 		(pts
@@ -2762,7 +2762,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 110.49 91.44 180)
+		(at 107.95 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2772,7 +2772,7 @@
 		)
 		(uuid "4c3b8ca9-fe6a-4937-a9ee-78eeaf731e5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9972 91.44 0)
+			(at 101.4572 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,6 +3557,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 114.3 91.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e2654ef-a74f-46fb-a0af-92b4eb92196c")
+		(property "Reference" "JP1"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MagnetometerFootprints:SolderJumper"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cf99b58-3846-4f4b-83cc-ccd9d1c4f94f")
+		)
+		(pin "1"
+			(uuid "def83cf0-4a1c-4a4a-90df-67924ab55861")
+		)
+		(instances
+			(project "Magnetometer"
+				(path "/7aa67d3c-71d8-4831-bdde-1dffcd9aa2d3"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 113.03 116.84 90)
 		(unit 1)
@@ -4220,74 +4288,6 @@
 			(project ""
 				(path "/7aa67d3c-71d8-4831-bdde-1dffcd9aa2d3"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 121.92 91.44 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a72bed10-b7d9-454f-826d-9561d8cc33a0")
-		(property "Reference" "JP1"
-			(at 121.92 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 121.92 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MagnetometerFootprints:SolderJumper"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e261d52d-d45e-44bb-bf2b-20c8de6503da")
-		)
-		(pin "1"
-			(uuid "c6f780ec-b344-4717-9c14-bc2317666c10")
-		)
-		(instances
-			(project ""
-				(path "/7aa67d3c-71d8-4831-bdde-1dffcd9aa2d3"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
