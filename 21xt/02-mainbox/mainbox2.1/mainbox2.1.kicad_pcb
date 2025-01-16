@@ -18882,7 +18882,7 @@
 		(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x20 2.54mm double row")
 		(property "Reference" "J10"
-			(at -0.43 -2.874 0)
+			(at -0.43 -2.874 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "be491163-d0cc-4fc4-a4f7-107255d11511")
@@ -18895,7 +18895,7 @@
 			)
 		)
 		(property "Value" "Conn_02x20_Odd_Even"
-			(at -2.79 -23.17 0)
+			(at -2.79 -23.17 180)
 			(layer "B.Fab")
 			(uuid "e9446bb5-e222-4371-8682-203dc8d1a774")
 			(effects
@@ -19117,7 +19117,7 @@
 			(uuid "b776b79c-25dc-47b5-a601-75a1ff737088")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -24.13 0)
+			(at 1.27 -24.13 180)
 			(layer "B.Fab")
 			(uuid "09d040b3-590f-42da-bac1-f009e6e760b0")
 			(effects
@@ -19436,15 +19436,312 @@
 			(pintype "passive")
 			(uuid "81478a4b-64b4-4b5e-89f9-b3f9eedf7b1b")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl"
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.54 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -2.54 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -5.08 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -7.62 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -10.16 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -7.62 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -10.16 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -15.24 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -15.24 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -17.78 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -20.32 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -22.86 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -22.86 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -25.4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -25.4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -27.94 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -27.94 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -30.48 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -30.48 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -33.02 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -33.02 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -35.56 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -35.56 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -38.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -40.64 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 2.54 -40.64 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -43.18 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${BJR_KICAD}/21xt/00-3dmodels/0906-0-15-20-76-14-11-0.step"
+			(offset
+				(xyz 0 -45.72 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)

@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|46270000|23270000|3a872803-1309-455c-a23a-b8e3497c097a|faf6b140-dfcb-479b-b0b0-252c30d84143",
+        "clearance|46440000|23760000|62635fa4-b4c4-472c-89e2-47a267bf32b8|faf6b140-dfcb-479b-b0b0-252c30d84143"
+      ],
       "meta": {
         "version": 2
       },
@@ -96,11 +99,11 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
