@@ -1,0 +1,160 @@
+(footprint "m8 pp bulkhead 09 4912 081 04"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5685023d-fe20-4fd7-8d76-829c7d77dbd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "m8 pp bulkhead 09 4912 081 04"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da5dcc98-d28b-4376-86a5-9412a0184686")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15fc2024-bb1c-4cfc-8bff-5629296c30a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f891c0b8-3e3a-4b84-929c-6d0ef569a6de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01fc51e6-a81d-4d58-bb2f-c7164f9d2178")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 1.1 -1.1)
+		(end 5.35 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0849d2a9-accb-4cc4-8967-af55cfb3bf66")
+	)
+	(fp_circle
+		(center 1.1 -1.1)
+		(end 5.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "96bbe53a-649c-455c-a4c2-6513ebfa86c8")
+	)
+	(fp_text user "*"
+		(at -2.57 3.37 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "97622e38-2ef7-4e9c-9bca-e1fc83b7a7cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d0ef9e1-41c7-47ec-ac5b-aa1bea267eb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2de679dc-818a-4210-bf52-820fc2df7f41")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.2)
+		(size 1.8 1.8)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4ed0f8c-e1da-43a7-9ee3-88d994e08acd")
+	)
+	(pad "3" thru_hole circle
+		(at 2.2 -2.2)
+		(size 1.8 1.8)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9acfed9-a1ba-4f09-9105-d1b568da7be8")
+	)
+	(pad "4" thru_hole circle
+		(at 2.2 0)
+		(size 1.8 1.8)
+		(drill 1.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baa66491-6b9d-4cde-8967-5630ca9b63f8")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/m8 pp bulkhead 09_4912_081_04.stp"
+		(offset
+			(xyz 4.25 6 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 -48)
+		)
+	)
+)
