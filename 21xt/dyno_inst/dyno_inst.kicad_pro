@@ -427,7 +427,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "dynoinst_fp",
+      "21xt_footprints"
+    ],
     "pinned_symbol_libs": [
       "dyno_inst_sym",
       "21xt_symbols"
@@ -581,10 +584,6 @@
     [
       "05243b78-baec-4481-b20a-29b24ceb27e6",
       "Root"
-    ],
-    [
-      "9f5af895-dfa2-4653-9755-a838f108fdbe",
-      "inputprot"
     ],
     [
       "bee48fa4-d7fd-4f5e-9b8a-046694017c94",
