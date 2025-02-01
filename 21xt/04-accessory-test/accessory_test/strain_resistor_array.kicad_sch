@@ -477,6 +477,12 @@
 		(uuid "e01c7723-4715-416f-8084-95e0af44db66")
 	)
 	(junction
+		(at 261.62 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f280b859-37ec-44af-9cb5-0ef9f3b511de")
+	)
+	(junction
 		(at 130.81 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -614,6 +620,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 104.14) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25406d81-e53f-4275-83a0-38872417608f")
+	)
+	(wire
+		(pts
 			(xy 200.66 109.22) (xy 200.66 100.33)
 		)
 		(stroke
@@ -634,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 109.22) (xy 217.17 109.22)
+			(xy 266.7 109.22) (xy 261.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -834,6 +850,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 104.14) (xy 261.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afee33cf-2261-4a1d-b11c-229b46cd2706")
+	)
+	(wire
+		(pts
 			(xy 130.81 67.31) (xy 130.81 55.88)
 		)
 		(stroke
@@ -954,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ac92f2-a14a-47aa-816f-45741b4b8252")
+	)
+	(wire
+		(pts
 			(xy 167.64 153.67) (xy 162.56 153.67)
 		)
 		(stroke
@@ -1042,7 +1078,29 @@
 		)
 		(uuid "f83b8cb2-5d05-4d55-aa6f-4cdc898218c5")
 	)
-	(global_label "QS2-"
+	(global_label "QS2S-"
+		(shape output)
+		(at 261.62 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "166873eb-8cb6-41ed-a0e3-2edb647199a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 94.6234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QS2F-"
 		(shape output)
 		(at 266.7 111.76 270)
 		(fields_autoplaced yes)
@@ -1054,7 +1112,7 @@
 		)
 		(uuid "198eb1e6-8638-404b-97b2-bb8c00a5eb9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 120.0671 90)
+			(at 266.7 121.1557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1144,7 @@
 			)
 		)
 	)
-	(global_label "QS1-"
+	(global_label "QS1F-"
 		(shape output)
 		(at 270.51 109.22 0)
 		(fields_autoplaced yes)
@@ -1098,7 +1156,29 @@
 		)
 		(uuid "4afc3eef-f03d-4f6c-8218-bb034387c4cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.8171 109.22 0)
+			(at 279.9057 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QS1S-"
+		(shape output)
+		(at 266.7 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69abdeee-7ac7-4332-a2b6-dbe123ab2f4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 94.6234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1493,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "100kΩ"
 			(at 44.45 72.898 90)
 			(effects
 				(font
