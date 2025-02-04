@@ -2159,6 +2159,28 @@
 			)
 		)
 	)
+	(global_label "MISO1"
+		(shape output)
+		(at 157.48 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69d0a86b-9de2-414d-a1e5-524f1f7cb33d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6891 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QS2S"
 		(shape input)
 		(at 217.17 58.42 180)
@@ -2621,28 +2643,6 @@
 			)
 		)
 	)
-	(global_label "MISO1"
-		(shape output)
-		(at 165.1 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef8dd586-62a1-48f1-9a72-ba5cb41bc345")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3091 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DAC_BIAS_A"
 		(shape input)
 		(at 110.49 137.16 0)
@@ -2955,6 +2955,73 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/b6f6bfe0-a045-4f7d-b9ad-21ddcdc907e8"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31a95e59-c535-4e28-8b02-21df314664c4")
+		(property "Reference" "R32"
+			(at 166.37 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43R"
+			(at 161.29 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df0b2caa-86ab-4a77-b632-0803ae71979d")
+		)
+		(pin "2"
+			(uuid "6016eec1-cf28-4afb-baed-60e109df3b39")
+		)
+		(instances
+			(project "accessory_v3"
+				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/b6f6bfe0-a045-4f7d-b9ad-21ddcdc907e8"
+					(reference "R32")
 					(unit 1)
 				)
 			)

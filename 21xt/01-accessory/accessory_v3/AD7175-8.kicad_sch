@@ -1356,12 +1356,6 @@
 		(uuid "4ed61412-b0ee-4d3c-aaa8-3115c50b6d25")
 	)
 	(junction
-		(at 167.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52e2520f-6868-4f21-9333-d1df21eaec6c")
-	)
-	(junction
 		(at 139.7 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1384,12 +1378,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83fac6bd-935c-4089-8ab6-4edfcca979cd")
-	)
-	(junction
-		(at 160.02 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba1b4baa-df6f-472a-b099-e54b68b63ecc")
 	)
 	(junction
 		(at 187.96 92.71)
@@ -1607,23 +1595,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 121.92) (xy 160.02 132.08)
+			(xy 160.02 121.92) (xy 160.02 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab1f6b94-3575-4823-8f38-a036a62cdd17")
-	)
-	(wire
-		(pts
-			(xy 167.64 127) (xy 167.64 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad601dfb-3e79-4f80-a4ad-8acc232584ee")
 	)
 	(wire
 		(pts
@@ -1714,16 +1692,6 @@
 			(type default)
 		)
 		(uuid "eeae10f4-3fc4-4d4d-8cfe-2c374a8a19fd")
-	)
-	(wire
-		(pts
-			(xy 160.02 132.08) (xy 160.02 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5066c14-2fb0-40bf-9e16-802e75fd1e07")
 	)
 	(wire
 		(pts
@@ -1999,28 +1967,6 @@
 			)
 		)
 	)
-	(global_label "MISO"
-		(shape output)
-		(at 144.78 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e84a99d-a0b5-4ba8-9c9b-86235cb2fc64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 128.2314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 147.32 120.65 270)
@@ -2127,6 +2073,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape output)
+		(at 144.78 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6381296-2c64-4410-8cbf-4c6f90b37456")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 135.8514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2951,6 +2919,73 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/fd0387d0-8372-46c3-bbf4-f3261b923450"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87334085-761c-4413-aef5-3264a69dfdff")
+		(property "Reference" "R31"
+			(at 142.24 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20R"
+			(at 144.78 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.558 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08c99a84-50ad-4df3-bd8c-5455e050cc04")
+		)
+		(pin "2"
+			(uuid "f9fae3da-16e8-453b-a9d2-0f6440e888f4")
+		)
+		(instances
+			(project "accessory_v3"
+				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/fd0387d0-8372-46c3-bbf4-f3261b923450"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3925,73 +3960,6 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/fd0387d0-8372-46c3-bbf4-f3261b923450"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eda735c3-5bac-432f-98e3-64b07fc56481")
-		(property "Reference" "C38"
-			(at 163.83 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 163.83 128.905 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 167.64 131.1148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.274 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0484ddd-8ed6-4b15-9dc7-a41b6013a68d")
-		)
-		(pin "2"
-			(uuid "17296d97-ede0-4eaf-a419-7554560a6dfb")
-		)
-		(instances
-			(project "accessory_v2"
-				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/fd0387d0-8372-46c3-bbf4-f3261b923450"
-					(reference "C38")
 					(unit 1)
 				)
 			)

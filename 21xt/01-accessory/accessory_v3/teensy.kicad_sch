@@ -5,6 +5,229 @@
 	(uuid "f3184895-7a66-453a-ab94-dc8aaec4cc61")
 	(paper "A4")
 	(lib_symbols
+		(symbol "21xt_symbols:AD8591ARTZ-REEL7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AD8591ARTZ-REEL7"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-6N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/AD8591ARTZ-REEL7.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "AD8591ARTZ-REEL7 Analog Devices, Precision, Op Amp, RRIO, 3MHz 1 MHz, 2.5  6 V, 6-Pin SOT-23 CMOS Single-Supply, Rail-to-Rail Input/Output Operational Amplifiers with Shutdown"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "584-AD8591ARTZ-R7"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8591ARTZ-REEL7?qs=%2FtpEQrCGXCzQDNVfr2%252Bf9g%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AD8591ARTZ-REEL7"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AD8591ARTZ-REEL7_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "-INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "21xt_symbols:DEV-16771"
 			(pin_names
 				(offset 1.016)
@@ -2024,6 +2247,102 @@
 				)
 			)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_names
@@ -2133,10 +2452,22 @@
 		)
 	)
 	(junction
+		(at 180.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231f843b-f5df-4924-8fdf-57a94c785038")
+	)
+	(junction
 		(at 39.37 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8a40f77-fa97-480d-98a9-042606bd013c")
+	)
+	(junction
+		(at 195.58 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beb5716e-6745-499e-9f83-6b7573d65ca8")
 	)
 	(junction
 		(at 85.09 55.88)
@@ -2288,6 +2619,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 30.48) (xy 208.28 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f019e05-47e9-403b-b59c-092c80313534")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b17a1e1-6f61-4262-b5f3-ace3434412cf")
+	)
+	(wire
+		(pts
 			(xy 86.36 55.88) (xy 85.09 55.88)
 		)
 		(stroke
@@ -2308,13 +2659,33 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 196.85 46.99)
+			(xy 248.92 35.56) (xy 248.92 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7423a305-44cc-427b-934a-79d3c560b2f0")
+		(uuid "618f0c1a-8d67-45ab-862b-140eeb994d0f")
+	)
+	(wire
+		(pts
+			(xy 236.22 35.56) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659a2573-5e18-43d4-96e1-e194409a184e")
+	)
+	(wire
+		(pts
+			(xy 236.22 30.48) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779bbf55-89cf-4b45-aed6-5c82082b4dcf")
 	)
 	(wire
 		(pts
@@ -2328,6 +2699,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837adcdc-e9c9-4394-83be-bd6523996023")
+	)
+	(wire
+		(pts
+			(xy 194.31 30.48) (xy 195.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c16f01-4381-438e-825c-c184a6e819ea")
+	)
+	(wire
+		(pts
 			(xy 85.09 55.88) (xy 80.01 55.88)
 		)
 		(stroke
@@ -2335,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "9f76c8e1-1122-41f4-8266-4d4889af91f6")
+	)
+	(wire
+		(pts
+			(xy 195.58 30.48) (xy 198.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d09baa-948f-432b-aee7-47b8388de567")
 	)
 	(wire
 		(pts
@@ -2358,13 +2759,43 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 207.01 120.65)
+			(xy 195.58 24.13) (xy 195.58 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aabe81da-47ec-4a91-a496-d64b3754c161")
+		(uuid "acc80230-0b4f-402c-89ca-ae645adbab86")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba268b91-6cb5-4c06-8dfe-c61ce2c00d91")
+	)
+	(wire
+		(pts
+			(xy 248.92 24.13) (xy 195.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae7362f-d738-41c8-ae45-225223750dea")
+	)
+	(wire
+		(pts
+			(xy 177.8 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbacf59e-ee95-4515-ba2e-fbee316e69f9")
 	)
 	(wire
 		(pts
@@ -2375,6 +2806,36 @@
 			(type default)
 		)
 		(uuid "d5b4a53a-0de6-4355-b897-5371ef33ef5a")
+	)
+	(wire
+		(pts
+			(xy 199.39 120.65) (xy 210.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79851aa-7178-46d2-bef1-c6775fe22d3b")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a55217-50cb-45f0-bb6c-7c5701189549")
+	)
+	(wire
+		(pts
+			(xy 200.66 35.56) (xy 208.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2a90ba-29ae-4d24-a6fb-000a87beb5a7")
 	)
 	(rectangle
 		(start 19.05 35.56)
@@ -2487,6 +2948,16 @@
 		)
 		(uuid "bf00b478-16ae-480f-a159-d2b911dc9600")
 	)
+	(text "OP-AMP Buffer"
+		(exclude_from_sim no)
+		(at 211.328 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0761253-78ad-4b32-aba8-7acce53cb546")
+	)
 	(global_label "5v_supply"
 		(shape input)
 		(at 134.62 54.61 180)
@@ -2505,6 +2976,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3_pre"
+		(shape output)
+		(at 181.61 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12536a1f-6153-4d4d-b9a0-058e4653a7b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.9732 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2883,24 +3376,24 @@
 			)
 		)
 	)
-	(global_label "3v3"
-		(shape output)
-		(at 177.8 49.53 0)
+	(global_label "3v3_pre"
+		(shape input)
+		(at 200.66 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7adaef1d-0472-41a2-9655-9c5dd643e5fb")
+		(uuid "8aaebbd8-cc5a-48bb-8a13-ab29400da32b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1718 49.53 0)
+			(at 190.2968 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3103,28 +3596,6 @@
 			)
 		)
 	)
-	(global_label "3v3"
-		(shape output)
-		(at 196.85 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af868771-e8fa-4c66-ab9f-e4b6132c742b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2218 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SYNC"
 		(shape input)
 		(at 137.16 92.71 180)
@@ -3213,6 +3684,28 @@
 			)
 		)
 	)
+	(global_label "3v3"
+		(shape output)
+		(at 194.31 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0cca7ce-4291-45ef-a414-3b28e7ec7653")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.9382 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5v_supply"
 		(shape input)
 		(at 49.53 43.18 0)
@@ -3226,6 +3719,28 @@
 		(uuid "d3bde9be-586b-4e1c-907f-13d7e812ea94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.7678 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v_supply"
+		(shape input)
+		(at 236.22 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d809f2b3-b825-40ac-9eb9-486caf761e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.4578 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 181.61 90.17 90)
 			(effects
 				(font
@@ -3981,23 +4496,24 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 120.65 90)
+		(at 201.93 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "590f1524-1706-4daa-a4d2-5506b4c07601")
-		(property "Reference" "R44"
-			(at 208.28 120.65 90)
+		(fields_autoplaced yes)
+		(uuid "61ce2525-f59d-446f-9a2b-9293d9c06b60")
+		(property "Reference" "R33"
+			(at 201.93 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "20R"
-			(at 203.2 120.65 90)
+		(property "Value" "20"
+			(at 201.93 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4521,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.2 122.428 90)
+			(at 201.93 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 120.65 0)
+			(at 201.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,8 +4538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 120.65 0)
+		(property "Description" "Resistor"
+			(at 201.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,15 +4548,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "36a5d476-c767-4bf0-98a5-a11fbab6499b")
+			(uuid "4b5eb720-1ccb-4b8f-89d3-0f490b3ecfb6")
 		)
 		(pin "2"
-			(uuid "5685ff69-7e01-4e8f-8fab-e3d461cfcb00")
+			(uuid "f876f2e8-884f-4711-bbe1-f5b498f5bd20")
 		)
 		(instances
-			(project "accessory_v2"
+			(project ""
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
-					(reference "R44")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4129,7 +4645,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 181.61 100.33 90)
 			(effects
 				(font
@@ -4329,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 207.01 128.27 90)
 			(effects
 				(font
@@ -4833,7 +5349,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 181.61 107.95 90)
 			(effects
 				(font
@@ -5237,7 +5753,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 133.35 105.41 90)
 			(effects
 				(font
@@ -5359,73 +5875,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0fbf2db-e6c0-44e5-b776-50040750ff76")
-		(property "Reference" "R41"
-			(at 181.61 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20R"
-			(at 181.61 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 181.61 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ff824d5-9ec9-4c77-bab6-4e1727b46847")
-		)
-		(pin "2"
-			(uuid "bae932c6-4bf4-4558-9a37-c410c70c4478")
-		)
-		(instances
-			(project "accessory_v2"
-				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 49.53 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5494,6 +5943,205 @@
 		)
 	)
 	(symbol
+		(lib_id "21xt_symbols:AD8591ARTZ-REEL7")
+		(at 208.28 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed046ecf-c75d-4975-8fb3-b71a22f091b2")
+		(property "Reference" "IC7"
+			(at 222.25 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8591ARTZ-REEL7"
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "21xt_footprints:SOT95P280X145-6N"
+			(at 232.41 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ms.componentsearchengine.com/Datasheets/2/AD8591ARTZ-REEL7.pdf"
+			(at 232.41 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "AD8591ARTZ-REEL7 Analog Devices, Precision, Op Amp, RRIO, 3MHz 1 MHz, 2.5  6 V, 6-Pin SOT-23 CMOS Single-Supply, Rail-to-Rail Input/Output Operational Amplifiers with Shutdown"
+			(at 208.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 232.41 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-AD8591ARTZ-R7"
+			(at 232.41 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8591ARTZ-REEL7?qs=%2FtpEQrCGXCzQDNVfr2%252Bf9g%3D%3D"
+			(at 232.41 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 232.41 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AD8591ARTZ-REEL7"
+			(at 232.41 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5883cba1-2955-4391-ba0b-b3f6463467c6")
+		)
+		(pin "5"
+			(uuid "75703384-b418-48b9-b619-89a31e322076")
+		)
+		(pin "2"
+			(uuid "d4596c32-a87d-4eb3-bb67-93926429dd36")
+		)
+		(pin "1"
+			(uuid "c108333c-4717-4969-bb77-49c61e6ae74d")
+		)
+		(pin "4"
+			(uuid "92b8162c-9bac-4761-a0db-41af9d4b9fed")
+		)
+		(pin "6"
+			(uuid "d0d6f0a8-00aa-4864-8363-f023d2c9cfa1")
+		)
+		(instances
+			(project ""
+				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 208.28 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d9b895-6eb0-4b70-894d-4b72574a4ec2")
+		(property "Reference" "#PWR0107"
+			(at 201.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 204.47 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30721cec-cf24-435e-807f-94b6d7afe51a")
+		)
+		(instances
+			(project "accessory_v3"
+				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/632615cf-95a2-44a3-ae6d-1166f38afe7f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 203.2 125.73 90)
 		(unit 1)
@@ -5510,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "43R"
 			(at 203.2 125.73 90)
 			(effects
 				(font
