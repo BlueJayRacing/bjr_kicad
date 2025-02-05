@@ -1,0 +1,279 @@
+(footprint "SOT50P160X90-3N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT523")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "REF**"
+		(at -2.27 1.3 90)
+		(layer "F.SilkS")
+		(uuid "ee8cddc0-8b1b-4f14-a381-8b4a0421cfa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMG1012T-7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d012e294-d199-47f7-b002-b639d1200e74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:SOT50P160X90-3N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fd72810-f57e-4184-8249-66ecba09ea4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58b4d62d-cec9-4f0a-b8cb-4b9cd04924bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MOSFET N-Channel 20V 0.63A SOT523 Diodes Inc DMG1012T-7 N-channel MOSFET Transistor, 0.63 A, 20 V, 3-Pin SOT-523"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea829920-178d-4ab6-b3df-1b19bef6abff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.9"
+		(at 158 21.2 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "509c6cc4-771f-407b-b153-7b655a7078fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 158 21.2 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9775d9bd-2e04-4ab6-9d73-31e3c44015d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DMG1012T-7"
+		(at 158 21.2 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a6db4a4-ff99-4cf4-b0e2-12a6ef0dc6e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-DMG1012T-7"
+		(at 158 21.2 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8933154f-8c09-413d-b134-6b33ff653aa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMG1012T-7?qs=vIZ3oKQCLxoEnfyeB0HcGQ%3D%3D"
+		(at 158 21.2 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05784c2d-8941-4e50-a183-e26fdbd5e9a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.95)
+		(end -0.25 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1c2d23e-fa1a-4451-9bbb-5b452dd2fe90")
+	)
+	(fp_line
+		(start -1.5 -1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ed0de68-8d64-4e2f-b979-5fbfe4054e6b")
+	)
+	(fp_line
+		(start -1.5 1.1)
+		(end -1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1487a96f-f48d-47c3-9af6-e2aaf19452e4")
+	)
+	(fp_line
+		(start 1.5 -1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6f99b00-ac1c-440c-a88c-cb18341254dc")
+	)
+	(fp_line
+		(start 1.5 1.1)
+		(end -1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "901454d1-005b-4655-87d9-8fc4e2851077")
+	)
+	(fp_line
+		(start -0.4 -0.8)
+		(end 0.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6740ddb-e668-46f6-bb34-d71a888ff2cb")
+	)
+	(fp_line
+		(start -0.4 -0.3)
+		(end 0.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5b7ecf2-6cc5-4f46-818f-8c9d855877ba")
+	)
+	(fp_line
+		(start -0.4 0.8)
+		(end -0.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22d1dba2-a621-4485-9c14-3111413d879f")
+	)
+	(fp_line
+		(start 0.4 -0.8)
+		(end 0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0e2aa68-05c4-4b70-96ed-d0f26ec48462")
+	)
+	(fp_line
+		(start 0.4 0.8)
+		(end -0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b938cb2-5c1e-453a-82bc-c125d9935961")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1bf56fef-422d-49e1-9154-a42e528d0cda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 -0.5 90)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "64bd0a0a-850c-473e-a64d-f1098d33646e")
+	)
+	(pad "2" smd rect
+		(at -0.75 0.5 90)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a8ce62fb-9e01-4988-ba52-e2b1714d2085")
+	)
+	(pad "3" smd rect
+		(at 0.75 0 90)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8a3f355f-71aa-43d6-b413-80beb21cc4fc")
+	)
+	(model "DMG1012T-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model ":DESKTOP_PCB:DMG1012T-7/3D/DMG1012T-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

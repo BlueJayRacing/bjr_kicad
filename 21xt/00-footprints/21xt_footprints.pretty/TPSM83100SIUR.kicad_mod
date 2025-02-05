@@ -1,39 +1,321 @@
-(module "TPSM83100SIUR" (layer F.Cu)
-  (descr "TPSM83100SIUR-2")
-  (tags "Power Supply")
-  (attr smd)
-  (fp_text reference PS** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "TPSM83100SIUR" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1 1.3) (end 1 1.3) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 1.3) (end 1 -1.3) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -1.3) (end -1 -1.3) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 -1.3) (end -1 1.3) (layer F.Fab) (width 0.1))
-  (fp_line (start -2 -2.3) (end 2 -2.3) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2 -2.3) (end 2 2.3) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2 2.3) (end -2 2.3) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2 2.3) (end -2 -2.3) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.4 -0.9) (end -1.4 -0.9) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.5 -0.9) (end -1.5 -0.9) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -1.45 -0.9) (end -1.400 -0.9) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -1.45 -0.9) (end -1.500 -0.9) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -0.600 -0.9 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.600 -0.3 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -0.600 0.3 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at -0.600 0.9 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 0.600 0.9 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at 0.600 0.3 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 7 smd rect (at 0.600 -0.3 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at 0.600 -0.9 90) (size 0.260 0.530) (layers F.Cu F.Paste F.Mask))
-  (model TPSM83100SIUR.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TPSM83100SIUR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TPSM83100SIUR-2")
+	(tags "Power Supply")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "162c0221-b6d8-41d8-9447-e443bcaad9f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPSM83100SIUR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d333560e-520f-4f66-ab0e-8fa071352c4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:TPSM83100SIUR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678de32e-3f9e-4086-966c-aa18550842f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm83100.pdf?ts=1694232852590&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM83100%252Fpart-details%252FTPSM83100SIUR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de2263b-c600-4770-b7da-b9ab65428de2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5.5v Boost Converter for wsg"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e8d679e-96e9-43bf-ac40-20aa722264be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 11.09 23.73 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cbef6ce-2059-4c3b-a8a5-412ba5ea2c88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 11.09 23.73 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7451adab-88b0-4ba4-bfd4-81e25f38af83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPSM83100SIUR"
+		(at 11.09 23.73 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d4ff51-43cb-4e42-ba94-04f3f98e754b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPSM83100SIUR"
+		(at 11.09 23.73 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ce8cc8-98ea-4940-8fd0-a50bad541b90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSM83100SIUR?qs=17ckDYBRdembJwsYYPsw7Q%3D%3D"
+		(at 11.09 23.73 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "628c84f4-7bf2-47c1-aad7-9485fbd8ef3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.9)
+		(end -1.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84f621c8-297a-4e79-8002-3075725d2d33")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "970edee8-da31-4066-a99b-263d13188b8b")
+	)
+	(fp_arc
+		(start -1.5 -0.9)
+		(mid -1.45 -0.95)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3257c767-59e4-4e10-b590-de9292ec2ccb")
+	)
+	(fp_arc
+		(start -1.4 -0.9)
+		(mid -1.45 -0.85)
+		(end -1.5 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da6c7547-6efb-4f31-bfed-389d54e45cf2")
+	)
+	(fp_line
+		(start -2 -2.3)
+		(end 2 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca93b57a-8bae-44d5-8536-9f7a81ffc193")
+	)
+	(fp_line
+		(start -2 2.3)
+		(end -2 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c6050a7-0d61-49c2-b0cb-60bc47012e70")
+	)
+	(fp_line
+		(start 2 -2.3)
+		(end 2 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f5a58fb-b555-40dd-948f-1f4496eb738a")
+	)
+	(fp_line
+		(start 2 2.3)
+		(end -2 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27ba3d79-d2ee-41f7-abea-3fb84e97b05e")
+	)
+	(fp_line
+		(start -1 -1.3)
+		(end -1 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1cbe190-d223-433b-b3b0-7a684231ed69")
+	)
+	(fp_line
+		(start -1 1.3)
+		(end 1 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a1511a4-a805-4928-9943-4ee13a0037e8")
+	)
+	(fp_line
+		(start 1 -1.3)
+		(end -1 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e6771cf-b281-4bb8-8915-e5bb0afded33")
+	)
+	(fp_line
+		(start 1 1.3)
+		(end 1 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59f61320-72e6-4af2-8ee6-f1826310421c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8f6ee8e6-609e-4728-a47a-f154a3afe8c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.6 -0.9 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6be0acd9-3f5d-4ec6-bb9b-d1db177a20ba")
+	)
+	(pad "2" smd rect
+		(at -0.6 -0.3 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a88b54e1-578c-4b02-b768-1e8f53f66670")
+	)
+	(pad "3" smd rect
+		(at -0.6 0.3 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5ae1908-9978-4cbe-b8d6-50d8a8e47f18")
+	)
+	(pad "4" smd rect
+		(at -0.6 0.9 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e210c48-2652-43c2-9ca0-f6f6808569e4")
+	)
+	(pad "5" smd rect
+		(at 0.6 0.9 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c80e6d7c-e31c-4e78-b93d-97e1e5643845")
+	)
+	(pad "6" smd rect
+		(at 0.6 0.3 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46e95ab7-bad0-4988-bfe9-4b408f9af23c")
+	)
+	(pad "7" smd rect
+		(at 0.6 -0.3 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad6359cd-9546-49a5-83cb-bf134c1274ed")
+	)
+	(pad "8" smd rect
+		(at 0.6 -0.9 90)
+		(size 0.26 0.53)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "707b7953-db0e-44f2-8cf4-56d53a00c6e8")
+	)
+	(model ":BJR_KICAD:21xt/00-3dmodels/TPSM83100SIUR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

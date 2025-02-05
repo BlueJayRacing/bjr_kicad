@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\aaren\Desktop\pcb\bjr_kicad\21xt\03-wireless_strain_gauge\wsg1.0\wsg1.0.kicad_sch</source>
+    <date>1/7/2025 1:23:02 PM</date>
+    <tool>Eeschema 7.0.11</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>wsg1.0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34f40980-6bf3-484f-a1a6-7cb5f7206334</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b94ab39-93c2-4b62-84c4-6a6839805109</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2124d02c-c609-4045-b192-904d4a22a607</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca8ccc98-2916-4ddf-b2a6-b78154538d43</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c8013e2-5183-4d0f-bff3-ec2b3aab5dea</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9474aac-dbe5-4a0c-b6d4-ee0d094a4a4a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3b693bd-df40-4cab-823c-8aa610648a8c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>TAJD106M035RNJ</value>
+      <footprint>21xt_footprints:CAPPM7344X310N</footprint>
+      <datasheet>http://datasheets.avx.com/TAJ.pdf</datasheet>
+      <fields>
+        <field name="Height">3.1</field>
+        <field name="Manufacturer_Name">Kyocera AVX</field>
+        <field name="Manufacturer_Part_Number">TAJD106M035RNJ</field>
+        <field name="Mouser Part Number">581-TAJD106M035R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TAJD106M035RNJ?qs=srZBJ3srS4AUaIC0Brj4CQ%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="TAJD106M035RNJ" description="Tantalum Capacitors - Solid SMD 35volts 10uF 20%"/>
+      <property name="Height" value="3.1"/>
+      <property name="Mouser Part Number" value="581-TAJD106M035R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TAJD106M035RNJ?qs=srZBJ3srS4AUaIC0Brj4CQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Kyocera AVX"/>
+      <property name="Manufacturer_Part_Number" value="TAJD106M035RNJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Tantalum Capacitors - Solid SMD 35volts 10uF 20%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb908ab-33ef-45bd-a6fc-34c2129e0269</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ADS1120IRVAR</value>
+      <footprint>21xt_footprints:QFN50P350X350X100-17N-D</footprint>
+      <datasheet>https://www.arrow.com/en/products/ads1120irvar/texas-instruments</datasheet>
+      <fields>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS1120IRVAR</field>
+        <field name="Mouser Part Number">595-ADS1120IRVAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1120IRVAR?qs=%2Fd%252BFzHvH4c2AzmjDnnpHRQ%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="ADS1120IRVAR" description="16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface"/>
+      <property name="Height" value="1"/>
+      <property name="Mouser Part Number" value="595-ADS1120IRVAR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1120IRVAR?qs=%2Fd%252BFzHvH4c2AzmjDnnpHRQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="ADS1120IRVAR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>682a9b42-bbcc-4056-96b6-de7ee8bdcb1f</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP1502T-50E_CHY</value>
+      <footprint>21xt_footprints:MCP1501-50</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1501-Data-Sheet-DS20005474F.pdf</datasheet>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1501T-50E/CHY</field>
+        <field name="Mouser Part Number">579-MCP1501T-50E/CHY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1501T-50E-CHY?qs=Li%252BoUPsLEnt6h%2FnXwes%252BxQ%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="MCP1501T-50E_CHY" description="Series Voltage Reference IC Fixed 5V V +/-0.1% 20 mA SOT-23-6"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="579-MCP1501T-50E/CHY"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1501T-50E-CHY?qs=Li%252BoUPsLEnt6h%2FnXwes%252BxQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP1501T-50E/CHY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Series Voltage Reference IC Fixed 5V V +/-0.1% 20 mA SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b23b3c4-0f2a-4a60-b574-40fa3ec367c5</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>INA821IDRGR</value>
+      <footprint>21xt_footprints:SON50P300X300X80-9N-D</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ina821.pdf?ts=1600196554295&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DINA821IDRGR</datasheet>
+      <fields>
+        <field name="Description">Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA821IDRGR</field>
+        <field name="Mouser Part Number">595-INA821IDRGR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821IDRGR?qs=LDGDZb5k%2F%252B%2Foo4X%252BEQr4FA%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="INA821IDRGR" description="Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp"/>
+      <property name="Description" value="Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="595-INA821IDRGR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821IDRGR?qs=LDGDZb5k%2F%252B%2Foo4X%252BEQr4FA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="INA821IDRGR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eda0b058-587e-47c6-9b65-ac65ae5c5dcd</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>W25N04KVZEIR</value>
+      <footprint>21xt_footprints:SON127P800X600X80-9N-D</footprint>
+      <datasheet>https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N04KVZEIR&amp;type=datasheet</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Winbond</field>
+        <field name="Manufacturer_Part_Number">W25N04KVZEIR</field>
+        <field name="Mouser Part Number">454-W25N04KVZEIR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Winbond/W25N04KVZEIR?qs=YwPsRIUVAOdveyibmg1m8Q%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="W25N04KVZEIR" description="FLASH - NAND Memory IC 4Gbit SPI - Quad I/O 104 MHz 8-WSON (8x6)"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="454-W25N04KVZEIR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Winbond/W25N04KVZEIR?qs=YwPsRIUVAOdveyibmg1m8Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Winbond"/>
+      <property name="Manufacturer_Part_Number" value="W25N04KVZEIR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="FLASH - NAND Memory IC 4Gbit SPI - Quad I/O 104 MHz 8-WSON (8x6)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14829504-0f29-4c16-93d7-f33e3c6c9135</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ATF13-4P-BM13</value>
+      <footprint>21xt_footprints:DTF134PG003</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773962-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=DTF13-4P-G003&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Height">23.52</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">DTF13-4P-G003</field>
+        <field name="Mouser Part Number">571-DTF13-4P-G003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DTF13-4P-G003?qs=cgQJD%2FpJz0wMj4JqThO4Bw%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="DTF13-4P-G003" description="Body Features: Primary Product Color Black | Configuration Features: Number of Sections 1 | Number of Rows 2 | Number of Positions 4 | PCB Mount Orientation Right Angle | Number of Signal Positions 4 | Contact Features: Mating Pin Diameter .063 INCH | Contact Type Pin | Contact Mating Area Plating Material Gold | Contact Current Rating (Max) 13 AMP | Contact Size Size 16 | Mating Pin Diameter 1.59 MM | Dimensions: Connector Width 27.18 MM | PCB Thickness (Recommended) .78  2.36 MM | Connector Length 1.31"/>
+      <property name="Height" value="23.52"/>
+      <property name="Mouser Part Number" value="571-DTF13-4P-G003"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DTF13-4P-G003?qs=cgQJD%2FpJz0wMj4JqThO4Bw%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="DTF13-4P-G003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Body Features: Primary Product Color Black | Configuration Features: Number of Sections 1 | Number of Rows 2 | Number of Positions 4 | PCB Mount Orientation Right Angle | Number of Signal Positions 4 | Contact Features: Mating Pin Diameter .063 INCH | Contact Type Pin | Contact Mating Area Plating Material Gold | Contact Current Rating (Max) 13 AMP | Contact Size Size 16 | Mating Pin Diameter 1.59 MM | Dimensions: Connector Width 27.18 MM | PCB Thickness (Recommended) .78  2.36 MM | Connector Length 1.31"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55a951ba-8faa-4fd2-b932-7d32d7d84857</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SJ-3541AS-SMT-TR-67</value>
+      <footprint>21xt_footprints:SJ3541ASSMTTR67</footprint>
+      <datasheet>https://www.cui.com/product/resource/sj-3541as-smt-tr-67.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SJ-3541AS-SMT-TR-67</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sj-3541as-smt-tr-67/cui-devices</field>
+        <field name="Height">5.65</field>
+        <field name="Manufacturer_Name">Same Sky</field>
+        <field name="Manufacturer_Part_Number">SJ-3541AS-SMT-TR-67</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="SJ-3541AS-SMT-TR-67" description="Stereo Jack, IP67, 3.5, 5 conductor, smt,  no switches, shield, T&amp;R package"/>
+      <property name="Height" value="5.65"/>
+      <property name="Manufacturer_Name" value="Same Sky"/>
+      <property name="Manufacturer_Part_Number" value="SJ-3541AS-SMT-TR-67"/>
+      <property name="Arrow Part Number" value="SJ-3541AS-SMT-TR-67"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/sj-3541as-smt-tr-67/cui-devices"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Stereo Jack, IP67, 3.5, 5 conductor, smt,  no switches, shield, T&amp;R package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>428fd815-09f1-408f-99f1-23bff8c1e3a3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>21xt_footprints:USB_C_PLACE</footprint>
+      <libsource lib="21xt_symbols" part="UCB_C_PLACE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bada0e9-7ce0-48a4-a4ad-4ce26ce9b9ef</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>140e1929-5c8c-4f72-a5fd-f63c6f4ef59e</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>AP2120N-2.5TRG1</value>
+      <footprint>21xt_footprints:SOT91P240X110-3N</footprint>
+      <datasheet>https://www.diodes.com//assets/Datasheets/AP2120.pdf</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AP2120N-5.0TRG1</field>
+        <field name="Mouser Part Number">621-AP2120N-5.0TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-5.0TRG1?qs=M%2FOdCRO8QQ3JQu49DdtyIA%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="AP2120N-5.0TRG1" description="Lin Reg 5V 150MA SOT23 for wsg "/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="621-AP2120N-5.0TRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-5.0TRG1?qs=M%2FOdCRO8QQ3JQu49DdtyIA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Incorporated"/>
+      <property name="Manufacturer_Part_Number" value="AP2120N-5.0TRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Lin Reg 5V 150MA SOT23 for wsg "/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>898b79b4-c21f-4a04-9149-71cadc854270</tstamps>
+    </comp>
+    <comp ref="PS2">
+      <value>TPSM83100SIUR</value>
+      <footprint>21xt_footprints:TPSM83100SIUR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpsm83100.pdf?ts=1694232852590&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM83100%252Fpart-details%252FTPSM83100SIUR</datasheet>
+      <fields>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPSM83100SIUR</field>
+        <field name="Mouser Part Number">595-TPSM83100SIUR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSM83100SIUR?qs=17ckDYBRdembJwsYYPsw7Q%3D%3D</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="TPSM83100SIUR" description="5.5v Boost Converter for wsg"/>
+      <property name="Height" value="1.2"/>
+      <property name="Mouser Part Number" value="595-TPSM83100SIUR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSM83100SIUR?qs=17ckDYBRdembJwsYYPsw7Q%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPSM83100SIUR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="5.5v Boost Converter for wsg"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff466cac-9e8b-4336-ae18-1a452a303ca2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9252af2c-d852-4bf9-96c2-22fde65f33c7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cad1ea0e-219b-4f4f-95ca-eb4663b0741d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a086c76a-7703-4d18-8ab8-ff9a85c380b0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db49443b-aa3b-476e-adb7-980265bea0dc</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa8a6edb-a5a3-415f-be5d-a22b2bdbf301</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>60</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2cee2b1-3ee2-4a46-9198-9b05e1819a8c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>449b1e77-0d45-4dc8-854f-c72ecf7238ac</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61c17656-d4d1-4da0-a067-856e77f30903</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>326b5fcc-ecc1-470c-8fa1-d786087bec0d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>80.6k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a95659c-b345-4a74-8d84-e00302e9516a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>806k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36292d2f-a4a5-4ee7-a359-c8d3b8e15cf8</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54de012f-d9be-4ace-b401-147bc442ae05</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e714dcf6-eb67-4733-a464-b43e88099a1a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01fbc90d-c59e-4b13-b95f-454abc8de173</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4ed9bde-ba72-4226-a622-159d7bbf5b35</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4ded189-7d73-4174-94c3-bbc149bacbd4</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e2d82ce-9803-41fa-b5cc-d94cc2cbd39f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>45.5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e212b5e0-5c26-4c7c-af1d-86c35c58c7ed</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>esp32 c6 xiao</value>
+      <footprint>21xt_footprints:esp32 c6 smt</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Seeeduino XIAO Development Board, Pre-Soldered [Seeed Studio] 102010388 Seeeduino XIAO Development Board, Pre-Soldered
+                        
+</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MF">Seeed Technology Co., Ltd</field>
+        <field name="MP">102010388</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">102010388</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="21xt_symbols" part="102010388" description=""/>
+      <property name="MF" value="Seeed Technology Co., Ltd"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=snap"/>
+      <property name="MP" value="102010388"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Seeeduino XIAO Development Board, Pre-Soldered [Seeed Studio] 102010388 Seeeduino XIAO Development Board, Pre-Soldered&#xA;                        &#xA;"/>
+      <property name="MANUFACTURER" value="Seeed Technology"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="102010388"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98fd7c6a-a4f6-4946-b622-65048e9e035e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AD5626BRMZ</value>
+      <footprint>21xt_footprints:AD5626</footprint>
+      <datasheet>AD5626BRMZ</datasheet>
+      <libsource lib="21xt_symbols" part="AD5626BRMZ" description="DAC for wsg, main"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="wsg1.0.kicad_sch"/>
+      <property name="ki_description" value="DAC for wsg, main"/>
+      <property name="ki_keywords" value="AD5626BRMZ"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b88b390d-1219-4b73-92ac-0e7944464c57</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="21xt_symbols" part="102010388">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">102010388</field>
+        <field name="Footprint">102010388:MODULE_102010388</field>
+        <field name="MF">Seeed Technology Co., Ltd</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/102010388/Seeed+Studio/view-part/?ref=snap</field>
+        <field name="MP">102010388</field>
+        <field name="Description">
+                        
+                            Seeeduino XIAO Development Board, Pre-Soldered [Seeed Studio] 102010388 Seeeduino XIAO Development Board, Pre-Soldered
+                        
+</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">102010388</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA02_A0_D0" type="bidirectional"/>
+        <pin num="2" name="PA4_A1_D1" type="bidirectional"/>
+        <pin num="3" name="PA10_A2_D2" type="bidirectional"/>
+        <pin num="4" name="PA11_A3_D3" type="bidirectional"/>
+        <pin num="5" name="PA8_A4_D4_SDA" type="bidirectional"/>
+        <pin num="6" name="PA9_A5_D5_SCL" type="bidirectional"/>
+        <pin num="7" name="PB08_A6_D6_TX" type="bidirectional"/>
+        <pin num="8" name="PB09_A7_D7_RX" type="bidirectional"/>
+        <pin num="9" name="PA7_A8_D8_SCK" type="bidirectional"/>
+        <pin num="10" name="PA5_A9_D9_MISO" type="bidirectional"/>
+        <pin num="11" name="PA6_A10_D10_MOSI" type="bidirectional"/>
+        <pin num="12" name="3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="5V" type="power_in"/>
+        <pin num="15" name="BAT-" type="bidirectional"/>
+        <pin num="16" name="Bat+" type="bidirectional"/>
+        <pin num="17" name="MTDO" type="bidirectional"/>
+        <pin num="18" name="MTDI" type="bidirectional"/>
+        <pin num="19" name="GND" type="bidirectional"/>
+        <pin num="20" name="EN" type="bidirectional"/>
+        <pin num="21" name="MTCK" type="bidirectional"/>
+        <pin num="22" name="MTMS" type="bidirectional"/>
+        <pin num="23" name="3v3" type="bidirectional"/>
+        <pin num="24" name="BOOT" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="AD5626BRMZ">
+      <description>DAC for wsg, main</description>
+      <docs>AD5626BRMZ</docs>
+      <footprints>
+        <fp>RM_8_ADI</fp>
+        <fp>RM_8_ADI-M</fp>
+        <fp>RM_8_ADI-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5626BRMZ</field>
+        <field name="Footprint">RM_8_ADI</field>
+        <field name="Datasheet">AD5626BRMZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CS#" type="unspecified"/>
+        <pin num="3" name="SCLK" type="unspecified"/>
+        <pin num="4" name="SDIN" type="unspecified"/>
+        <pin num="5" name="LDAC#" type="unspecified"/>
+        <pin num="6" name="CLR#" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="VOUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="ADS1120IRVAR">
+      <description>16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs &amp; SPI interface</description>
+      <docs>https://www.arrow.com/en/products/ads1120irvar/texas-instruments</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADS1120IRVAR</field>
+        <field name="Footprint">QFN50P350X350X100-17N-D</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/ads1120irvar/texas-instruments</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">595-ADS1120IRVAR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1120IRVAR?qs=%2Fd%252BFzHvH4c2AzmjDnnpHRQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ADS1120IRVAR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="passive"/>
+        <pin num="2" name="DGND" type="passive"/>
+        <pin num="3" name="AVSS" type="passive"/>
+        <pin num="4" name="AIN3/REFN1" type="passive"/>
+        <pin num="5" name="AIN2" type="passive"/>
+        <pin num="6" name="REFN0" type="passive"/>
+        <pin num="7" name="REFP0" type="passive"/>
+        <pin num="8" name="AIN1" type="passive"/>
+        <pin num="9" name="AIN0/REFP1" type="passive"/>
+        <pin num="10" name="AVDD" type="passive"/>
+        <pin num="11" name="DVDD" type="passive"/>
+        <pin num="12" name="~{DRDY}" type="passive"/>
+        <pin num="13" name="DOUT/~{DRDY}" type="passive"/>
+        <pin num="14" name="DIN" type="passive"/>
+        <pin num="15" name="SCLK" type="passive"/>
+        <pin num="16" name="~{CS}" type="passive"/>
+        <pin num="17" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="AP2120N-5.0TRG1">
+      <description>Lin Reg 5V 150MA SOT23 for wsg </description>
+      <docs>https://www.diodes.com//assets/Datasheets/AP2120.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">AP2120N-5.0TRG1</field>
+        <field name="Footprint">SOT96P240X120-3N</field>
+        <field name="Datasheet">https://www.diodes.com//assets/Datasheets/AP2120.pdf</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">621-AP2120N-5.0TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2120N-5.0TRG1?qs=M%2FOdCRO8QQ3JQu49DdtyIA%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Incorporated</field>
+        <field name="Manufacturer_Part_Number">AP2120N-5.0TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VOUT" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="DTF13-4P-G003">
+      <description>Body Features: Primary Product Color Black | Configuration Features: Number of Sections 1 | Number of Rows 2 | Number of Positions 4 | PCB Mount Orientation Right Angle | Number of Signal Positions 4 | Contact Features: Mating Pin Diameter .063 INCH | Contact Type Pin | Contact Mating Area Plating Material Gold | Contact Current Rating (Max) 13 AMP | Contact Size Size 16 | Mating Pin Diameter 1.59 MM | Dimensions: Connector Width 27.18 MM | PCB Thickness (Recommended) .78  2.36 MM | Connector Length 1.31</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773962-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=DTF13-4P-G003&amp;DocFormat=pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DTF13-4P-G003</field>
+        <field name="Footprint">DTF134PG003</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773962-8&amp;DocType=Data%20Sheet&amp;DocLang=English&amp;PartCntxt=DTF13-4P-G003&amp;DocFormat=pdf</field>
+        <field name="Height">23.52</field>
+        <field name="Mouser Part Number">571-DTF13-4P-G003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-DEUTSCH/DTF13-4P-G003?qs=cgQJD%2FpJz0wMj4JqThO4Bw%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">DTF13-4P-G003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="INA821IDRGR">
+      <description>Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ina821.pdf?ts=1600196554295&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DINA821IDRGR</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">INA821IDRGR</field>
+        <field name="Footprint">SON50P300X300X80-9N-D</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina821.pdf?ts=1600196554295&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DINA821IDRGR</field>
+        <field name="Description">Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">595-INA821IDRGR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821IDRGR?qs=LDGDZb5k%2F%252B%2Foo4X%252BEQr4FA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">INA821IDRGR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="passive"/>
+        <pin num="2" name="RG_1" type="passive"/>
+        <pin num="3" name="RG_2" type="passive"/>
+        <pin num="4" name="+IN" type="passive"/>
+        <pin num="5" name="-VS" type="passive"/>
+        <pin num="6" name="REF" type="passive"/>
+        <pin num="7" name="OUT" type="passive"/>
+        <pin num="8" name="+VS" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="MCP1501T-50E_CHY">
+      <description>Series Voltage Reference IC Fixed 5V V +/-0.1% 20 mA SOT-23-6</description>
+      <docs>https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1501-Data-Sheet-DS20005474F.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP1501T-50E_CHY</field>
+        <field name="Footprint">SOT95P280X145-6N</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP1501-Data-Sheet-DS20005474F.pdf</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">579-MCP1501T-50E/CHY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1501T-50E-CHY?qs=Li%252BoUPsLEnt6h%2FnXwes%252BxQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP1501T-50E/CHY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="GND_1" type="passive"/>
+        <pin num="3" name="GND_2" type="passive"/>
+        <pin num="4" name="~{SHDN}" type="passive"/>
+        <pin num="5" name="GND_3" type="passive"/>
+        <pin num="6" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="SJ-3541AS-SMT-TR-67">
+      <description>Stereo Jack, IP67, 3.5, 5 conductor, smt,  no switches, shield, T&amp;R package</description>
+      <docs>https://www.cui.com/product/resource/sj-3541as-smt-tr-67.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ-3541AS-SMT-TR-67</field>
+        <field name="Footprint">SJ3541ASSMTTR67</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/sj-3541as-smt-tr-67.pdf</field>
+        <field name="Height">5.65</field>
+        <field name="Manufacturer_Name">Same Sky</field>
+        <field name="Manufacturer_Part_Number">SJ-3541AS-SMT-TR-67</field>
+        <field name="Arrow Part Number">SJ-3541AS-SMT-TR-67</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/sj-3541as-smt-tr-67/cui-devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SLEEVE" type="passive"/>
+        <pin num="2" name="TIP_1" type="passive"/>
+        <pin num="3" name="RING_1" type="passive"/>
+        <pin num="4" name="RING_2" type="passive"/>
+        <pin num="5" name="TIP_2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="TAJD106M035RNJ">
+      <description>Tantalum Capacitors - Solid SMD 35volts 10uF 20%</description>
+      <docs>http://datasheets.avx.com/TAJ.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TAJD106M035RNJ</field>
+        <field name="Footprint">CAPPM7344X310N</field>
+        <field name="Datasheet">http://datasheets.avx.com/TAJ.pdf</field>
+        <field name="Height">3.1</field>
+        <field name="Mouser Part Number">581-TAJD106M035R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TAJD106M035RNJ?qs=srZBJ3srS4AUaIC0Brj4CQ%3D%3D</field>
+        <field name="Manufacturer_Name">Kyocera AVX</field>
+        <field name="Manufacturer_Part_Number">TAJD106M035RNJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="TPSM83100SIUR">
+      <description>5.5v Boost Converter for wsg</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tpsm83100.pdf?ts=1694232852590&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM83100%252Fpart-details%252FTPSM83100SIUR</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">TPSM83100SIUR</field>
+        <field name="Footprint">TPSM83100SIUR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpsm83100.pdf?ts=1694232852590&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSM83100%252Fpart-details%252FTPSM83100SIUR</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">595-TPSM83100SIUR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSM83100SIUR?qs=17ckDYBRdembJwsYYPsw7Q%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPSM83100SIUR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND_1" type="passive"/>
+        <pin num="3" name="GND_2" type="passive"/>
+        <pin num="4" name="VOUT" type="passive"/>
+        <pin num="5" name="FB" type="passive"/>
+        <pin num="6" name="GND_3" type="passive"/>
+        <pin num="7" name="MODE" type="passive"/>
+        <pin num="8" name="EN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="UCB_C_PLACE">
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">USB_C_Plug_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D-" type="bidirectional"/>
+        <pin num="2" name="SHIELD" type="passive"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VBUS" type="power_in"/>
+        <pin num="6" name="CC" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="21xt_symbols" part="W25N04KVZEIR">
+      <description>FLASH - NAND Memory IC 4Gbit SPI - Quad I/O 104 MHz 8-WSON (8x6)</description>
+      <docs>https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N04KVZEIR&amp;type=datasheet</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">W25N04KVZEIR</field>
+        <field name="Footprint">SON127P800X600X80-9N-D</field>
+        <field name="Datasheet">https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N04KVZEIR&amp;type=datasheet</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">454-W25N04KVZEIR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Winbond/W25N04KVZEIR?qs=YwPsRIUVAOdveyibmg1m8Q%3D%3D</field>
+        <field name="Manufacturer_Name">Winbond</field>
+        <field name="Manufacturer_Part_Number">W25N04KVZEIR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="passive"/>
+        <pin num="2" name="DO_(IO1_)" type="passive"/>
+        <pin num="3" name="~{WP_(IO2_)}" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="DI_(IO0_)" type="passive"/>
+        <pin num="6" name="CLK" type="passive"/>
+        <pin num="7" name="~{HOLD_(IO3_)}" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="21xt_symbols">
+      <uri>C:/Users/aaren/Desktop/pcb/bjr_kicad/21xt/00-symbols/21xt_symbols.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="2V5 Ref">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="AIN0/REFP1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="2" name="3V3">
+      <node ref="IC1" pin="11" pinfunction="DVDD" pintype="passive"/>
+      <node ref="IC4" pin="3" pinfunction="~{WP_(IO2_)}" pintype="passive"/>
+      <node ref="IC4" pin="7" pinfunction="~{HOLD_(IO3_)}" pintype="passive"/>
+      <node ref="IC4" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="PS2" pin="1" pinfunction="VIN" pintype="passive"/>
+      <node ref="PS2" pin="8" pinfunction="EN" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="3" name="5V Reference">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="REFP0" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="4" name="5V USB">
+      <node ref="J2" pin="1" pinfunction="SLEEVE" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="5" name="5V5">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="AVDD" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="~{SHDN}" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC3" pin="8" pinfunction="+VS" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="PS2" pin="4" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="CLR#" pintype="unspecified"/>
+    </net>
+    <net code="6" name="ADC DReady">
+      <node ref="IC1" pin="12" pinfunction="~{DRDY}" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA10_A2_D2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="AmplifiedSig">
+      <node ref="IC3" pin="7" pinfunction="OUT" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="BAT+">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="Bat+" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="BAT-">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="BAT-" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="CS-ADC">
+      <node ref="IC1" pin="16" pinfunction="~{CS}" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="CS-DAC">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="CS#" pintype="unspecified"/>
+    </net>
+    <net code="12" name="CS-MEM">
+      <node ref="IC4" pin="1" pinfunction="~{CS}" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="DAC Bias">
+      <node ref="IC1" pin="5" pinfunction="AIN2" pintype="passive"/>
+      <node ref="IC3" pin="6" pinfunction="REF" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="14" name="FilteredSig">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="AIN1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="DGND" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="AVSS" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="AIN3/REFN1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="REFN0" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC3" pin="5" pinfunction="-VS" pintype="passive"/>
+      <node ref="IC3" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="IC4" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="IC4" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="TIP_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="PS1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="PS2" pin="2" pinfunction="GND_1" pintype="passive"/>
+      <node ref="PS2" pin="3" pinfunction="GND_2" pintype="passive"/>
+      <node ref="PS2" pin="6" pinfunction="GND_3" pintype="passive"/>
+      <node ref="PS2" pin="7" pinfunction="MODE" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="16" name="LDAC-DAC">
+      <node ref="U1" pin="6" pinfunction="PA9_A5_D5_SCL" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="LDAC#" pintype="unspecified"/>
+    </net>
+    <net code="17" name="MISO">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PA5_A9_D9_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="MISO_ADC">
+      <node ref="IC1" pin="13" pinfunction="DOUT/~{DRDY}" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="MISO_FLASH">
+      <node ref="IC4" pin="2" pinfunction="DO_(IO1_)" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="MOSI">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA6_A10_D10_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="MOSI_ADC">
+      <node ref="IC1" pin="14" pinfunction="DIN" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="MOSI_DAC">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SDIN" pintype="unspecified"/>
+    </net>
+    <net code="23" name="MOSI_FLASH">
+      <node ref="IC4" pin="5" pinfunction="DI_(IO0_)" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(IC2-OUT)">
+      <node ref="IC2" pin="1" pinfunction="OUT" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(IC3-RG_1)">
+      <node ref="IC3" pin="2" pinfunction="RG_1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(IC3-RG_2)">
+      <node ref="IC3" pin="3" pinfunction="RG_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J3-CC)">
+      <node ref="J3" pin="6" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(PS2-FB)">
+      <node ref="PS2" pin="5" pinfunction="FB" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U1-PA02_A0_D0)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PA02_A0_D0" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U1-PA4_A1_D1)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA4_A1_D1" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(U1-PA11_A3_D3)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA11_A3_D3" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="S+">
+      <node ref="IC3" pin="4" pinfunction="+IN" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="S-">
+      <node ref="IC3" pin="1" pinfunction="-IN" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="SCLK">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PA7_A8_D8_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="SCLK_ADC">
+      <node ref="IC1" pin="15" pinfunction="SCLK" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="SCLK_DAC">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SCLK" pintype="unspecified"/>
+    </net>
+    <net code="37" name="SCLK_FLASH">
+      <node ref="IC4" pin="6" pinfunction="CLK" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="USB_D+">
+      <node ref="J2" pin="3" pinfunction="RING_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="USB_D-">
+      <node ref="J2" pin="4" pinfunction="RING_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(IC1-CLK-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="CLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(IC1-EP-Pad17)">
+      <node ref="IC1" pin="17" pinfunction="EP" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-PadMH1)">
+      <node ref="J2" pin="MH1" pinfunction="MH1" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J2-PadMH2)">
+      <node ref="J2" pin="MH2" pinfunction="MH2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J2-TIP_1-Pad2)">
+      <node ref="J2" pin="2" pinfunction="TIP_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-3v3-Pad23)">
+      <node ref="U1" pin="23" pinfunction="3v3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-BOOT-Pad24)">
+      <node ref="U1" pin="24" pinfunction="BOOT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-EN-Pad20)">
+      <node ref="U1" pin="20" pinfunction="EN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-GND-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GND" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-MTCK-Pad21)">
+      <node ref="U1" pin="21" pinfunction="MTCK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-MTDI-Pad18)">
+      <node ref="U1" pin="18" pinfunction="MTDI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-MTDO-Pad17)">
+      <node ref="U1" pin="17" pinfunction="MTDO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-MTMS-Pad22)">
+      <node ref="U1" pin="22" pinfunction="MTMS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-PA8_A4_D4_SDA-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PA8_A4_D4_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-PB08_A6_D6_TX-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PB08_A6_D6_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-PB09_A7_D7_RX-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PB09_A7_D7_RX" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

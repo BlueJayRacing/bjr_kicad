@@ -1,0 +1,327 @@
+(footprint "AP3441LSHE7B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "U-DFN2020-8")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1c30c46-faf4-4794-a58c-7d382109cecc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AP3441LSHE-7B"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "225fa83d-f7d9-4ebb-baa8-d4d5a36f15aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:AP3441LSHE7B"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c9f8895-416c-4b4b-886f-80f0341af2f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "745f0670-3639-489e-8b35-179dc2b2df29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switching Voltage Regulators DCDC Conv LV Buck"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b6f3c87-df3c-4dd8-94b6-bbf8177075a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at -7.4562 159.5318 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fca2fd51-1d2b-4d7c-8fd9-3325b296092d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at -7.4562 159.5318 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0142bac6-e5f4-4eb5-935d-bceaf36af1ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "AP3441LSHE-7B"
+		(at -7.4562 159.5318 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aa93235-da5d-4dcb-b27a-1d034aa73593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-AP3441LSHE-7B"
+		(at -7.4562 159.5318 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9504257-1150-4f76-b286-7ad05d251bf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP3441LSHE-7B?qs=wUXugUrL1qypzVa4NB91Hg%3D%3D"
+		(at -7.4562 159.5318 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e7dd02d-8fd4-4aa0-ac05-2112496436ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 1.6)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "740437c7-a6be-4fd4-b456-97ea534800ba")
+	)
+	(fp_line
+		(start -0.75 1.7)
+		(end -0.75 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "605c91a7-83ec-46f9-ba06-a0a9ff4da687")
+	)
+	(fp_arc
+		(start -0.75 1.6)
+		(mid -0.7 1.65)
+		(end -0.75 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d198fbf-15ff-4f71-9a6b-a8cf72fd6c13")
+	)
+	(fp_arc
+		(start -0.75 1.7)
+		(mid -0.8 1.65)
+		(end -0.75 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c49d6e6-9bd3-4f4f-8b4f-9595379a80f7")
+	)
+	(fp_line
+		(start -2 -2.15)
+		(end 2 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67aebb74-0bae-477b-a363-209b3569ab02")
+	)
+	(fp_line
+		(start -2 2.15)
+		(end -2 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "124f7e63-8345-4e6c-ac0f-e9182cbf2827")
+	)
+	(fp_line
+		(start 2 -2.15)
+		(end 2 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c88eae13-8605-4d13-9b18-04433292342c")
+	)
+	(fp_line
+		(start 2 2.15)
+		(end -2 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "712d9ff4-6ea8-4d09-b306-74b9f97bf121")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2395c4f2-789d-488b-abf7-e525cfd9f9ab")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "580bce8a-8af2-48bf-ac92-535e98d2794b")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0198208a-9346-4c4b-aea5-3efe5a1fb523")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7da21d9b-df8f-4e78-aa54-64ac03de0e5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "6735a231-fbcb-438d-9795-a58120192a8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6698ed05-1867-43b3-a93d-593c83bee1bb")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b229f413-436d-4890-af08-4d502eda9d05")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "890d99b3-331f-4118-945a-6cef6b9f464d")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1764333-0ea1-4b58-b30c-3dd65dddef8f")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f5339961-399b-4234-8903-67d216ca21d2")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e7c18550-b719-4840-af0a-0aa17aeeed35")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26bcdae6-95de-4850-ab3e-4a4aee1dce07")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5ac42197-0780-4868-9793-760150f40f81")
+	)
+	(pad "9" smd rect
+		(at 0 0 90)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9e8c2afe-3743-4b1d-a177-922b54240770")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/AP3441LSHE-7B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
