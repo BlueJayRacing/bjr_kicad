@@ -2488,6 +2488,10 @@
 		(uuid "11c51c7b-dac5-4284-acbf-b459c5e4da37")
 	)
 	(no_connect
+		(at 177.8 85.09)
+		(uuid "120651af-1021-4926-b9da-fbaef13d4cbd")
+	)
+	(no_connect
 		(at 137.16 115.57)
 		(uuid "165a9995-5ef7-4e45-ac1b-e341168b3401")
 	)
@@ -2586,10 +2590,6 @@
 	(no_connect
 		(at 137.16 72.39)
 		(uuid "d7cae0a4-b70d-4817-8185-be876765abaf")
-	)
-	(no_connect
-		(at 137.16 77.47)
-		(uuid "d8f39046-33ae-4349-8680-006e83b46e14")
 	)
 	(no_connect
 		(at 177.8 59.69)
@@ -3064,6 +3064,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO{slash}INT1_3v3"
+		(shape bidirectional)
+		(at 137.16 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2520dd01-7d43-4fb5-94fb-5ff02a1d4b06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.7911 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3554,22 +3576,22 @@
 	)
 	(global_label "GPIO{slash}INT2_3v3"
 		(shape bidirectional)
-		(at 177.8 85.09 0)
+		(at 137.16 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "aab93910-b68c-455e-b32e-5c9d7a0e8679")
+		(uuid "a967a21c-74c8-4b16-8172-8330150dfe43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1689 85.09 0)
+			(at 118.7911 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3856,28 +3878,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO{slash}INT1_3v3"
-		(shape bidirectional)
-		(at 137.16 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffa5ba09-c074-4bc0-b409-757c338d6107")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.7911 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

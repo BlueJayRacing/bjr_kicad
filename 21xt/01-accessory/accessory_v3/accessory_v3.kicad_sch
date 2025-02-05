@@ -1731,127 +1731,6 @@
 				)
 			)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDA"
 			(power)
 			(pin_names
@@ -2171,12 +2050,6 @@
 		(uuid "b31bcf4d-1c7f-45d5-b53c-9d6c534a2350")
 	)
 	(junction
-		(at 72.39 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba7ce80c-92b4-44ee-a109-541648268777")
-	)
-	(junction
 		(at 101.6 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2327,16 +2200,6 @@
 			(type default)
 		)
 		(uuid "2d1e86ae-1847-42be-8257-e6c8e1b69201")
-	)
-	(wire
-		(pts
-			(xy 72.39 63.5) (xy 72.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3420b41b-0c72-4d34-878f-31efc12ca712")
 	)
 	(wire
 		(pts
@@ -3090,6 +2953,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7a1048c-2a7e-46f5-b88b-032c9de1770d")
+	)
+	(text "TO_DO: connect B- and usb_gnd with a physical wire "
+		(exclude_from_sim no)
+		(at 101.6 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3cdbfaf-2a33-4320-aebd-acdf92abcc1a")
 	)
 	(text "12v (~4 mA)->5v (10 mA) reference"
 		(exclude_from_sim no)
@@ -3918,76 +3791,6 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 72.39 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "241d5eac-c5b5-41d5-a3ab-94242818fad8")
-		(property "Reference" "NT1"
-			(at 73.66 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 73.66 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baf249c5-4aa8-4e95-8e15-17e4241d2653")
-		)
-		(pin "2"
-			(uuid "75a1fc29-7a2c-4f72-a90c-6023f81a8456")
-		)
-		(instances
-			(project ""
-				(path "/5dacc41e-ffff-47d3-9300-200c6018c603"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -4988,72 +4791,6 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 72.39 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64eb6a38-4146-47be-939a-45c4b9433260")
-		(property "Reference" "#PWR070"
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 72.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "868d72e7-ec22-4934-85e9-59d4adc38a89")
-		)
-		(instances
-			(project "accessory_v3"
-				(path "/5dacc41e-ffff-47d3-9300-200c6018c603"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
