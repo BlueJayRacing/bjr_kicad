@@ -5760,12 +5760,20 @@
 		(uuid "51830032-4b9c-4d5f-8951-e1578d753660")
 	)
 	(no_connect
+		(at 138.43 137.16)
+		(uuid "561a6cf9-214d-4ffa-bfad-a9c6e11bd3e7")
+	)
+	(no_connect
 		(at 204.47 114.3)
 		(uuid "593d4b47-0af4-452e-b8fa-33081a4d55db")
 	)
 	(no_connect
 		(at 27.94 58.42)
 		(uuid "64c95621-0ef6-4fb1-8983-132c00a6f0bf")
+	)
+	(no_connect
+		(at 138.43 139.7)
+		(uuid "6f2cf291-3bc2-4faf-bff2-8c7b989942ad")
 	)
 	(no_connect
 		(at 204.47 124.46)
@@ -6471,6 +6479,28 @@
 			)
 		)
 	)
+	(global_label "+DCSIG^'*"
+		(shape input)
+		(at 138.43 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37ca08a7-2ee2-492f-91f7-084ffa7ae584")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+2v5ref"
 		(shape input)
 		(at 114.3 147.32 180)
@@ -6735,28 +6765,6 @@
 			)
 		)
 	)
-	(global_label "+DCSIG^'*"
-		(shape input)
-		(at 138.43 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5de8ff54-736b-4476-979f-b23b0c67ecc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.95 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3v3Teensy"
 		(shape input)
 		(at 24.13 101.6 180)
@@ -6858,6 +6866,28 @@
 		(uuid "7774ab4f-e2f8-4ea1-ab12-1d30e3603cf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.2982 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-DCSIG^'*"
+		(shape input)
+		(at 138.43 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "780666e5-84c3-4e14-9d24-6a73d585c04f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.95 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,28 +7091,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-DCSIG^'*"
-		(shape input)
-		(at 138.43 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e097ffb-8721-4f9f-83c6-83ffbfbfcc67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
