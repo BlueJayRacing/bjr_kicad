@@ -442,7 +442,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "dynoinst_fp",
-      "21xt_footprints"
+      "21xt_footprints",
+      "peripheralio"
     ],
     "pinned_symbol_libs": [
       "dyno_inst_sym",
@@ -544,6 +545,10 @@
       {
         "netclass": "pwr2",
         "pattern": "-5vcla"
+      },
+      {
+        "netclass": "pwr2",
+        "pattern": "GNDPWR"
       }
     ]
   },
