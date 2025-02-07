@@ -2074,7 +2074,7 @@
 	(footprint "21xt_footprints:Double Sided Mezzanine Card Edge_Edge Side"
 		(layer "F.Cu")
 		(uuid "5b3f31ad-d5fd-4d5b-a663-fb1be8b92956")
-		(at 0.48 34.83)
+		(at 0.5 34.83)
 		(property "Reference" "J2"
 			(at 2.4638 -1.8796 0)
 			(unlocked yes)
@@ -7626,7 +7626,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "f1f51070-203b-4361-b0bb-3ace37f0194b")
 			(effects
@@ -7638,7 +7638,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8ccca01b-ec3f-4634-a9d6-cc171c4a323c")
@@ -7651,7 +7651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f8e94390-dd46-4d3f-bf6e-5e4f53f88d36")
@@ -7664,7 +7664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6c329727-6652-4050-86a4-15528f772400")
@@ -7782,7 +7782,7 @@
 			(uuid "aafaaf57-9e36-405e-b075-bef5729e7b80")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d665e5ba-0c4c-435c-8fc1-2fd41a5e83e3")
 			(effects
@@ -13129,7 +13129,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b34ecffa-bf1c-4b47-b04c-7c69016224fa")
 			(effects
@@ -13141,7 +13141,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b3953203-7400-46f8-8389-a3e166f9e869")
@@ -13154,7 +13154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "27c29b6f-1346-4657-959b-4e7d814571c5")
@@ -13167,7 +13167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a80ed90f-23d5-4ef6-bfd5-1c96300b2eb6")
@@ -13285,7 +13285,7 @@
 			(uuid "5df92240-665c-4bed-b53d-d3904efa417a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1b02c4d8-7f2e-4a2b-9913-5915cc9dafb8")
 			(effects
@@ -14270,7 +14270,7 @@
 			)
 		)
 		(property "Footprint" "21xt_footprints:REF3450IDBVR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4ea48b43-9a34-414b-bd12-33e650b55181")
@@ -14283,7 +14283,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3440.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1b868e36-fc4a-447d-a411-8f9d67426c02")
@@ -14296,7 +14296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3d6a5e3a-2106-4840-9d17-79a9aa41495c")
@@ -27679,7 +27679,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 1.03 2.02 360)
+			(at 1.03 2.02 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "199f4c4f-3469-4e6f-9f5c-4e4e5e3d228b")
@@ -36244,8 +36244,8 @@
 		(uuid "12eeb275-965b-4348-abbf-9d06c20df6fb")
 	)
 	(gr_line
-		(start 0.48 45.53)
-		(end 0.48 35.13)
+		(start 0.5 45.53)
+		(end 0.5 35.13)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -36381,7 +36381,7 @@
 		(uuid "8440bcb6-1169-4cd4-a3e7-0b577d068141")
 	)
 	(gr_line
-		(start 0.48 35.13)
+		(start 0.5 35.13)
 		(end 0.73 34.88)
 		(stroke
 			(width 0.1)
@@ -36506,7 +36506,7 @@
 	)
 	(gr_line
 		(start 0.73 45.78)
-		(end 0.48 45.53)
+		(end 0.5 45.53)
 		(stroke
 			(width 0.1)
 			(type default)
