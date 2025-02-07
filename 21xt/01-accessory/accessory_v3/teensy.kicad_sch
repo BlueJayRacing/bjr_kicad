@@ -2540,10 +2540,6 @@
 		(uuid "73f08d5a-8389-4410-8350-8fe516923641")
 	)
 	(no_connect
-		(at 177.8 133.35)
-		(uuid "74a92a7e-3e0e-40d3-9dbe-595b9414c77b")
-	)
-	(no_connect
 		(at 137.16 85.09)
 		(uuid "81fdbc05-d247-4ef6-bc59-dcd7c598f6f4")
 	)
@@ -2606,6 +2602,16 @@
 	(no_connect
 		(at 177.8 130.81)
 		(uuid "fe8c70ec-732e-4b71-ad71-159a7ebf6c8f")
+	)
+	(wire
+		(pts
+			(xy 177.8 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084a93d0-64a8-4c49-a4ac-23bb354beabe")
 	)
 	(wire
 		(pts
@@ -2903,6 +2909,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f5a1eab-3710-4590-a52b-a36f9d92e7c3")
+	)
+	(text "MISO pin (2)"
+		(exclude_from_sim no)
+		(at 192.786 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f30e38d-31e7-43a0-9cd0-6df91c70ef92")
 	)
 	(text "also you need to add the 4 pin m8 connector\nfor getting the usb power to the teensy,\nthough I suppose this functions for powering the teensy\nvia the usb connector on the teensy board"
 		(exclude_from_sim no)
@@ -3213,6 +3229,28 @@
 		(uuid "35dace39-df51-4145-92a3-6e66347ed805")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5855 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 179.07 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "390adbaf-170b-4033-9c6c-2dc367323f1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.6514 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
