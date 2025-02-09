@@ -1974,189 +1974,6 @@
 				)
 			)
 		)
-		(symbol "dyno_inst_sym:R-78E5.0-0.5"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "R-78E5.0-0.5"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "R-78E-0.5_RCP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "R-78E5.0-0.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R-78E5.0-0.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R-78E-0.5_RCP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R-78E5.0-0.5_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "dyno_inst_sym:TC7660SEOA713"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2784,6 +2601,12 @@
 		(uuid "0121a775-e394-441c-8141-5c2100b7997b")
 	)
 	(junction
+		(at 132.08 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07352d62-c845-44b6-a4aa-877ec4bd04bb")
+	)
+	(junction
 		(at 257.81 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2824,12 +2647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d9b0e84-5cf1-47a1-93d1-7f8eb8268563")
-	)
-	(junction
-		(at 260.35 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eb4354e-3558-4d9a-9bf0-035fe88e35f5")
 	)
 	(junction
 		(at 203.2 151.13)
@@ -2890,12 +2707,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b41108c-a262-4265-9226-3ae2da417683")
-	)
-	(junction
-		(at 106.68 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cc688ed-4da4-423d-a44b-19a3d9eb7cec")
 	)
 	(junction
 		(at 52.07 100.33)
@@ -2964,12 +2775,6 @@
 		(uuid "6f123cfa-3588-45fd-8014-4751a1dbd499")
 	)
 	(junction
-		(at 204.47 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f3b8569-27ed-4be0-8204-d7f71bb54885")
-	)
-	(junction
 		(at 110.49 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2980,12 +2785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75db4242-3143-480b-93c9-46a6fa184e61")
-	)
-	(junction
-		(at 157.48 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d088bbe-74b9-4597-bf5c-5f45fee4de3c")
 	)
 	(junction
 		(at 195.58 162.56)
@@ -3016,6 +2815,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af03d21-4095-4924-988d-fa84f6fd0b2f")
+	)
+	(junction
+		(at 204.47 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc1f318-e2db-4302-b0a5-d88044a4d9bc")
+	)
+	(junction
+		(at 260.35 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fb5ac8b-031b-40b9-85a0-1ba37256c5be")
 	)
 	(junction
 		(at 199.39 162.56)
@@ -3351,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 34.29) (xy 204.47 35.56)
+			(xy 204.47 33.02) (xy 204.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3411,6 +3222,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 34.29) (xy 204.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d8d789-2560-4496-938f-f37ec6f92a86")
+	)
+	(wire
+		(pts
 			(xy 156.21 156.21) (xy 160.02 156.21)
 		)
 		(stroke
@@ -3448,16 +3269,6 @@
 			(type default)
 		)
 		(uuid "3f28a480-0a40-494f-82b1-486ff151056d")
-	)
-	(wire
-		(pts
-			(xy 160.02 25.4) (xy 157.48 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f424d35-bc36-48c5-b1db-bbd2b76ab747")
 	)
 	(wire
 		(pts
@@ -3781,16 +3592,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 34.29) (xy 204.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794ff898-89e2-4fa4-a90a-11582f3f412b")
-	)
-	(wire
-		(pts
 			(xy 48.26 127) (xy 48.26 120.65)
 		)
 		(stroke
@@ -3798,16 +3599,6 @@
 			(type default)
 		)
 		(uuid "7a605adf-5e6f-4b1b-9d32-9c43712e32c2")
-	)
-	(wire
-		(pts
-			(xy 106.68 25.4) (xy 109.22 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca54408-d146-43ed-90d2-5b632c266d02")
 	)
 	(wire
 		(pts
@@ -3891,16 +3682,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 25.4) (xy 106.68 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895f390e-6bc4-44b5-a845-cbe941819601")
-	)
-	(wire
-		(pts
 			(xy 33.02 154.94) (xy 38.1 154.94)
 		)
 		(stroke
@@ -3968,6 +3749,16 @@
 			(type default)
 		)
 		(uuid "8f0a979e-db5e-4c0d-bbae-1bcd213170e3")
+	)
+	(wire
+		(pts
+			(xy 260.35 34.29) (xy 260.35 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcc18f0-2abb-421f-a6f3-cb3e7780b7a7")
 	)
 	(wire
 		(pts
@@ -4071,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 260.35 34.29)
+			(xy 260.35 33.02) (xy 260.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4088,6 +3879,16 @@
 			(type default)
 		)
 		(uuid "ac038abd-b95d-46c8-91c5-44bb6c8450b3")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 132.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad696e99-21e3-4c59-869f-e7f702dee60a")
 	)
 	(wire
 		(pts
@@ -4241,16 +4042,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 25.4) (xy 149.86 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7984b6e-dd4c-4296-8d4a-fc3860f21cf8")
-	)
-	(wire
-		(pts
 			(xy 45.72 120.65) (xy 48.26 120.65)
 		)
 		(stroke
@@ -4338,6 +4129,16 @@
 			(type default)
 		)
 		(uuid "d5655fda-8dc4-42f3-a229-2832e75793cd")
+	)
+	(wire
+		(pts
+			(xy 132.08 25.4) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76c2eb7-69f0-40c2-aed5-ae10d629bd96")
 	)
 	(wire
 		(pts
@@ -4451,6 +4252,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 30.48) (xy 125.73 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf6ee33-b111-4d01-8df4-66d4afd7fd67")
+	)
+	(wire
+		(pts
 			(xy 189.23 107.95) (xy 189.23 106.68)
 		)
 		(stroke
@@ -4548,16 +4359,6 @@
 			(type default)
 		)
 		(uuid "f6d6b46a-aa57-4c37-99e2-19dfde938a9f")
-	)
-	(wire
-		(pts
-			(xy 260.35 34.29) (xy 260.35 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f782641c-7fd4-415f-a06c-14b8485058fc")
 	)
 	(wire
 		(pts
@@ -4805,28 +4606,6 @@
 	)
 	(global_label "+12v"
 		(shape input)
-		(at 102.87 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01d3c172-0882-4612-8c09-1ca5f239abe5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9258 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12v"
-		(shape input)
 		(at 269.24 152.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4838,28 +4617,6 @@
 		(uuid "03632be6-3ff5-4697-94cf-c940cfd8891b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.1842 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5venc"
-		(shape output)
-		(at 160.02 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b9c07de-78ef-412f-a351-eb5f63f59040")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.5085 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,6 +4780,28 @@
 			)
 		)
 	)
+	(global_label "+12v"
+		(shape input)
+		(at 134.62 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d58264c-3966-4d8a-b298-cdd21db60761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.5642 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5vref"
 		(shape output)
 		(at 45.72 100.33 180)
@@ -5089,7 +4868,7 @@
 			)
 		)
 	)
-	(global_label "5venc"
+	(global_label "5vpwr"
 		(shape input)
 		(at 190.5 30.48 180)
 		(fields_autoplaced yes)
@@ -5101,7 +4880,7 @@
 		)
 		(uuid "9906616f-e374-44bd-a26a-338ed8ad3e10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.0115 30.48 0)
+			(at 182.072 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,6 +5198,28 @@
 			)
 		)
 	)
+	(global_label "5venc"
+		(shape output)
+		(at 134.62 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0278e9-c61b-4a6f-a5b6-b4032ef7e905")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1085 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "-12v"
 		(shape output)
 		(at 105.41 71.12 0)
@@ -5673,6 +5474,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GNDD_1")
+		(lib_id "power:GNDD")
+		(at 204.47 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11847c79-8df3-48ec-9887-cf3db5a276c8")
+		(property "Reference" "#PWR049"
+			(at 198.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 200.66 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e45aad-48c0-4e7b-b581-cac19377e344")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GNDA_1")
 		(lib_id "power:GNDA")
 		(at 152.4 158.75 90)
@@ -5805,72 +5674,6 @@
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "C83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 106.68 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19be462b-3f02-4eed-b426-11ed01a63eb6")
-		(property "Reference" "#PWR043"
-			(at 106.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 110.744 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 106.68 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f04aae7b-0804-409a-b107-09313ae3c8f3")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6937,6 +6740,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GNDD_1")
+		(lib_id "power:GNDD")
+		(at 199.39 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347401d7-a6c6-4aa2-be8b-ae43b57b35cf")
+		(property "Reference" "#PWR050"
+			(at 199.39 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 199.39 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 199.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb49c205-1a9f-47ec-bdd7-869d858678db")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GNDA_1")
 		(lib_id "power:GNDA")
 		(at 243.84 101.6 90)
@@ -7415,6 +7285,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 125.73 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac7b3be-9c09-4c2a-8531-a06ed749995a")
+		(property "Reference" "#PWR043"
+			(at 132.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 129.54 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cc604b2-49cf-4916-a20b-6a0544c1af1d")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 67.31 26.67 90)
 		(unit 1)
@@ -7476,139 +7413,6 @@
 			(project ""
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 157.48 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fc09b4c-6e53-4e27-99cd-79efa60fbca9")
-		(property "Reference" "#PWR050"
-			(at 157.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 161.544 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 157.48 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57efe9e1-339e-42d2-8e47-1ad4c08c7ae2")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 260.35 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5022ed28-071b-427e-99b5-db6f1a7fe558")
-		(property "Reference" "#PWR061"
-			(at 266.7 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 264.16 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 260.35 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03820ef6-3f0d-4484-a39a-2e04e4dbb935")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7742,73 +7546,6 @@
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 204.47 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6461ef3c-d78b-44dc-994d-c131bfebe6d7")
-		(property "Reference" "#PWR057"
-			(at 198.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 200.66 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dc6318c-e3df-4881-83f3-82377465f745")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8516,6 +8253,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 132.08 17.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8094d8e7-9154-4dd7-8a6b-c553a6a04d09")
+		(property "Reference" "#PWR0106"
+			(at 132.08 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 131.064 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 132.08 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddd6560e-01be-4736-bea4-39b257b02cb4")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 114.3 181.61 90)
 		(mirror x)
@@ -8578,79 +8381,6 @@
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dyno_inst_sym:R-78E5.0-0.5")
-		(at 109.22 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86ff52f8-c435-4e93-9512-c7f3daa7cdfd")
-		(property "Reference" "U7"
-			(at 129.54 15.24 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "R-78E5.0-0.5"
-			(at 129.54 17.78 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "dynoinst_fp:R-78E-0.5_RCP"
-			(at 109.22 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "R-78E5.0-0.5"
-			(at 109.22 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcf0f9ed-cb17-4de4-87e6-b0da45f7f085")
-		)
-		(pin "3"
-			(uuid "f84cc45a-b7bf-43ab-ad87-d7e0991e7b69")
-		)
-		(pin "1"
-			(uuid "1097f2a9-6d45-4164-b4fc-e53fc8ea66d9")
-		)
-		(instances
-			(project ""
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8920,6 +8650,72 @@
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 125.73 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aa6723b-b852-4abd-b359-6b01cac8faae")
+		(property "Reference" "#PWR0104"
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 123.19 21.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 125.73 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d27ace5-c0cf-4d58-af1a-d15c1b8182f7")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9507,73 +9303,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9764e28b-84c2-48fb-9a85-3209c0ad7fe7")
-		(property "Reference" "C31"
-			(at 158.369 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 158.623 23.241 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.4452 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 157.48 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b2cddc5-852f-4b1e-a3d5-a7ac33f17467")
-		)
-		(pin "2"
-			(uuid "a2f696e8-33f2-45c2-96b9-a32d1a307662")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 52.07 130.81 0)
 		(mirror x)
 		(unit 1)
@@ -9641,16 +9370,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 149.86 27.94 0)
+		(lib_id "Device:C")
+		(at 132.08 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0fb8fce-d9ef-4f33-8607-62233bf63361")
-		(property "Reference" "#PWR049"
-			(at 149.86 33.02 0)
+		(uuid "a1026d5f-292c-47e0-b2d7-9a9e36583c68")
+		(property "Reference" "C87"
+			(at 132.969 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 133.223 15.621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 133.0452 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,17 +9403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 153.924 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 29.21 0)
+		(property "Datasheet" "~"
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,17 +9412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 149.86 27.94 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9695,12 +9422,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "05741953-09ad-4a09-bfa9-7b107d9772da")
+			(uuid "42f57e22-2f41-4de5-aef0-c8e19e593896")
+		)
+		(pin "2"
+			(uuid "63f17ede-36a8-4047-87f7-ee7d5dd5d482")
 		)
 		(instances
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR049")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -10629,32 +10359,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 106.68 29.21 0)
+		(lib_name "GNDD_1")
+		(lib_id "power:GNDD")
+		(at 260.35 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd3d4cca-ed61-4ace-bc95-ea2e70c89c56")
-		(property "Reference" "C25"
-			(at 107.569 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 107.823 23.241 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 107.6452 33.02 0)
+		(fields_autoplaced yes)
+		(uuid "c07d10ae-be9d-4aec-abe8-81790c8cccf8")
+		(property "Reference" "#PWR055"
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,8 +10378,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 29.21 0)
+		(property "Value" "GNDD"
+			(at 264.16 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,8 +10396,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 29.21 0)
+		(property "Datasheet" ""
+			(at 260.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 260.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,15 +10415,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4332ce76-f619-4b5e-b652-569a1c433dd3")
-		)
-		(pin "2"
-			(uuid "a0706487-88a0-4fc0-98ad-befa7d7b4c56")
+			(uuid "c08f1789-52d1-4283-8bd9-f05d2a085ab5")
 		)
 		(instances
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "C25")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11319,72 +11050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 199.39 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e90481fc-9f45-4968-adae-0f01bfb7fa1e")
-		(property "Reference" "#PWR055"
-			(at 199.39 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 199.39 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 199.39 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "803e654e-ecf8-46aa-ac71-d7614e2d2e3d")
-		)
-		(instances
-			(project "dyno_inst"
-				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Barrel_Jack")
 		(at 20.32 20.32 0)
 		(unit 1)
@@ -11718,6 +11383,79 @@
 			(project "dyno_inst"
 				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dyno_inst_sym:1S4E_0505S1.5U")
+		(at 121.92 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb8b77d3-4a85-4da4-afef-095b5103e8ee")
+		(property "Reference" "U7"
+			(at 121.8711 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1S4E_1.5U"
+			(at 121.8711 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 121.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "isolated dcdc, 5 vout"
+			(at 121.92 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd99a880-10c2-45ec-b2f0-d10e6066a7c1")
+		)
+		(pin "3"
+			(uuid "74fd9568-b4de-461b-af2b-5dcf50be8d1e")
+		)
+		(pin "2"
+			(uuid "0fc596e6-d15b-44d4-82a8-c2dcf70828d3")
+		)
+		(pin "4"
+			(uuid "ef56f2a5-9dd6-4fda-a5a3-c7d6db891758")
+		)
+		(instances
+			(project "dyno_inst"
+				(path "/05243b78-baec-4481-b20a-29b24ceb27e6/bee48fa4-d7fd-4f5e-9b8a-046694017c94"
+					(reference "U7")
 					(unit 1)
 				)
 			)

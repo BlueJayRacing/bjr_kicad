@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "LT3032IDE-5-TRPBF ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -2 4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d0bad86f-4a0e-4e61-8830-7ef338a8e352")
@@ -65,58 +65,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.7805 -1.679) (xy -0.7805 -0.127) (xy -1.7556 -0.127) (xy -1.7556 0.127) (xy -0.892 0.127)
-			(xy -0.7805 0.099) (xy 0.8705 0.099) (xy 0.8705 -1.679)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "0f31b464-42d6-4308-a410-943df3ae1186")
-	)
-	(fp_poly
-		(pts
-			(xy 1.7556 0.873001) (xy 0.7805 0.873001) (xy 0.7805 0.6116) (xy -0.8705 0.6116) (xy -0.8705 1.6784)
-			(xy 0.7805 1.6784) (xy 0.7805 1.127001) (xy 1.7556 1.127001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "9b91798b-bf95-44fa-8898-62a3e94e0211")
-	)
-	(fp_poly
-		(pts
-			(xy -0.7805 -1.679) (xy -0.7805 -0.127) (xy -1.7556 -0.127) (xy -1.7556 0.127) (xy -0.892 0.127)
-			(xy -0.7805 0.099) (xy 0.8705 0.099) (xy 0.8705 -1.679)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "6f007d55-1c88-4fef-9e25-cdb651b10576")
-	)
-	(fp_poly
-		(pts
-			(xy 1.7556 0.873001) (xy 0.7805 0.873001) (xy 0.7805 0.6116) (xy -0.8705 0.6116) (xy -0.8705 1.6784)
-			(xy 0.7805 1.6784) (xy 0.7805 1.127001) (xy 1.7556 1.127001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "f6185551-cd83-4d18-982e-9305c9a78325")
-	)
 	(fp_line
 		(start -1.6764 -2.1717)
 		(end -1.6764 -1.95974)
@@ -187,32 +135,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "26c0eb60-2e25-4b1b-97e0-c15ef7f81f1f")
-	)
-	(fp_poly
-		(pts
-			(xy -0.7805 -1.679) (xy -0.7805 -0.127) (xy -1.7556 -0.127) (xy -1.7556 0.127) (xy -0.892 0.127)
-			(xy -0.7805 0.099) (xy 0.8705 0.099) (xy 0.8705 -1.679)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "c80697f7-00b9-40d3-8447-43eed2bc54ea")
-	)
-	(fp_poly
-		(pts
-			(xy 1.7556 0.873001) (xy 0.7805 0.873001) (xy 0.7805 0.6116) (xy -0.8705 0.6116) (xy -0.8705 1.6784)
-			(xy 0.7805 1.6784) (xy 0.7805 1.127001) (xy 1.7556 1.127001)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "375d9df6-66f2-4ea0-b954-07ff1c515495")
 	)
 	(fp_line
 		(start -2.0096 -1.881)
@@ -427,8 +349,8 @@
 		(uuid "fea9818d-8a3d-4650-9dfa-395133d1ea9c")
 	)
 	(pad "4" smd rect
-		(at -1.3238 0)
-		(size 0.127 0.127)
+		(at -1.4 0)
+		(size 0.7112 0.254)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9c9c7d80-fc1d-4bd0-a277-4553f5ed9471")
 	)
@@ -457,8 +379,8 @@
 		(uuid "7d7f3e41-e438-446a-b5b0-b7512781f9b5")
 	)
 	(pad "9" smd rect
-		(at 1.4 1.000001)
-		(size 0.127 0.127)
+		(at 1.40363 0.99922)
+		(size 0.7112 0.255562)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2df64ee6-1de8-42dc-b77c-64bf662ce1fe")
 	)
@@ -493,15 +415,27 @@
 		(uuid "ea6cf6b4-ddd1-48b3-835c-63ebfb67ba84")
 	)
 	(pad "15" smd rect
+		(at -0.885263 -0.00163)
+		(size 0.7112 0.255562)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c42cd99-37ca-4234-8803-4856bac32bae")
+	)
+	(pad "15" smd rect
 		(at 0.045 -0.79)
-		(size 0.127 0.127)
+		(size 1.651 1.778)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4cb9d904-bb48-41d3-90e8-7da4a13f5860")
 	)
 	(pad "16" smd rect
 		(at -0.045 1.145)
-		(size 0.127 0.127)
+		(size 1.651 1.0668)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4a2c6e71-ebf7-485b-9848-27cf1deb0832")
+	)
+	(pad "16" smd rect
+		(at 0.9 1)
+		(size 0.7112 0.255562)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "72e3e787-a29e-4f29-afdf-cd653107f741")
 	)
 )
