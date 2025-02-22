@@ -110,18 +110,6 @@
 		(layer "F.SilkS")
 		(uuid "70ba5b06-6f88-4f2c-bfb3-3550288b6ecc")
 	)
-	(fp_poly
-		(pts
-			(xy 3.3909 1.0595) (xy 3.3909 1.4405) (xy 3.1369 1.4405) (xy 3.1369 1.0595)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "db8c5849-d49b-4da7-a7b3-b21926e19df9")
-	)
 	(fp_line
 		(start -3.1369 -2.1437)
 		(end -1.7526 -2.1437)
@@ -934,22 +922,10 @@
 		(uuid "f1f69025-0277-4d6b-b749-b04d3bd86833")
 	)
 	(fp_text user "*"
-		(at -2.4384 -3.1724 0)
+		(at -3.048 -2.286 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7a50edea-4239-49fe-8bb6-f0637780c76c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.4384 -3.1724 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ddba1c5b-8e28-4931-97da-c124fb73ac51")
 		(effects
 			(font
 				(size 1 1)
@@ -1104,6 +1080,17 @@
 		)
 		(rotate
 			(xyz -90 0 0)
+		)
+	)
+	(model "/Users/emma/Documents/JHU/bjr_kicad/21xt/00-3dmodels/LT6658AHMSE-2.5#PBF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
