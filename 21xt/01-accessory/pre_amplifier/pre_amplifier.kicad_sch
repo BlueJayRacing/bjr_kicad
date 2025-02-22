@@ -1957,28 +1957,6 @@
 			)
 		)
 	)
-	(global_label "11V1_bat"
-		(shape input)
-		(at 167.64 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2be91e07-779d-4dd4-ba87-92e50eb3b271")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9464 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "!LDAC"
 		(shape output)
 		(at 167.64 114.3 180)
@@ -2090,7 +2068,7 @@
 		)
 	)
 	(global_label "!RESET"
-		(shape input)
+		(shape output)
 		(at 167.64 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2529,28 +2507,6 @@
 			)
 		)
 	)
-	(global_label "11V1_bat"
-		(shape output)
-		(at 130.81 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5f14a09-684e-4f2f-8a0b-93dc76c7a657")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5036 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "QS5F-"
 		(shape output)
 		(at 130.81 91.44 0)
@@ -2595,6 +2551,28 @@
 			)
 		)
 	)
+	(global_label "11v1_bat"
+		(shape input)
+		(at 167.64 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9c0090f-4d59-4068-b808-90f10aa17861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0674 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QS7+"
 		(shape input)
 		(at 118.11 78.74 180)
@@ -2630,6 +2608,28 @@
 		(uuid "c83d16ab-a935-4275-903f-80e47dce7366")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.8772 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "11v1_bat"
+		(shape input)
+		(at 167.64 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb0dccaa-6d9d-484b-ad26-924ab0413a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0674 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2705,7 @@
 			)
 		)
 	)
-	(global_label "11V1_bat"
+	(global_label "11v1_bat"
 		(shape output)
 		(at 118.11 88.9 180)
 		(fields_autoplaced yes)
@@ -2717,7 +2717,7 @@
 		)
 		(uuid "d948aebb-3afe-4550-abaf-a8f8225fa9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4164 88.9 0)
+			(at 106.5374 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,6 +2815,28 @@
 			)
 		)
 	)
+	(global_label "11v1_bat"
+		(shape output)
+		(at 130.81 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e489f8bf-b741-4a32-984f-17daccc8ca5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.3826 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "QS8+"
 		(shape input)
 		(at 118.11 81.28 180)
@@ -2850,28 +2872,6 @@
 		(uuid "f6da8511-b582-4adf-b59c-c745fe844091")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.5934 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "11V1_bat"
-		(shape input)
-		(at 167.64 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcbe5682-1703-41ea-a2ac-93863f31b2df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9464 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3349,159 @@
 		)
 	)
 	(sheet
-		(at 17.78 149.86)
+		(at 148.59 175.26)
+		(size 17.78 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a97e046-ac18-432f-8194-2da9a216b43b")
+		(property "Sheetname" "instrumentation_amplifiers"
+			(at 148.59 174.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "in_amps.kicad_sch"
+			(at 148.59 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 175.26)
+		(size 21.59 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "632d3c9f-51d6-408e-b48d-58feceb88b63")
+		(property "Sheetname" "processing"
+			(at 86.36 174.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processing.kicad_sch"
+			(at 86.36 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 175.26)
+		(size 24.13 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82bdeb82-5afa-46ca-a75f-bc66d853949d")
+		(property "Sheetname" "wheatstone_bridges"
+			(at 48.26 174.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wheatstone_bridges.kicad_sch"
+			(at 48.26 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 175.26)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94757ed1-b5b5-4dd9-ac95-2b2bf4fefbf4")
+		(property "Sheetname" "switches"
+			(at 118.11 174.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 118.11 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 175.26)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -3361,7 +3513,7 @@
 		)
 		(uuid "b8d7ad43-e009-4dfb-8027-8862e52ba70c")
 		(property "Sheetname" "power"
-			(at 17.78 149.1484 0)
+			(at 15.24 174.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3522,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 17.78 163.1446 0)
+			(at 15.24 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
