@@ -1,0 +1,306 @@
+(footprint "SON127P800X600X80-9N-D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-Pad WSON 8x6-mm (Package Code ZE)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bdb503a6-1881-46b8-a87f-c9f8ddd69cba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "W25N04KVZEIR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32609dcc-1bb1-4294-bbfc-b4c5d6973785")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:SON127P800X600X80-9N-D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f235c19d-c15f-49d5-becd-401c614b280b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N04KVZEIR&type=datasheet"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88445a0d-eaf1-443c-bca3-ed782dbb4352")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FLASH - NAND Memory IC 4Gbit SPI - Quad I/O 104 MHz 8-WSON (8x6)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52cfdeb1-9012-4634-a217-18e1dcfce55e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e33e65e-bbb4-42c5-8b76-8340a1719f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Winbond"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06999cbe-1d35-4ab6-a9da-0ffa2e5baf82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "W25N04KVZEIR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d04add78-7882-467d-99c5-0bc1a48eb977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "454-W25N04KVZEIR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a16c14c-d12a-4f9c-bf0c-568f9749a483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25N04KVZEIR?qs=YwPsRIUVAOdveyibmg1m8Q%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b9e32c2-daaf-48a7-becf-2a68588ecfd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -4.375 -2.63)
+		(end -4.375 -2.505)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "25254739-fa9b-45b1-b10d-a0aacedcb727")
+	)
+	(fp_line
+		(start -4.625 -3.3)
+		(end 4.625 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bbd5415-bb50-4bd3-b2b3-bfec41246f4b")
+	)
+	(fp_line
+		(start -4.625 3.3)
+		(end -4.625 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1e6cc32-33ba-4222-ab51-8d100cfc4bd6")
+	)
+	(fp_line
+		(start 4.625 -3.3)
+		(end 4.625 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91651b41-ec8b-4a6b-b354-29a8255c0a6a")
+	)
+	(fp_line
+		(start 4.625 3.3)
+		(end -4.625 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "800700fe-fa36-4897-b01e-790bd98f69e7")
+	)
+	(fp_line
+		(start -4 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77418fe8-1874-4d17-a0e9-c1c40173c65a")
+	)
+	(fp_line
+		(start -4 -1)
+		(end -2 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c63b0944-722c-4d94-a7c2-0d79cfe0e293")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e21ddf19-6f17-4796-bfed-7022e641b653")
+	)
+	(fp_line
+		(start 4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2299bca-9163-4762-b167-6501dfab6cc0")
+	)
+	(fp_line
+		(start 4 3)
+		(end -4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aff7701c-25ba-4c92-bd07-ab04fc2ccb16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b016c287-1f90-4604-8457-0ba1de6d9330")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.9 -1.905 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5a626d74-3076-4359-8da0-980053b8ad75")
+	)
+	(pad "2" smd rect
+		(at -3.9 -0.635 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3bb5497-0342-4e17-b669-7e19276ddd95")
+	)
+	(pad "3" smd rect
+		(at -3.9 0.635 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ab4de05-86f3-4f8c-8067-b77bccfbaabb")
+	)
+	(pad "4" smd rect
+		(at -3.9 1.905 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ab345c2-f582-4605-8e37-dc4798692ccc")
+	)
+	(pad "5" smd rect
+		(at 3.9 1.905 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ee3b8847-86ab-4c54-bc16-cdc095bda2c6")
+	)
+	(pad "6" smd rect
+		(at 3.9 0.635 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc1d65d7-a63f-42cb-aeef-368e058ff66b")
+	)
+	(pad "7" smd rect
+		(at 3.9 -0.635 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c225c7f5-3668-4a04-bbd7-ca835c3740df")
+	)
+	(pad "8" smd rect
+		(at 3.9 -1.905 90)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7df0db65-32b8-45ac-a305-4dac6e4c6c6f")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 3.45 4.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "614bb123-7569-4e99-b506-3cb6825c56c8")
+	)
+	(model ":BJR_KICAD:21xt/00-3dmodels/W25N04KVZEIR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

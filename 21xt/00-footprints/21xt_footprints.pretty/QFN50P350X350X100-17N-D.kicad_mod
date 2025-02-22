@@ -1,0 +1,354 @@
+(footprint "QFN50P350X350X100-17N-D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RVA (S-PVQFN-N16)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "644c1eff-3685-408a-9d41-0f87226f4d0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ADS1120IRVAR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5bde32cb-1b39-432b-b0b8-b548b225c725")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:QFN50P350X350X100-17N-D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02121949-346d-46c0-a322-cba05e788ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.arrow.com/en/products/ads1120irvar/texas-instruments"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2094e37-63a6-481d-9243-551ddef155c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "16-bit, 2-kSPS, 4-ch, low-power, small-size delta-sigma ADC with PGA, VREF, 2x IDACs & SPI interface"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b657a8-8743-4c69-8744-c9f1e67ace55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 39.39 -31.81 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8285da78-ebcb-4189-8b17-69b5ed0f03d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 39.39 -31.81 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17ff3341-4ef4-4818-9470-81df7079754d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ADS1120IRVAR"
+		(at 39.39 -31.81 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5db6bb80-e430-4a90-8217-34b851c36c2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-ADS1120IRVAR"
+		(at 39.39 -31.81 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca3a61a6-1f49-4c50-b230-0373884e82ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1120IRVAR?qs=%2Fd%252BFzHvH4c2AzmjDnnpHRQ%3D%3D"
+		(at 39.39 -31.81 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c231c30a-c04a-4e82-8d2d-7aafd5da4f28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.1 -1.5)
+		(end -2.1 -1.375)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "23e2e902-b398-412c-b252-65fbfc99532b")
+	)
+	(fp_line
+		(start -2.375 -2.375)
+		(end 2.375 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ef56e23-36e8-44d7-9583-1ece6f5efc90")
+	)
+	(fp_line
+		(start -2.375 2.375)
+		(end -2.375 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21e9a37d-d088-4d2e-abdb-75e05ee785db")
+	)
+	(fp_line
+		(start 2.375 -2.375)
+		(end 2.375 2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f3db23d-a692-43ba-ad54-17b261090b94")
+	)
+	(fp_line
+		(start 2.375 2.375)
+		(end -2.375 2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cee8f7e-dcc0-4b96-880f-556232531cf0")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1c5a87c-01b0-4f76-9cc8-ac27a664d841")
+	)
+	(fp_line
+		(start -1.75 -1.25)
+		(end -1.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6815c44d-286f-484d-8762-31d5eddb22fa")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb436968-1ebd-46ee-ad18-0456b52ef2c0")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efd407f9-ff5b-4511-91ed-c69a420d93b9")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51da2431-c459-4d5c-90b0-76f46a2ec663")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e153bb10-100d-49c2-91fc-30a2f71c5cf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 -0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb8040ac-04a8-469b-ba10-4f0c5c7a6e69")
+	)
+	(pad "2" smd rect
+		(at -1.7 -0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "39df69d3-1fcb-4ad9-9579-35935a6fbd55")
+	)
+	(pad "3" smd rect
+		(at -1.7 0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8630864f-f632-45ce-bd62-af2acd5174a5")
+	)
+	(pad "4" smd rect
+		(at -1.7 0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fda24cca-05af-4246-8d29-a29e2a6a8f81")
+	)
+	(pad "5" smd rect
+		(at -0.75 1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6c94d7c-ca26-415b-a2ef-20a43612eaa2")
+	)
+	(pad "6" smd rect
+		(at -0.25 1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24da3083-42b0-4fcb-bf3c-5e15fe525bb5")
+	)
+	(pad "7" smd rect
+		(at 0.25 1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5149d803-556d-47f4-85ac-9dbdc3a54d62")
+	)
+	(pad "8" smd rect
+		(at 0.75 1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e87503be-2ec7-4c2a-9057-4c1a74f61fb0")
+	)
+	(pad "9" smd rect
+		(at 1.7 0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54752224-aa9d-4e3b-a01f-a3a3501edc3b")
+	)
+	(pad "10" smd rect
+		(at 1.7 0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "43eb4ad6-c443-4ca0-b05c-9552c1814f3e")
+	)
+	(pad "11" smd rect
+		(at 1.7 -0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e237260a-3ea1-443d-9dd7-fb48c41b7139")
+	)
+	(pad "12" smd rect
+		(at 1.7 -0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f5b799b-8d5e-4d17-8672-416f7a678a0a")
+	)
+	(pad "13" smd rect
+		(at 0.75 -1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a46a65f8-1c4c-4740-9583-b9a1034bb0b1")
+	)
+	(pad "14" smd rect
+		(at 0.25 -1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad0960c3-331e-4d5a-bb62-2ee0b7031d4e")
+	)
+	(pad "15" smd rect
+		(at -0.25 -1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "beb229d8-18db-4cd3-b12d-8358ec34ee95")
+	)
+	(pad "16" smd rect
+		(at -0.75 -1.7)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b4529951-a7fd-4ca8-bfc4-2458f6d89951")
+	)
+	(pad "17" smd rect
+		(at 0 0)
+		(size 2.24 2.24)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "000e8a6f-f4a4-4680-acda-fe40a29b3d4e")
+	)
+	(model ":BJR_KICAD:21xt/00-3dmodels/ADS1120IRVAR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,306 @@
+(footprint "SON50P300X300X80-9N-D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DRG0008B")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -0.19 3.93 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "120d2ae3-9fb4-4620-9e5f-560c9a4d3ed8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INA821IDRGR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4bec6048-7faf-4da5-9fb3-07560f2aec3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "21xt_footprints:SON50P300X300X80-9N-D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "422453ce-1ebb-494a-8f35-9fd2d164c6bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina821.pdf?ts=1600196554295&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DINA821IDRGR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21d2b344-cdaa-447d-9a60-5838bc641df0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Instrumentation Amplifiers High bandwidth (4.7MHz), low noise (7nV/vHz), precision (35 V), low-power, instrumentation amp"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd690ad3-4d6c-457c-b011-1749bc7f55c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c030529-4090-4425-bce0-5d2ee457fbe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cad30db-a548-4280-99b6-7c6933a54253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "INA821IDRGR"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c18c676-21dc-403b-8349-3d994e5f1596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-INA821IDRGR"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce1f206d-586d-4bdc-a59c-0bfd33e7dd9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821IDRGR?qs=LDGDZb5k%2F%252B%2Foo4X%252BEQr4FA%3D%3D"
+		(at 48.19 -36.85 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c894071-be12-4974-ab6d-1a4c3a0a2daf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.9 -1.4)
+		(end -1.9 -1.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b32b83ac-e18f-45ef-853b-441f52f6897b")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "298f1171-7872-497e-83d1-8b077c7b1a8c")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74b33670-87ae-4a1c-b85f-1db167dbce7b")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0cb0743-e814-4c21-acfb-052d6e3f0c82")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3687f1dc-074c-4430-9c74-515e6a2da670")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47f9951d-b069-4543-97f1-bab387fa651d")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc32b3ca-b52a-4a6e-a766-959853035fdb")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f9c4c38-b575-4030-b7db-424b271d6687")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e66fec09-fd6d-4e76-bdd2-9791072d4252")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5b6579f-81d4-46ab-8357-0baaeda392a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c9d2820b-eb6e-4265-9645-7e9b13c7a214")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 -0.75 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "95612884-b96d-4caf-a3d8-658f67ee044b")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.25 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "50347e6e-9c51-464f-9ada-c98bf0518703")
+	)
+	(pad "3" smd rect
+		(at -1.45 0.25 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a413929-691c-461a-a2fe-eafdeff2509c")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.75 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "277907e5-a49b-481c-ad92-20d84f67576b")
+	)
+	(pad "5" smd rect
+		(at 1.45 0.75 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "226982f6-4493-4232-9902-a9c4f955b722")
+	)
+	(pad "6" smd rect
+		(at 1.45 0.25 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "23e7a550-dc05-4778-a5a3-8279d4151d0c")
+	)
+	(pad "7" smd rect
+		(at 1.45 -0.25 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f3de7ed-fb74-467f-9e06-00f30cd4e5d2")
+	)
+	(pad "8" smd rect
+		(at 1.45 -0.75 90)
+		(size 0.3 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa039850-56d0-4aad-9d7b-4c7a0d0cf0ac")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.55 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3a72a23-20d8-4d42-b16b-5f14eeac9f7c")
+	)
+	(model ":BJR_KICAD:21xt/00-3dmodels/INA821IDRGR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
