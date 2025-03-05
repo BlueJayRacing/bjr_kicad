@@ -116,26 +116,6 @@
 		(uuid "57ef332e-32a6-41d9-bbed-a00d6ca9d691")
 	)
 	(fp_line
-		(start -3.2 -1.85)
-		(end 3.2 -1.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0920ff49-f9df-4a36-ae9b-8e8e5ea48747")
-	)
-	(fp_line
-		(start -3.2 1.85)
-		(end -3.2 -1.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "cc23bce0-7424-471d-853d-83926f0b6f6d")
-	)
-	(fp_line
 		(start -1.5 -1.5)
 		(end 1.5 -1.5)
 		(stroke
@@ -186,13 +166,33 @@
 		(uuid "90e11106-5f7a-4bab-9eab-d385d877a304")
 	)
 	(fp_line
+		(start -3.2 -1.85)
+		(end 3.2 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0920ff49-f9df-4a36-ae9b-8e8e5ea48747")
+	)
+	(fp_line
+		(start -3.2 1.85)
+		(end -3.2 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc23bce0-7424-471d-853d-83926f0b6f6d")
+	)
+	(fp_line
 		(start 3.2 -1.85)
 		(end 3.2 1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "c1c9bd9f-c29f-486f-97aa-207f131a0eb9")
 	)
 	(fp_line
@@ -202,7 +202,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "f810a596-7ddd-462e-87fc-606387bc73b1")
 	)
 	(pad "1" smd rect
@@ -260,5 +260,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "6eb2d4cc-5626-4a21-bb02-b812e05ba544")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/AD8237ARMZ.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
