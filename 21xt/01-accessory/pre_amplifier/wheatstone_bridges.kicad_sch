@@ -126,7 +126,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -143,7 +143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -169,7 +169,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -224,16 +224,10 @@
 		)
 	)
 	(junction
-		(at 144.78 74.93)
+		(at 252.73 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a3531e8-57dc-44ec-bdea-5814105b1ac5")
-	)
-	(junction
-		(at 251.46 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "268958f7-03de-4397-950a-9e8b560abafa")
+		(uuid "14d23557-6d80-4c33-8942-ea1379a7daf0")
 	)
 	(junction
 		(at 143.51 31.75)
@@ -242,22 +236,34 @@
 		(uuid "2bb809b2-f054-48dd-8620-3c1dd96575a9")
 	)
 	(junction
+		(at 251.46 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da1af27-3e04-4812-9919-736193c6cf81")
+	)
+	(junction
+		(at 95.25 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4c8ed3-72e7-4ecf-970b-ca71bec3a9cd")
+	)
+	(junction
+		(at 196.85 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3366f419-c52f-40da-beab-515d3366a957")
+	)
+	(junction
 		(at 196.85 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "392c009d-f8be-4783-b7ee-c09fbbdffcc9")
 	)
 	(junction
-		(at 92.71 73.66)
+		(at 143.51 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39977691-eb6d-4268-a384-b0dae825eb1b")
-	)
-	(junction
-		(at 43.18 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b6bf174-b523-44e5-adfb-93c14013017a")
+		(uuid "4f0b3c4c-89c9-4b62-bc31-29ea7b778d1a")
 	)
 	(junction
 		(at 143.51 99.06)
@@ -278,22 +284,28 @@
 		(uuid "6f21288c-f4db-4508-9836-185e951ed0ca")
 	)
 	(junction
-		(at 199.39 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77016931-43dc-46d8-93fe-bb33e6005109")
-	)
-	(junction
 		(at 95.25 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86c4220f-9a36-4dad-8e6e-43464c539c4e")
 	)
 	(junction
-		(at 144.78 142.24)
+		(at 44.45 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2a0cbfc-e9fc-45a8-9ca9-532b2118171a")
+		(uuid "a0dd5d7f-441a-4f96-8292-27f6bea6475f")
+	)
+	(junction
+		(at 144.78 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad005ec1-7636-4f04-bfc4-3604ca496433")
+	)
+	(junction
+		(at 43.18 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2609325-b683-4d63-bb32-1660807e2236")
 	)
 	(junction
 		(at 91.44 30.48)
@@ -302,10 +314,10 @@
 		(uuid "b65bfac6-443d-43d2-9cab-9fa1701b78c7")
 	)
 	(junction
-		(at 96.52 142.24)
+		(at 92.71 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8b1d336-2620-43aa-a6b0-938112f236ba")
+		(uuid "bda7dc07-9f81-41c9-b469-f7352e6aef7e")
 	)
 	(junction
 		(at 44.45 96.52)
@@ -314,34 +326,22 @@
 		(uuid "d4ada43e-9cb3-4ade-8a76-83249aa1094f")
 	)
 	(junction
-		(at 198.12 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbdb776a-8e51-4de1-9c70-c72408dc78c0")
-	)
-	(junction
 		(at 251.46 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc2c4a8e-913e-44c2-ae13-cc1e359883f8")
 	)
 	(junction
-		(at 252.73 78.74)
+		(at 199.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5b9f646-cd0c-43ee-969a-0bbfb79a82af")
+		(uuid "e2155c19-6c4d-4db3-9b2f-4c78c9413bdf")
 	)
 	(junction
 		(at 198.12 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3edc95-f23f-4240-a323-2ace558792da")
-	)
-	(junction
-		(at 45.72 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb799229-bf5d-42fc-a420-086830fdb53a")
 	)
 	(wire
 		(pts
@@ -375,7 +375,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 102.87 142.24)
+			(xy 88.9 142.24) (xy 95.25 142.24)
 		)
 		(stroke
 			(width 0)
@@ -385,13 +385,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 139.7) (xy 52.07 139.7)
+			(xy 38.1 139.7) (xy 44.45 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08800d95-b548-4e06-b30e-ca66ed662326")
+	)
+	(wire
+		(pts
+			(xy 44.45 139.7) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a44ee59-7698-41f2-8d25-3c7b15a861c8")
 	)
 	(wire
 		(pts
@@ -412,16 +422,6 @@
 			(type default)
 		)
 		(uuid "0f220b6b-6467-4020-a2a9-f7a906ac29f5")
-	)
-	(wire
-		(pts
-			(xy 198.12 144.78) (xy 190.5 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7cf397-ec69-4666-8014-6a1ddc3105c8")
 	)
 	(wire
 		(pts
@@ -485,6 +485,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 142.24) (xy 102.87 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bc56c5-9b24-448a-bffd-95c8d93f6de3")
+	)
+	(wire
+		(pts
 			(xy 41.91 31.75) (xy 49.53 31.75)
 		)
 		(stroke
@@ -492,16 +502,6 @@
 			(type default)
 		)
 		(uuid "27c7ac24-a97a-4cc4-beaa-9c04944c07bc")
-	)
-	(wire
-		(pts
-			(xy 43.18 74.93) (xy 49.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d4c0f3-c729-4e37-8568-a5c120f72883")
 	)
 	(wire
 		(pts
@@ -615,16 +615,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 88.9 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb49bdc-ca34-4cd0-9f67-02c8bc0ab4ed")
-	)
-	(wire
-		(pts
 			(xy 143.51 93.98) (xy 143.51 99.06)
 		)
 		(stroke
@@ -672,6 +662,26 @@
 			(type default)
 		)
 		(uuid "4fcd2aa3-67b9-40d7-a99e-dec51f87a27f")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51914421-46f0-4e60-bde2-0c4c47bc7db7")
+	)
+	(wire
+		(pts
+			(xy 252.73 78.74) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51afb202-2c42-4752-ba00-de8d9ee6d615")
 	)
 	(wire
 		(pts
@@ -765,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 137.16 142.24)
+			(xy 137.16 142.24) (xy 143.51 142.24)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +815,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 74.93) (xy 137.16 74.93)
+			(xy 137.16 74.93) (xy 144.78 74.93)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 243.84 144.78)
+			(xy 243.84 144.78) (xy 251.46 144.78)
 		)
 		(stroke
 			(width 0)
@@ -895,23 +905,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 139.7) (xy 38.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aff3859-953b-43a7-9157-1efd64eabe5a")
-	)
-	(wire
-		(pts
 			(xy 251.46 144.78) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bfc15ba-6ea8-4f0f-b910-73dd8b31f1b6")
+		(uuid "6c60fcfd-f9c9-4fdb-baee-79518678f6d7")
 	)
 	(wire
 		(pts
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 144.78) (xy 204.47 144.78)
+			(xy 190.5 144.78) (xy 196.85 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 73.66) (xy 99.06 73.66)
+			(xy 85.09 73.66) (xy 92.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 191.77 77.47)
+			(xy 191.77 77.47) (xy 199.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1155,16 +1155,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 78.74) (xy 259.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e91209-1b6e-4949-a607-c6898db86462")
-	)
-	(wire
-		(pts
 			(xy 44.45 96.52) (xy 52.07 96.52)
 		)
 		(stroke
@@ -1172,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "931269c7-c532-4521-a935-647e73ab66bc")
-	)
-	(wire
-		(pts
-			(xy 144.78 74.93) (xy 151.13 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962cde71-fd98-44e9-9af2-dd242db4ff2b")
 	)
 	(wire
 		(pts
@@ -1325,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 78.74) (xy 245.11 78.74)
+			(xy 245.11 78.74) (xy 252.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1342,6 +1322,16 @@
 			(type default)
 		)
 		(uuid "b14ae704-7168-475e-8e71-acf5a3f5a1a6")
+	)
+	(wire
+		(pts
+			(xy 196.85 144.78) (xy 204.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1be8aa5-4866-420c-bcfa-c8b1af98f924")
 	)
 	(wire
 		(pts
@@ -1365,16 +1355,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 205.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babb4fe5-b6b5-4549-8513-8fadf097a4a7")
-	)
-	(wire
-		(pts
 			(xy 204.47 115.57) (xy 205.74 115.57)
 		)
 		(stroke
@@ -1392,6 +1372,16 @@
 			(type default)
 		)
 		(uuid "bbd3b530-3e61-443d-9708-fe2d63780443")
+	)
+	(wire
+		(pts
+			(xy 144.78 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2972a7-5a32-400d-a3c2-c89fb59b4a28")
 	)
 	(wire
 		(pts
@@ -1415,6 +1405,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3216ce8-e6d5-4980-9b35-dd435ed432c5")
+	)
+	(wire
+		(pts
 			(xy 250.19 101.6) (xy 257.81 101.6)
 		)
 		(stroke
@@ -1432,6 +1432,16 @@
 			(type default)
 		)
 		(uuid "c67c09e1-5135-4d69-9fe6-05d0d8985d93")
+	)
+	(wire
+		(pts
+			(xy 92.71 73.66) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b63d88-bd6f-470f-adef-382a98634fc7")
 	)
 	(wire
 		(pts
@@ -1485,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 35.56 74.93)
+			(xy 35.56 74.93) (xy 43.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1502,16 +1512,6 @@
 			(type default)
 		)
 		(uuid "d2f597c6-bbdb-4225-82b0-c71f7a384451")
-	)
-	(wire
-		(pts
-			(xy 92.71 73.66) (xy 85.09 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a676ef-9ef6-4d9d-a747-96d9a1d9448c")
 	)
 	(wire
 		(pts
@@ -1685,13 +1685,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 151.13 142.24)
+			(xy 199.39 77.47) (xy 205.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2355f54-22e8-4f81-91f4-bdd66cd879d6")
+		(uuid "f48341c5-6a9e-4db2-812a-8266bef2abde")
 	)
 	(wire
 		(pts
@@ -4265,6 +4265,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 44.45 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e894b02-e23d-45c1-95a2-876e9084ec99")
+		(property "Reference" "#PWR045"
+			(at 44.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "063e44d0-e3ae-4ca2-a3d9-e20bd322be25")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 129.54 0)
 		(unit 1)
@@ -4329,6 +4395,72 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 92.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164c97ee-0297-4ae5-bd7a-72f142018eeb")
+		(property "Reference" "#PWR041"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bf1cbc3-94bf-45f9-926a-7e259758d1c7")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4460,15 +4592,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d93")
+			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d94")
 		)
 		(pin "2"
-			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c4")
+			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c5")
 		)
 		(instances
 			(project ""
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 43.18 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a23e05-01b9-4c8c-a115-c35d8ea5e6f5")
+		(property "Reference" "#PWR040"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaddbfa2-abde-4748-8467-33aa56c5ef97")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4600,81 +4798,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d93")
+			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d95")
 		)
 		(pin "2"
-			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c4")
+			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c6")
 		)
 		(instances
 			(project ""
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36cc1d5c-ef9f-414a-93fd-d07d74d4ecad")
-		(property "Reference" "#PWR049"
-			(at 251.46 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1e047c7-972e-40ce-9e7e-dcb5f8698ba7")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4961,72 +5093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "478fb74a-8d6d-49fc-9d6e-327d9cca52bc")
-		(property "Reference" "#PWR046"
-			(at 96.52 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15878d18-9ff9-4ef6-b11c-bc8a8d0b8a77")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 245.11 49.53 0)
 		(unit 1)
@@ -5091,72 +5157,6 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54866878-a5d1-4c1b-8b0f-cbacc365117c")
-		(property "Reference" "#PWR040"
-			(at 43.18 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3d43241-b20a-4198-8ace-30e029785c97")
-		)
-		(instances
-			(project ""
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5297,6 +5297,72 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 196.85 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679f4770-907f-4e6f-8c7a-6a5f116dc3f4")
+		(property "Reference" "#PWR048"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6764320b-c8b2-4979-bf06-caedf31f4312")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5513,6 +5579,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 199.39 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79eb97f0-11fe-42a3-aa0a-cb754297cf80")
+		(property "Reference" "#PWR043"
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d8e14c-62b5-481a-ab85-46d6f593d2a4")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 190.5 107.95 0)
 		(unit 1)
@@ -5583,17 +5715,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 92.71 73.66 0)
+		(lib_id "power:GNDA")
+		(at 251.46 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f9936b4-3114-4509-b6d7-ec0471ca4e84")
-		(property "Reference" "#PWR041"
-			(at 92.71 80.01 0)
+		(uuid "84d75e85-8375-4252-9b8d-3ce8ce84c9b9")
+		(property "Reference" "#PWR049"
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,8 +5733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 92.71 78.74 0)
+		(property "Value" "GNDA"
+			(at 251.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 73.66 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 73.66 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,74 +5759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90b15635-9e4a-4ab7-8ee2-46a0b7bf00b1")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "816524bb-f29a-44a0-aa2b-0c672e2f3e22")
-		(property "Reference" "#PWR043"
-			(at 199.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,12 +5769,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4be22ad9-026f-4167-a8aa-70d8a5ae8f2b")
+			(uuid "ce00e169-bfff-4196-95fb-d27ef5508df3")
 		)
 		(instances
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5910,15 +5976,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d93")
+			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d96")
 		)
 		(pin "2"
-			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c4")
+			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c7")
 		)
 		(instances
 			(project ""
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "916f126c-0103-4d99-af43-924bf50638c3")
+		(property "Reference" "#PWR047"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982e3739-3f12-4bf7-9b7f-d649d56b40f3")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6135,6 +6267,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 252.73 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac1686f2-54c0-47e4-8ff1-5a72ada2a8fe")
+		(property "Reference" "#PWR044"
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 252.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 252.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3056e03e-a4a9-45b7-a3a8-23d47c58d8bc")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 68.58 0)
 		(unit 1)
@@ -6260,10 +6458,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d93")
+			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d97")
 		)
 		(pin "2"
-			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c4")
+			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c8")
 		)
 		(instances
 			(project ""
@@ -6479,72 +6677,6 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5a56ede-2988-423a-ab40-c8d7f4f0c205")
-		(property "Reference" "#PWR048"
-			(at 198.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27c10b62-1fe1-4da7-baf9-302a515f5d6f")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6901,17 +7033,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 139.7 0)
+		(lib_id "power:GNDA")
+		(at 144.78 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be770690-7d20-4103-b6e7-4c4d09a85077")
-		(property "Reference" "#PWR045"
-			(at 45.72 146.05 0)
+		(uuid "c0c7097b-545b-4e1c-b55d-8e6a798f3d5e")
+		(property "Reference" "#PWR042"
+			(at 144.78 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,8 +7051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 144.78 0)
+		(property "Value" "GNDA"
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 139.7 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +7069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 139.7 0)
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,8 +7077,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 139.7 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 144.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,12 +7087,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27c5a779-5a09-4409-852a-164d5867ad4f")
+			(uuid "07850c2c-0baf-4dde-bc8b-a70ebbc97812")
 		)
 		(instances
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7247,72 +7379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c874ed8e-903e-4b6e-9290-3d3483986b51")
-		(property "Reference" "#PWR047"
-			(at 144.78 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c61254d-10f5-4dce-8593-d71a324b0f6e")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 38.1 0)
 		(unit 1)
@@ -7523,6 +7589,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 95.25 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e15250-7a23-411b-93e4-64027aa6c9ec")
+		(property "Reference" "#PWR046"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 95.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc32b5d-3e35-4666-9b10-c30c4ab51f55")
+		)
+		(instances
+			(project "pre_amplifier"
+				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 116.84 0)
 		(unit 1)
@@ -7727,72 +7859,6 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7d9dcbf-f5ef-4e78-afb3-e8ba8c0fc8f0")
-		(property "Reference" "#PWR044"
-			(at 252.73 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c11659e-8d6d-4301-b99f-479bd7f138c4")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8344,10 +8410,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d93")
+			(uuid "c390d89a-e942-43b5-9d7e-8e64b2be9d98")
 		)
 		(pin "2"
-			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c4")
+			(uuid "b3cef7c3-7cf6-4aa6-8b6e-3fb36e4c89c9")
 		)
 		(instances
 			(project ""
@@ -8563,72 +8629,6 @@
 			(project "pre_amplifier"
 				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef9359ca-3963-4e23-9261-3f650790fa79")
-		(property "Reference" "#PWR042"
-			(at 144.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fc52e0c-3c70-46a7-81fd-5a588f035bbd")
-		)
-		(instances
-			(project "pre_amplifier"
-				(path "/f9d168fb-4402-4650-b56c-4f238c857a37/82bdeb82-5afa-46ca-a75f-bc66d853949d"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
