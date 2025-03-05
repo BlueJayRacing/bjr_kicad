@@ -1,0 +1,168 @@
+(footprint "led_strip"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec6634f3-c860-4071-a397-2688df224f07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "led_strip"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9210b90-7110-4b31-a9fe-239beab87008")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d4d0d84-4492-490d-acc3-0813138c3af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04821984-3c41-4557-923d-701e470c6166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68070873-550b-477b-af85-8c68d213868e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 51.1 10.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cab5f649-2795-420a-acd9-382a6a2e59c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63d40d76-5c6c-45fd-8e6c-37b41136f0a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.436 1.356)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d4846abd-149c-463d-8c09-3d28bd5d244d")
+	)
+	(pad "2" smd roundrect
+		(at 0.436 3.915)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "789f8285-cec8-431d-80e6-1fb5345df2a7")
+	)
+	(pad "3" smd roundrect
+		(at 0.436 6.453)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "93628dc4-c92f-44f3-9b46-42d51f0d9ecc")
+	)
+	(pad "4" smd roundrect
+		(at 0.436 8.981)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2b43fbbb-6300-4af3-b87c-e3e02594b49d")
+	)
+	(pad "5" smd roundrect
+		(at 50.769 1.356)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9bdda934-ebdb-4f7e-866a-3aa1f83f6ae4")
+	)
+	(pad "6" smd roundrect
+		(at 50.769 3.915)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2ebbdd55-2587-4a4d-a350-05553199b97f")
+	)
+	(pad "7" smd roundrect
+		(at 50.769 6.453)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7903674c-67e8-46ce-ae4d-3798e9ab0417")
+	)
+	(pad "8" smd roundrect
+		(at 50.769 8.981)
+		(size 4 1.434)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e33fef8a-f0f6-430d-be35-6071cfc741f1")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/led_strip.STEP"
+		(offset
+			(xyz 25.5 -5 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

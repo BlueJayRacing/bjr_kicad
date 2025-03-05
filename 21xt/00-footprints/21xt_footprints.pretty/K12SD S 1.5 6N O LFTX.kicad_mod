@@ -1,0 +1,147 @@
+(footprint "K12SD S 1.5 6N O LFTX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "023e081a-d776-49fb-ab1a-6680051f85dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "K12SD S 1.5 6N O LFTX"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da649808-73c6-48d7-8b58-ab84d80b572e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.03 -1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7af2da5-d7f6-4407-8c3c-4ad4b6de0a20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.03 -1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc3cd28b-d636-4638-9c9a-743d64ab2a0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.03 -1.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b81fbc5-7d8b-4ee0-aa11-4306d369bf82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 2.25 -5)
+		(end 8.5 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a2a34fba-d3de-430d-9e10-566ca6040a8d")
+	)
+	(fp_circle
+		(center 2.25 -5)
+		(end 8.25 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a2427b4d-ee2e-40e5-994d-b4d7a5a525ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75640ca1-8955-4416-bc20-4a9d2ea738ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2.35 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "daaf1355-d3e0-4a8e-8081-2c7d2303dc6a")
+	)
+	(pad "2" smd roundrect
+		(at 4.5 0)
+		(size 2.35 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "06333c00-9421-4477-8334-39cdcac88d58")
+	)
+	(pad "3" smd roundrect
+		(at 4.5 -9.9)
+		(size 2.35 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8b16c4c6-560a-4ae1-857c-ad798378f391")
+	)
+	(pad "4" smd roundrect
+		(at 0 -9.9)
+		(size 2.35 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "3960b64e-1023-49f0-a8fe-87184380e596")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/2103M-003-CKN10790CT-ND_Push_Button.STEP"
+		(offset
+			(xyz 2.25 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
