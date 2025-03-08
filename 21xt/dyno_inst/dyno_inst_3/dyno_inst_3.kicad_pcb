@@ -9192,7 +9192,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "U7"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "120c74e1-5e34-49f1-acf6-92919800d44b")
 			(effects
@@ -9203,7 +9203,7 @@
 			)
 		)
 		(property "Value" "1S4E_1.5U"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "b395746a-13f1-4f42-9492-ac6295908347")
 			(effects
@@ -15904,7 +15904,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "U6"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "dca87984-2202-42e0-b89f-56ae3af7991f")
 			(effects
@@ -15915,7 +15915,7 @@
 			)
 		)
 		(property "Value" "1S4E_1.5U"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "27278a92-c38b-4a68-ac37-8383376732be")
 			(effects
@@ -39498,6 +39498,19 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "kyle taylor hates making bushings"
+		(at 140.3 71.6 0)
+		(layer "F.SilkS")
+		(uuid "8baf4f74-022f-4939-b22e-d307c214d8a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
