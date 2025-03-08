@@ -3515,6 +3515,28 @@
 			)
 		)
 	)
+	(global_label "sq5-"
+		(shape input)
+		(at 40.64 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b0547e0-7cfe-47d4-9342-ccb632f7f985")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 79.6858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5v_reful"
 		(shape input)
 		(at 68.58 80.01 180)
@@ -3533,30 +3555,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "sq5-"
-		(shape input)
-		(at 40.64 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "413e1929-ac39-43dd-85f1-913a7c2371a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 79.2098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4885,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 257.81 143.18 0)
 			(effects
 				(font
@@ -5090,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 194.31 188.9 0)
 			(effects
 				(font
@@ -5499,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 68.58 230.81 0)
 			(effects
 				(font
@@ -6105,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 259.08 192.71 0)
 			(effects
 				(font
@@ -6448,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 132.08 187.63 0)
 			(effects
 				(font
@@ -6788,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 194.31 140.64 0)
 			(effects
 				(font
@@ -7126,7 +7124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 66.04 186.36 0)
 			(effects
 				(font
@@ -7602,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 138.43 234.62 0)
 			(effects
 				(font
@@ -8949,7 +8947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 125.73 139.37 0)
 			(effects
 				(font
@@ -9355,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "pre_amp_footprint_lib:INA827AIDGKR_footprint"
 			(at 63.5 136.83 0)
 			(effects
 				(font
