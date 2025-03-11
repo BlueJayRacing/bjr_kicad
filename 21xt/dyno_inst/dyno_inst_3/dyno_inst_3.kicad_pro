@@ -559,7 +559,7 @@
       "idf": "",
       "netlist": "",
       "plot": "dyno_inst_gerbers/",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "dyno_inst_3.step",
       "svg": "",
@@ -612,7 +612,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
