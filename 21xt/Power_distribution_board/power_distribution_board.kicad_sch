@@ -4143,6 +4143,28 @@
 	)
 	(global_label "V_OUT_Supply"
 		(shape input)
+		(at 25.4 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b819373-e8a2-4a04-af0e-ebf07e52eadf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6727 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_OUT_Supply"
+		(shape input)
 		(at 241.3 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4247,6 +4269,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_OUT_Supply"
+		(shape input)
+		(at 25.4 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b7de719-3558-4472-be33-fd1f5f685b7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6727 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6081,6 +6125,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ff9930e-a298-413f-8d71-9d185824f971")
+		(property "Reference" "#PWR018"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f652e356-f157-46fb-a834-c0451c386985")
+		)
+		(instances
+			(project "power_distribution_board"
+				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "21xt_symbols:LTC2959IDDB#TRMPBF")
 		(at 213.36 55.88 0)
 		(unit 1)
@@ -6253,7 +6363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21xt_footprints:Deans Connector Male"
+		(property "Footprint" "21xt_footprints:Deans Connector Female"
 			(at 20.32 125.73 0)
 			(effects
 				(font
@@ -6942,6 +7052,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 20.32 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8906f493-37fd-4041-9df9-a10271d61a37")
+		(property "Reference" "J5"
+			(at 20.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 20.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "21xt_footprints:Deans Connector Female"
+			(at 20.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50d2d23-e515-45d7-a723-b84bfb23b114")
+		)
+		(pin "2"
+			(uuid "d52cb722-34e9-4130-bb6f-bc61676b0197")
+		)
+		(instances
+			(project "power_distribution_board"
+				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 175.26 270)
 		(unit 1)
@@ -7265,6 +7443,74 @@
 			(project "power_distribution_board"
 				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 20.32 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c952d3-4c21-4795-ae87-dddc23f00684")
+		(property "Reference" "J1"
+			(at 20.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 20.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "21xt_footprints:Deans Connector Female"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adefe310-e88d-4f17-b3d4-f12d1b011ffd")
+		)
+		(pin "2"
+			(uuid "43294d4e-19dc-46ce-af37-c90475ec5d78")
+		)
+		(instances
+			(project "power_distribution_board"
+				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8474,6 +8720,72 @@
 			(project ""
 				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f004ff48-275f-4057-83b9-0b675ce938cc")
+		(property "Reference" "#PWR019"
+			(at 31.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41f07486-4ee0-405a-a82d-b63560a74038")
+		)
+		(instances
+			(project "power_distribution_board"
+				(path "/d98247d4-72eb-44af-93af-b1e95cbdd104"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
