@@ -4887,6 +4887,268 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
+	(symbol "AD8237ARMZ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "AD8237ARMZ"
+			(at 26.67 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOP65P490X110-8N"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8237.pdf"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Instrumentation Amp Micropower RRIO MSOP Analog Devices AD8237ARMZ Instrumentation Amplifier, 75uV Offset 6MHz GBW, CMMR 106dB, 1.8  5.5 V, 8-Pin MSOP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-AD8237ARMZ"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8237ARMZ?qs=%2FtpEQrCGXCyniCWLHN9bdQ%3D%3D"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AD8237ARMZ"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "AD8237ARMZ_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "BW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "-VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -7.62 180)
+				(length 5.08)
+				(name "+VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -5.08 180)
+				(length 5.08)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+=======
+>>>>>>> Stashed changes
 	(symbol "ADS1120IPWR"
 		(pin_names
 			(offset 1.016)
@@ -10365,11 +10627,11 @@
 			)
 		)
 	)
-	(symbol "NVMFWS2D1N08XT1G"
+	(symbol "NRVB10100MFST1G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Q"
+		(property "Reference" "D"
 			(at 21.59 7.62 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10383,7 +10645,7 @@
 		(property "Value" "REF3450IDBVR"
 			(at 29.21 5.08 0)
 =======
-		(property "Value" "NVMFWS2D1N08XT1G"
+		(property "Value" "NRVB10100MFST1G"
 			(at 21.59 5.08 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10397,7 +10659,7 @@
 		(property "Footprint" "SOT95P280X145-6N"
 			(at 29.21 -94.92 0)
 =======
-		(property "Footprint" "NTMFWS1D5N08XT1G"
+		(property "Footprint" "NRVTS10100EMFST1G"
 			(at 21.59 -94.92 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10412,7 +10674,7 @@
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ref3440.pdf"
 			(at 29.21 -194.92 0)
 =======
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NVMFWS2D1N08X-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR10100MFS-D.PDF"
 			(at 21.59 -194.92 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10426,7 +10688,7 @@
 <<<<<<< Updated upstream
 		(property "Description" "5-V low-drift low-power small-footprint series voltage reference"
 =======
-		(property "Description" "Small Footprint (5x6 mm); Low RDS(on); Low QG and Capacitance; NVMFWS1D5N08X  Wettable Flank Option; AECQ101 Qualified and PPAP Capable; RoHS Compliant"
+		(property "Description" "Low Power Loss / High Efficiency; New Package Provides Capability of Inspection and Probe After Board Mounting; Guardring for Stress Protection; Low Forward Voltage Drop; 175C Operating Junction Temperature; Wettable Flacks Option Available; NRVB Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; These are PbFree Devices"
 >>>>>>> Stashed changes
 			(at 0 0 0)
 			(effects
@@ -10455,7 +10717,7 @@
 		(property "Mouser Part Number" "595-REF3450IDBVR"
 			(at 29.21 -494.92 0)
 =======
-		(property "Mouser Part Number" "863-NVMFWS2D1N08XT1G"
+		(property "Mouser Part Number" "863-NRVB10100MFST1G"
 			(at 21.59 -494.92 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10470,7 +10732,7 @@
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3450IDBVR?qs=55YtniHzbhBkMjMysxx4Wg%3D%3D"
 			(at 29.21 -594.92 0)
 =======
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NVMFWS2D1N08XT1G?qs=i8QVZAFTkqTo%252BUrYrSSJBQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NRVB10100MFST1G?qs=l5F7KFZg3O4lNNhz0h6qOQ%3D%3D"
 			(at 21.59 -594.92 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10500,7 +10762,7 @@
 		(property "Manufacturer_Part_Number" "REF3450IDBVR"
 			(at 29.21 -794.92 0)
 =======
-		(property "Manufacturer_Part_Number" "NVMFWS2D1N08XT1G"
+		(property "Manufacturer_Part_Number" "NRVB10100MFST1G"
 			(at 21.59 -794.92 0)
 >>>>>>> Stashed changes
 			(effects
@@ -10517,7 +10779,7 @@
 				(start 5.08 2.54)
 				(end 27.94 -7.62)
 =======
-		(symbol "NVMFWS2D1N08XT1G_1_1"
+		(symbol "NRVB10100MFST1G_1_1"
 			(rectangle
 				(start 5.08 2.54)
 				(end 20.32 -12.7)
@@ -10670,6 +10932,283 @@
 			)
 <<<<<<< Updated upstream
 =======
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "D_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -5.08 180)
+				(length 5.08)
+				(name "D_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 -7.62 180)
+				(length 5.08)
+				(name "D_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "NVMFWS2D1N08XT1G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 21.59 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NVMFWS2D1N08XT1G"
+			(at 21.59 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "NTMFWS1D5N08XT1G"
+			(at 21.59 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NVMFWS2D1N08X-D.PDF"
+			(at 21.59 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Footprint (5x6 mm); Low RDS(on); Low QG and Capacitance; NVMFWS1D5N08X  Wettable Flank Option; AECQ101 Qualified and PPAP Capable; RoHS Compliant"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 21.59 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NVMFWS2D1N08XT1G"
+			(at 21.59 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NVMFWS2D1N08XT1G?qs=i8QVZAFTkqTo%252BUrYrSSJBQ%3D%3D"
+			(at 21.59 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 21.59 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NVMFWS2D1N08XT1G"
+			(at 21.59 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "NVMFWS2D1N08XT1G_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 20.32 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "S_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "S_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "S_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 5.08)
+				(name "D_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 0 180)
+				(length 5.08)
+				(name "D_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 25.4 -2.54 180)
 				(length 5.08)
