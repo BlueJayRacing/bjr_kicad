@@ -2546,10 +2546,6 @@
 		(uuid "aae1b90f-e97d-401b-85ba-b0c27e2e106e")
 	)
 	(no_connect
-		(at 177.8 95.25)
-		(uuid "aceb5311-d8d9-46e4-95e4-d6ee9a804ad1")
-	)
-	(no_connect
 		(at 177.8 97.79)
 		(uuid "b4aaa4e4-9b47-4515-a330-c699e6e34e84")
 	)
@@ -2666,6 +2662,16 @@
 			(type default)
 		)
 		(uuid "659a2573-5e18-43d4-96e1-e194409a184e")
+	)
+	(wire
+		(pts
+			(xy 177.8 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3c9805-3693-478c-8ec9-c0c3eaebd21a")
 	)
 	(wire
 		(pts
@@ -2883,6 +2889,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f5a1eab-3710-4590-a52b-a36f9d92e7c3")
+	)
+	(text "Current limiting resistor on peripheral"
+		(exclude_from_sim no)
+		(at 218.186 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e702382-57c3-4dfa-b808-583e5e442890")
 	)
 	(text "MISO pin (2)"
 		(exclude_from_sim no)
@@ -3225,6 +3241,28 @@
 		(uuid "390adbaf-170b-4033-9c6c-2dc367323f1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.6514 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_control"
+		(shape output)
+		(at 185.42 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fa99f17-c960-4d8d-8c9a-0efadb6887d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.5326 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

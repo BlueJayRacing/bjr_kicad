@@ -3553,8 +3553,8 @@
 			)
 		)
 	)
-	(global_label "usb_gnd"
-		(shape output)
+	(global_label "LED_control"
+		(shape input)
 		(at 198.12 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3565,7 +3565,7 @@
 		)
 		(uuid "bbb872bb-449b-4489-909a-b8788172c696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.8459 49.53 0)
+			(at 212.2326 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
