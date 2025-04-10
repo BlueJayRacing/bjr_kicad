@@ -1,0 +1,132 @@
+(footprint "Adafruit 2659 Neopixel"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c3d86ac0-63de-408c-934c-e373eb71e858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Adafruit 2659 Neopixel"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "022b0a80-68fe-4349-9948-0e8db232dce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ebc685-d226-4f67-8016-28c29e92e289")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53b8724d-491d-4d2a-8534-42aa5cf5bbe8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "189194b2-83dc-4675-86be-03dfcb12c18d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.99 -1.97)
+		(end 2.83 2.09)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4b63ee4c-f524-4971-8d64-f159a1c6bed1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d557a15-fd58-478c-b263-961bf8d2dded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.65 0.9 90)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
+		(uuid "1edf5f36-801a-4d49-9852-417114aa94d6")
+	)
+	(pad "2" smd rect
+		(at 1.65 -0.9 90)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
+		(uuid "c5bcedf3-fd91-46f9-94ae-9798d04cafc0")
+	)
+	(pad "3" smd rect
+		(at -1.65 -0.9 90)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
+		(uuid "5b8a53e5-d119-4bf6-b66d-f1abc3ab9ab1")
+	)
+	(pad "4" smd rect
+		(at -1.65 0.9 90)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
+		(uuid "93ab2e68-3b4e-4eb7-ac18-56b630397ef5")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/2659.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

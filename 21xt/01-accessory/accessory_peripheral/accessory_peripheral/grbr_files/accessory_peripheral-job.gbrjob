@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-12-20T17:15:43-05:00"
+    "CreationDate": "2025-04-09T21:22:43-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,10 +14,10 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 45.058,
-      "Y": 28.548
+      "X": 54.2813,
+      "Y": 17.3243
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -28,48 +28,66 @@
       "PadToTrack": 0.1,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "accessory_peripheral-F_Cu.gbr",
+      "Path": "accessory_peripheral-Top Copper.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "accessory_peripheral-Signal Layer 1 2.gbr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-F_Paste.gbr",
+      "Path": "accessory_peripheral-Signal Layer 2 2.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "accessory_peripheral-Bottom Copper.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "accessory_peripheral-Top Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-B_Paste.gbr",
+      "Path": "accessory_peripheral-Bottom Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-F_Silkscreen.gbr",
+      "Path": "accessory_peripheral-Top Overlay.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-B_Silkscreen.gbr",
+      "Path": "accessory_peripheral-Bottom Overlay.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "accessory_peripheral-F_Mask.gbr",
+      "Path": "accessory_peripheral-Top Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "accessory_peripheral-B_Mask.gbr",
+      "Path": "accessory_peripheral-Bottom Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
@@ -90,24 +108,53 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Name": "F.Cu"
+      "Thickness": 0.035,
+      "Name": "Top Copper"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.48,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "Top Copper/Signal Layer 1 2",
+      "Notes": "Type: dielectric layer 1 (from Top Copper to Signal Layer 1 2)"
     },
     {
       "Type": "Copper",
-      "Name": "B.Cu"
+      "Thickness": 0.035,
+      "Name": "Signal Layer 1 2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "Signal Layer 1 2/Signal Layer 2 2",
+      "Notes": "Type: dielectric layer 2 (from Signal Layer 1 2 to Signal Layer 2 2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Signal Layer 2 2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.48,
+      "Material": "FR4",
+      "Name": "Signal Layer 2 2/Bottom Copper",
+      "Notes": "Type: dielectric layer 3 (from Signal Layer 2 2 to Bottom Copper)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Bottom Copper"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

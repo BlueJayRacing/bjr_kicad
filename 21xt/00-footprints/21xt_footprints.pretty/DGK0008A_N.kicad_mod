@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0.07 0.619998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "b5f27b3b-e92c-4538-8c82-f70acd692ede")
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0.07 0.619998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "29eab740-af49-4e52-9b8f-860a259e247f")
@@ -53,7 +53,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0.07 0.619998 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "72ca6580-ef47-4685-8913-a40b6526d4d6")
@@ -114,26 +114,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "4fa46d30-ff1e-41dc-a0b9-959a7cc3374e")
-	)
-	(fp_line
-		(start -0.499999 0)
-		(end 0.500002 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "07ff6907-324b-4d91-86b0-113bde5186af")
-	)
-	(fp_line
-		(start 0 0.500002)
-		(end 0 -0.499999)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "74167860-1f98-4283-869f-2f036de34c2b")
 	)
 	(fp_line
 		(start 3.150001 1.800001)
@@ -1306,51 +1286,60 @@
 		(at -2.224999 -0.974999 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "e2805f53-d914-4146-92d6-70c0e61464db")
 	)
 	(pad "2" smd oval
 		(at -2.224999 -0.324998 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "e71b1888-5478-41f3-82b1-b9adf20a37d8")
 	)
 	(pad "3" smd oval
 		(at -2.224999 0.325001 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "a1be9291-898e-46f3-b8fd-a50706474e01")
 	)
 	(pad "4" smd oval
 		(at -2.224999 0.975002 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "28813117-a2cb-4708-a35a-15c90cc2c5de")
 	)
 	(pad "5" smd oval
 		(at 2.225002 0.975002 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "a7c2deeb-7edf-46be-b410-bf2d4ef00f77")
 	)
 	(pad "6" smd oval
 		(at 2.225002 0.325001 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "7e7b7408-60ce-47d3-88d3-f077f245bf1c")
 	)
 	(pad "7" smd oval
 		(at 2.225002 -0.324998 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.05)
 		(uuid "f94d6013-f296-4a70-8257-8645d82a5678")
 	)
 	(pad "8" smd oval
 		(at 2.225002 -0.974999 90)
 		(size 0.449999 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.1)
+		(clearance -0.05)
 		(uuid "f3f4443c-ca5a-4062-b2b1-379233eac25f")
 	)
-	(model "/Users/emma/Downloads/LM74610QDGKRQ1/DGK0008A.stp"
+	(model "${BJR_KICAD}/21xt/00-3dmodels/LM74610QDGKRQ1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

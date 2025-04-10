@@ -2585,6 +2585,28 @@
 			)
 		)
 	)
+	(global_label "LED_control"
+		(shape input)
+		(at 198.12 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07a2ccff-a283-4a16-830c-a51589d30514")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2326 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12v B+"
 		(shape output)
 		(at 127 85.09 180)
@@ -3553,28 +3575,6 @@
 			)
 		)
 	)
-	(global_label "LED_control"
-		(shape input)
-		(at 198.12 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbb872bb-449b-4489-909a-b8788172c696")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2326 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Tx+"
 		(shape bidirectional)
 		(at 198.12 62.23 0)
@@ -4200,6 +4200,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 198.12 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49fe21ac-bcc4-4a1b-bb73-27e919d58fcd")
+		(property "Reference" "#PWR01"
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 201.93 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d2d3b9d-f2fd-4b6d-969c-42ed840b59ba")
+		)
+		(instances
+			(project "accessory_v4"
+				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/67100f97-5262-4274-9380-0583de02d6bc"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x23_Counter_Clockwise")
 		(at 132.08 95.25 0)
 		(unit 1)
@@ -4659,72 +4725,6 @@
 			(project "accessory_v2"
 				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/67100f97-5262-4274-9380-0583de02d6bc"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 198.12 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb7becd9-f598-4868-b638-009a9b195722")
-		(property "Reference" "#PWR01"
-			(at 204.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 201.93 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53fd7e60-e925-4c6d-8d33-38422b4a60f4")
-		)
-		(instances
-			(project "accessory_v3"
-				(path "/5dacc41e-ffff-47d3-9300-200c6018c603/67100f97-5262-4274-9380-0583de02d6bc"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

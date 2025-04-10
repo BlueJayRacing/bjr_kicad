@@ -2514,10 +2514,6 @@
 		(uuid "557bfb82-8d02-4f18-ad6c-122aaca1b593")
 	)
 	(no_connect
-		(at 137.16 118.11)
-		(uuid "5625a3ee-3740-408a-bcfc-2ffdb67d26d1")
-	)
-	(no_connect
 		(at 137.16 69.85)
 		(uuid "6544b9dd-d666-415c-9c29-fb011682d4e7")
 	)
@@ -2528,6 +2524,10 @@
 	(no_connect
 		(at 137.16 62.23)
 		(uuid "6a7f27a4-064b-4f7b-a38f-26197dc16045")
+	)
+	(no_connect
+		(at 177.8 95.25)
+		(uuid "721301c4-2e11-4768-b49f-e9b533513b7f")
 	)
 	(no_connect
 		(at 137.16 102.87)
@@ -2662,16 +2662,6 @@
 			(type default)
 		)
 		(uuid "659a2573-5e18-43d4-96e1-e194409a184e")
-	)
-	(wire
-		(pts
-			(xy 177.8 95.25) (xy 185.42 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a3c9805-3693-478c-8ec9-c0c3eaebd21a")
 	)
 	(wire
 		(pts
@@ -2857,42 +2847,9 @@
 		)
 		(uuid "154496e1-d63b-4548-b88e-7b0a55839ff6")
 	)
-	(text "it becomes a bit more complicated if you wanted to support the USB\nconnector on the board, in that case, you probably have to have\nthe USB power always be the source for everything when its plugged\nin or have to snip the trace in order to control that connection,\nat the very least i think you have to model the m8 connector\nand determine which of that connector and the big bulkhead are dominant\nand possible just ignore the usb, but maximally, this would require two\nload switches and possibly snipping the connection, but i think we can\nget around that by just asuming the usb connector is only for off board\ncases and the primary modality of programming this guy is through the\nm8 connector"
-		(exclude_from_sim no)
-		(at -74.93 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bd11e72-8aee-497f-8935-53b9f393b6c2")
-	)
-	(text "shouldnt the buck converter have precedent over the usb power\nfor example: if the usb is higher voltage than buck, then\nthe signals will exceed the threshold for levels on the usb,\nif the buck converter is higher though, then the signalling \non the usb side may not reach high enough. also, we want no\ninterruption when you plug in and need to switch tho id if \nthat is significant"
-		(exclude_from_sim no)
-		(at -71.12 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "524ba290-bdda-4784-8f1e-01de9199cd01")
-	)
-	(text "actually is this intended for the usb connector\non the teensy? because if it is, then the usb\ncannot back power the board and blow up your \nbuck converter if you leave the shottky i told\nyou to remove, but even then, the buck converter\ncan blow up the USB line or just overvolt it\nbecause the usb does not get disconnected"
-		(exclude_from_sim no)
-		(at -80.01 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f5a1eab-3710-4590-a52b-a36f9d92e7c3")
-	)
 	(text "Current limiting resistor on peripheral"
 		(exclude_from_sim no)
-		(at 218.186 95.504 0)
+		(at 103.124 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2910,28 +2867,6 @@
 		)
 		(uuid "8f30e38d-31e7-43a0-9cd0-6df91c70ef92")
 	)
-	(text "also you need to add the 4 pin m8 connector\nfor getting the usb power to the teensy,\nthough I suppose this functions for powering the teensy\nvia the usb connector on the teensy board"
-		(exclude_from_sim no)
-		(at -69.85 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d63704a-311d-4038-909d-13251569d480")
-	)
-	(text "i think i am impartial to the case where we are connecting\nto the teensy via the microusb on the board but\nif you wanted to have a proper load switch for the\nm8 connector that you are exposing, then i think you would need\nthe load switch on that line: ie if the ls_en pin is activated\nthen turn off the m8 power,\n"
-		(exclude_from_sim no)
-		(at -78.74 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b57f9528-bf7b-4b55-b096-24a1a2d7420a")
-	)
 	(text "i dont think these are the right connections for the usb grounding"
 		(exclude_from_sim no)
 		(at 317.5 54.61 0)
@@ -2942,17 +2877,6 @@
 			(justify left bottom)
 		)
 		(uuid "bcac132c-f95d-4a9e-9314-ae27da867cc3")
-	)
-	(text "also if we have no power on the car, but have power on usb, will this turn on?\nit seems to me that if the connector is plugged in then\nls_en is grounded so the gate opens, but there is no power "
-		(exclude_from_sim no)
-		(at -76.2 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf00b478-16ae-480f-a159-d2b911dc9600")
 	)
 	(text "OP-AMP Buffer"
 		(exclude_from_sim no)
@@ -3250,28 +3174,6 @@
 			)
 		)
 	)
-	(global_label "LED_control"
-		(shape output)
-		(at 185.42 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fa99f17-c960-4d8d-8c9a-0efadb6887d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5326 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D1_3v3"
 		(shape bidirectional)
 		(at 199.39 125.73 180)
@@ -3444,6 +3346,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_control"
+		(shape output)
+		(at 137.16 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fdeb4c5-eecc-463d-b130-d8c225a501cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0474 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

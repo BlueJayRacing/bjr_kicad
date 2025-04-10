@@ -1,0 +1,244 @@
+(footprint "MFNSMF05016X2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MF-NSMF050/16X-2-2")
+	(tags "Resettable Fuse")
+	(property "Reference" "F**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "87dd8658-a756-406f-b6d6-94dfc2f0e3f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MFNSMF05016X2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "980689ed-d844-4b4c-9ed2-f5d40e4935df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7e6ef42-0035-45c7-a4ac-c78f8f2765a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ec3a17-a9f5-4d9f-85ac-e1c0441428de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df2efd76-1d19-4658-86c8-362dc8243ae2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f421e94-c2d7-4cb0-a0c8-1ea8efb49dba")
+	)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0123da38-bff5-46ef-b032-b4c53c7ad62d")
+	)
+	(fp_line
+		(start -0.6 -0.8)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33bfabf8-e6fc-4b32-a3e1-ef67790a808e")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31375602-0290-40d4-9c25-e718ae3361b2")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.45 -0.05)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0d2526d-4755-4677-ba91-0f4bf151d46f")
+	)
+	(fp_arc
+		(start -2.4 0)
+		(mid -2.45 0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eef92aa1-3af3-40dd-8ee0-b9acd33a9e16")
+	)
+	(fp_line
+		(start -3 -1.8)
+		(end 3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3100ccff-85a7-4211-bc19-f775a5b2c2b1")
+	)
+	(fp_line
+		(start -3 1.8)
+		(end -3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "613cf298-9815-45ba-b8d6-4ba7ff83c3cc")
+	)
+	(fp_line
+		(start 3 -1.8)
+		(end 3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ad83b64-dd56-4d10-a34d-2d15f3f7484d")
+	)
+	(fp_line
+		(start 3 1.8)
+		(end -3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5eca019d-b56f-4689-be98-ebfc45753479")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "640a97f2-8cda-4ec9-834e-13afd81e5b7f")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeaea77c-4331-4c38-a23b-68da3f3d674e")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3deb29ab-9482-4c71-a1b9-e41d35179d00")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "767e38c1-46e0-4dd2-9e7b-2d3d5720563e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3b440b69-1a10-437d-a866-ecfec7e00f1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f7d89f32-f223-4aac-b874-e88b9e88de7c")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aa62e911-fffa-4105-9242-d60c5793bd53")
+	)
+	(model "${BJR_KICAD}/21xt/00-3dmodels/MF-NSMF050_16X-2.stp"
+		(offset
+			(xyz 0 0 0.4199999806)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)
