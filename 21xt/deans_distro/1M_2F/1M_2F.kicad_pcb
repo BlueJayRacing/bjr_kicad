@@ -178,7 +178,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "427d9581-bc83-4af7-96eb-b30f874ccd27")
+			(uuid "f472fc73-cf0a-43aa-bce7-95da07af7c08")
 			(effects
 				(font
 					(size 1 1)
@@ -190,7 +190,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9bf8a5da-4111-4898-b998-c4af7092d2b1")
+			(uuid "e260be65-83f5-427d-8e3e-a389ee51183f")
 			(effects
 				(font
 					(size 1 1)
@@ -203,7 +203,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bbc0335-8575-49dd-a25e-c76fef3ef83a")
+			(uuid "241823de-bdec-4f13-813c-0a2a8c7b1138")
 			(effects
 				(font
 					(size 1 1)
@@ -216,7 +216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "caa10fad-bd99-4c17-80dc-56c60cb51733")
+			(uuid "2e0de73f-13c2-4b22-9bf4-1643ccfbfc23")
 			(effects
 				(font
 					(size 1 1)
@@ -229,7 +229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7246a5e-3a83-486e-b133-5d70308931ee")
+			(uuid "34d17667-48a2-48a2-9827-03a120cee438")
 			(effects
 				(font
 					(size 1 1)
@@ -251,13 +251,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ff2dc88e-1bb4-4e84-ad31-f9eede3c137e")
+			(uuid "113cf076-79de-4bf7-9b71-49d18fd00c2e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ce5ed468-25fb-4ba8-9577-cc90fac5b5b8")
+			(uuid "cc4fc3ad-ddd7-407f-b362-3ab5a05f19c9")
 			(effects
 				(font
 					(size 1 1)
@@ -266,26 +266,26 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 4.25 3.3625 270)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(at 4.25 3.5 270)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "Net-(J1-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b492714f-252a-4b72-b4f4-8edf001beedd")
+			(uuid "598f64a9-4153-439b-8847-6009067cb76d")
 		)
 		(pad "2" thru_hole rect
 			(at 4.8625 9)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "4bcbc480-9721-4898-b0a2-70d8fb6fd9ed")
+			(uuid "ce8ca337-af49-43b2-b5dd-77e7996e0757")
 		)
 		(model "C:/Users/justin/Documents/bjr_kicad/21xt/deans_distro/deans_3dmodel/T-Plug male - W.S Deans Co. Est. 1957.step"
 			(offset
@@ -308,7 +308,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "72e26d96-f5cc-4fa0-b19f-0910464047f5")
+			(uuid "e7b2f04f-00ae-448e-8dea-b35241e5ee55")
 			(effects
 				(font
 					(size 1 1)
@@ -321,7 +321,7 @@
 			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "0a2b4a21-e057-4a35-93ca-926335100198")
+			(uuid "8c3b90d1-1d28-4bf4-a031-ca486e289a4e")
 			(effects
 				(font
 					(size 1 1)
@@ -335,7 +335,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "318ce3c2-e957-46af-8792-17eb5dfa7654")
+			(uuid "d20575dd-123e-4f13-ac2a-411aeb7f8d8c")
 			(effects
 				(font
 					(size 1 1)
@@ -349,7 +349,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5dee8feb-c7cd-483c-87bf-33962ebdaf0e")
+			(uuid "acd9715d-18ec-41d1-abbf-cc4f55926e4b")
 			(effects
 				(font
 					(size 1 1)
@@ -363,7 +363,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "070b7d99-d079-4dc3-8163-bf14c5b4ba11")
+			(uuid "642f4f74-beef-4dc4-8950-ffabbb49da1d")
 			(effects
 				(font
 					(size 1 1)
@@ -386,13 +386,13 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "53ee79f1-df45-42aa-9fec-edec6c8a5fcd")
+			(uuid "f1fda094-d23e-4f1a-aaad-941bedede33b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "dd50866c-e021-4bbb-adda-97d1c33ef3f8")
+			(uuid "defc9b52-7548-45f7-a910-70c9ed99d0c5")
 			(effects
 				(font
 					(size 1 1)
@@ -402,30 +402,30 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 4.25 -2.3625 270)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(at 4.25 -2.5 270)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "Net-(J1-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "5d69a075-dc2f-4605-848c-f9d9af3cee22")
+			(uuid "e545964c-a4c1-4bac-a586-34b0a7fcf534")
 		)
 		(pad "2" thru_hole rect
 			(at 4.8625 -9 180)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "7e562fbe-ef52-49e5-8b35-8b31214bfa72")
+			(uuid "45088152-d96a-4480-b168-226b47aea9b8")
 		)
 		(model "C:/Users/justin/Documents/bjr_kicad/21xt/deans_distro/deans_3dmodel/T-Plug female - W.S Deans Co. Est. 1957.step"
 			(offset
-				(xyz 4.35 -6.35 10.5)
+				(xyz 4.35 -6.55 10.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -444,7 +444,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6e65cba5-7d1b-4d99-a991-ba37954018f2")
+			(uuid "08da5b51-1053-480f-a6bd-f67aa6a3c987")
 			(effects
 				(font
 					(size 1 1)
@@ -457,7 +457,7 @@
 			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "fc6ef047-4eb5-4c85-b60f-1f3304d9e2fe")
+			(uuid "34186b79-6cce-4fb1-bf59-a4c44ec03ed1")
 			(effects
 				(font
 					(size 1 1)
@@ -471,7 +471,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0be29ec-3a12-46eb-b50a-93b266bc6c00")
+			(uuid "24a707c5-14e0-42d2-bf95-4bef8e739ee0")
 			(effects
 				(font
 					(size 1 1)
@@ -485,7 +485,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "831c5c89-55bf-4160-8474-e5f1a4e3d628")
+			(uuid "bcd5761b-e925-4be5-a50e-2b9ebcbf974b")
 			(effects
 				(font
 					(size 1 1)
@@ -499,7 +499,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2dc8967c-a814-492a-b681-ebad18988e77")
+			(uuid "e3040b2f-a50b-41f9-bf7d-9025ec9e8bd5")
 			(effects
 				(font
 					(size 1 1)
@@ -522,13 +522,13 @@
 			)
 			(fill none)
 			(layer "B.CrtYd")
-			(uuid "07462d00-229e-4627-b193-b62c517e8a4e")
+			(uuid "134dd4a3-e96a-4ab7-9310-d9ba953140e4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "898e350c-2686-4a13-ad76-6fc36be8703a")
+			(uuid "52a2a1f2-94bc-4be7-af42-88f11aa48469")
 			(effects
 				(font
 					(size 1 1)
@@ -538,30 +538,30 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 4.25 -2.3625 270)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(at 4.25 -2.5 270)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "Net-(J1-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "6e75c674-74d7-41cb-a66a-5549718add91")
+			(uuid "3842ca40-2a67-403c-b17c-3d03a8f441ad")
 		)
 		(pad "2" thru_hole rect
 			(at 4.8625 -9 180)
-			(size 5 3)
-			(drill oval 4 1.25)
+			(size 5.4 3)
+			(drill oval 4.5 1.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "0f788ab2-99d4-4b55-9e8f-a95659a770f7")
+			(uuid "ca3247dc-bab3-43f7-b529-eefd7d3ef6ac")
 		)
 		(model "C:/Users/justin/Documents/bjr_kicad/21xt/deans_distro/deans_3dmodel/T-Plug female - W.S Deans Co. Est. 1957.step"
 			(offset
-				(xyz 4.35 -6.35 10.5)
+				(xyz 4.35 -6.55 10.5)
 			)
 			(scale
 				(xyz 1 1 1)
