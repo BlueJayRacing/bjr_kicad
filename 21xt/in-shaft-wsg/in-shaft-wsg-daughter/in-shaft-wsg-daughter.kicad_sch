@@ -2251,38 +2251,22 @@
 		)
 	)
 	(junction
-		(at 111.76 68.58)
+		(at 109.22 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "352e0205-8466-4228-9363-ce19e41c6b5b")
+		(uuid "1bd057a5-9cbf-43c5-9f81-7781eda251a1")
 	)
 	(junction
 		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86f3cc86-c022-43c5-a68f-f8349c4871d8")
+		(uuid "71f162d2-7011-45b5-aed3-14a525a455ed")
 	)
 	(junction
-		(at 109.22 96.52)
+		(at 111.76 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c24f7bf-4eae-4bb7-8a90-8f8b35bd8b94")
-	)
-	(junction
-		(at 109.22 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9749f21-f140-481c-b539-41bcd81fae72")
-	)
-	(wire
-		(pts
-			(xy 109.22 88.9) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bbec9c-e353-42e4-a398-4beab4f3939f")
+		(uuid "dc3fc8a0-5d48-478b-ac95-4edde01dcfe9")
 	)
 	(wire
 		(pts
@@ -2293,16 +2277,6 @@
 			(type default)
 		)
 		(uuid "1e862015-cb02-47d6-9bbb-97dcde93fa1e")
-	)
-	(wire
-		(pts
-			(xy 109.22 81.28) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a66194c-1ef6-4991-94a6-79553a7f0410")
 	)
 	(wire
 		(pts
@@ -2346,6 +2320,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e23c57-8e98-4b28-8415-9f7eee8c0f35")
+	)
+	(wire
+		(pts
 			(xy 111.76 66.04) (xy 111.76 68.58)
 		)
 		(stroke
@@ -2373,6 +2357,16 @@
 			(type default)
 		)
 		(uuid "ceb12ef5-3beb-471c-88b8-144f5fa14919")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d6d57e-c42d-4b99-a376-2bb7a681239a")
 	)
 	(wire
 		(pts
@@ -2412,50 +2406,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Gage Excitation"
-		(shape input)
-		(at 111.76 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07918af0-4c87-4b18-8254-53be051e0d32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4311 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2-"
-		(shape output)
-		(at 104.14 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0803b574-adc1-4e1f-81e8-634e78f44f1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.8176 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2526,6 +2476,28 @@
 			)
 		)
 	)
+	(global_label "S1-"
+		(shape output)
+		(at 104.14 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "406bb667-310b-43d1-bfc9-67aa3745629c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8176 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S1+"
 		(shape output)
 		(at 104.14 86.36 180)
@@ -2570,6 +2542,28 @@
 			)
 		)
 	)
+	(global_label "Gage Excitation"
+		(shape input)
+		(at 109.22 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ccb003c-61ab-484c-a192-a0ba62aba7f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.8911 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S2-"
 		(shape input)
 		(at 52.07 54.61 0)
@@ -2592,6 +2586,28 @@
 			)
 		)
 	)
+	(global_label "S2-"
+		(shape output)
+		(at 104.14 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5de8fd8b-6786-4788-9e9b-84d5c7d1c9bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.8176 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S2+"
 		(shape input)
 		(at 53.34 99.06 0)
@@ -2610,28 +2626,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1-"
-		(shape output)
-		(at 104.14 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8449094b-f48c-4cd3-9d41-0aebd9714c25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.8176 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2671,28 +2665,6 @@
 		(uuid "b63590ea-f4ed-47b8-af99-be60b7bbd20e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.8176 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Gage Excitation"
-		(shape input)
-		(at 111.76 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfc26ef5-29c8-4e78-8056-3595357974c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4311 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,6 +2808,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d8a7df6-4566-41d7-a2ad-ba5f9984404c")
+		(property "Reference" "TP8"
+			(at 108.712 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 100.076 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4372aa72-dfcf-4ef5-a68b-27d015459b28")
+		)
+		(instances
+			(project "in-shaft-wsg-daughter"
+				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fb45411-bca3-4278-a012-bd3f672d572e")
+		(property "Reference" "TP11"
+			(at 111.252 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 102.616 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24f8155b-dded-4842-af1f-b2a075d8a8a8")
+		)
+		(instances
+			(project "in-shaft-wsg-daughter"
+				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 111.76 106.68 270)
 		(unit 1)
@@ -2895,138 +2995,6 @@
 			(project "in-shaft-wsg-daughter"
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 107.95 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "2556ffd2-2c37-4f16-b33f-831aa8b2a7bc")
-		(property "Reference" "JP2"
-			(at 111.252 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 85.598 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 107.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c6e7fc0-3cb2-4e14-9035-43d16b840642")
-		)
-		(pin "1"
-			(uuid "6a1065f5-93c8-4f3f-b3c3-34b5ffca5b2e")
-		)
-		(instances
-			(project "in-shaft-wsg-daughter"
-				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38d88cf6-96d5-40d7-a666-dd7b9503300f")
-		(property "Reference" "TP12"
-			(at 108.712 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 100.076 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aef9a622-3287-4095-9876-4cffd2168328")
-		)
-		(instances
-			(project "in-shaft-wsg-daughter"
-				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -3292,70 +3260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54a4fb4b-81f3-4041-aaee-af17d352e394")
-		(property "Reference" "TP8"
-			(at 108.712 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 100.076 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a0b40e8-1a6c-42ec-a460-444b316bdcf0")
-		)
-		(instances
-			(project "in-shaft-wsg-daughter"
-				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 53.34 77.47 90)
 		(unit 1)
@@ -3488,16 +3392,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 111.76 68.58 270)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 107.95 81.28 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "9497d668-2f1e-4278-b1ca-c7e870a631f1")
-		(property "Reference" "#PWR02"
-			(at 105.41 68.58 0)
+		(uuid "8f65195b-f5d0-4cb8-ae4e-7fe59432c7f4")
+		(property "Reference" "JP4"
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 85.598 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,16 +3426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 105.41 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 68.58 0)
+		(property "Datasheet" "~"
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,8 +3435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 68.58 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,22 +3444,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "11937131-3b2e-4a1c-927f-9358023acc8f")
 		)
 		(pin "1"
-			(uuid "58016603-63af-473f-86fc-829a9d8ef5e5")
+			(uuid "a916ab92-aefd-4ed8-be9e-62b0a3374986")
 		)
 		(instances
 			(project "in-shaft-wsg-daughter"
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "#PWR02")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3688,74 +3595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 107.95 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b17b7fb6-83ff-409d-b7d8-00a818fabdb2")
-		(property "Reference" "JP4"
-			(at 111.252 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 85.598 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b952cbd-a711-4a26-b58f-31ef2a9b243c")
-		)
-		(pin "1"
-			(uuid "13c427c7-9795-4b7f-ac70-470229dd2eff")
-		)
-		(instances
-			(project "in-shaft-wsg-daughter"
-				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 109.22 91.44 90)
 		(unit 1)
@@ -3885,32 +3724,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 88.9 90)
+		(lib_id "power:GNDA")
+		(at 109.22 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c11c0f4a-2bfd-456b-b9dd-2da41d2082f8")
-		(property "Reference" "TP9"
-			(at 108.712 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 100.076 89.154 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 109.22 83.82 0)
+		(uuid "c144060d-3018-4749-92cb-13ee30fa90ca")
+		(property "Reference" "#PWR02"
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,8 +3741,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 83.82 0)
+		(property "Value" "GNDA"
+			(at 102.87 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,8 +3758,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 109.22 88.9 0)
+		(property "Datasheet" ""
+			(at 109.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 109.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,12 +3777,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "51c4af6f-f3cd-427e-9304-937783a74d72")
+			(uuid "7ada1eb1-c3a2-4c1d-9014-155c217637c0")
 		)
 		(instances
 			(project "in-shaft-wsg-daughter"
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "TP9")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4010,6 +3850,134 @@
 			(project "in-shaft-wsg-daughter"
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c72b287c-1ba8-49ee-92a2-2a99ec7ed736")
+		(property "Reference" "TP12"
+			(at 111.252 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 102.616 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80deb7ec-46fa-447d-8a67-48d095522d10")
+		)
+		(instances
+			(project "in-shaft-wsg-daughter"
+				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d95d473d-8371-4206-94ac-4302d6d533f0")
+		(property "Reference" "TP9"
+			(at 108.712 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 100.076 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a6cf21-3d56-437c-aa6b-0ba6cc546acd")
+		)
+		(instances
+			(project "in-shaft-wsg-daughter"
+				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4155,16 +4123,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 111.76 66.04 270)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 107.95 88.9 0)
+		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "f22bc1e0-f263-4748-95d6-9157600dff26")
-		(property "Reference" "#PWR03"
-			(at 105.41 66.04 0)
+		(uuid "ed97b879-dcf7-41b8-8d21-c7c34fbfe82a")
+		(property "Reference" "JP2"
+			(at 111.252 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 85.598 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,16 +4157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 105.41 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 66.04 0)
+		(property "Datasheet" "~"
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,8 +4166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 66.04 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,22 +4175,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 111.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "fd5e3470-d837-4012-8ba3-d3dc765522d8")
 		)
 		(pin "1"
-			(uuid "56d85c80-3450-4038-9045-6dbcc26bc264")
+			(uuid "8eb9ab95-7a2d-4176-bdea-49da3bc5e8ba")
 		)
 		(instances
 			(project "in-shaft-wsg-daughter"
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "#PWR03")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4281,70 +4252,6 @@
 			(project ""
 				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fab6320f-1766-4a49-ab54-c11cbb985757")
-		(property "Reference" "TP11"
-			(at 108.712 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 100.076 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2a54316-afbe-4a8d-9f9d-ca912379c214")
-		)
-		(instances
-			(project "in-shaft-wsg-daughter"
-				(path "/09fad025-d34f-47b5-967a-027637a01ba7"
-					(reference "TP11")
 					(unit 1)
 				)
 			)

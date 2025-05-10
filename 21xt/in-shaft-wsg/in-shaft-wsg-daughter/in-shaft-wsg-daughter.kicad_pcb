@@ -438,7 +438,7 @@
 		(descr "Soldered wire connection, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm")
 		(property "Reference" "J3"
-			(at 5.4 -2 360)
+			(at 5.4 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1c01fea7-3051-49ca-870f-a309a2a250d8")
@@ -450,7 +450,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 5.4 2 360)
+			(at 5.4 2 0)
 			(layer "F.Fab")
 			(uuid "c8b1a68e-6fee-4ba9-87e6-8cdf2ab6b639")
 			(effects
@@ -807,7 +807,7 @@
 			)
 		)
 		(property "Footprint" "21xt_footprints:tall usb female"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "266f7aa4-3b9f-40b2-b658-b757f7340b47")
@@ -819,7 +819,7 @@
 			)
 		)
 		(property "Datasheet" "2171800001"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fece651-5837-417b-baca-5872e647872c")
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecebedf9-f8d4-42f1-98b3-fb6a9a09540d")
@@ -6673,6 +6673,19 @@
 			(font
 				(size 0.8128 0.8128)
 				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "V2"
+		(at 13.4 48.35 0)
+		(layer "B.SilkS")
+		(uuid "7ace981a-dff2-40f0-b102-dc1782fbae1e")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.75)
 				(bold yes)
 			)
 			(justify left bottom mirror)
