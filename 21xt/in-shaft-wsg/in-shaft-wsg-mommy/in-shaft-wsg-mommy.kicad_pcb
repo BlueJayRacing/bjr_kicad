@@ -1224,6 +1224,7 @@
 			)
 		)
 		(model "C:/Users/aaren/Downloads/in-shaft-wsg-daughter.step"
+			(hide yes)
 			(offset
 				(xyz 10.25 37 9)
 			)
@@ -5013,7 +5014,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c0722182-c5f9-4178-812c-c3e08abb6f90")
@@ -5026,7 +5027,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "0ec60f01-c851-4fd4-970f-0c45582c8a73")
 			(effects
@@ -5185,7 +5186,7 @@
 			(uuid "481f6213-a4f7-4bb9-90a7-cf9c00ff001f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f7a09c4c-ae5f-4557-aa16-aef48e25c24e")
 			(effects
@@ -6991,7 +6992,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "56f2b632-0f50-4786-ab20-3e58cf0d51c6")
@@ -7004,7 +7005,7 @@
 			)
 		)
 		(property "Value" "45.5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "1c01848d-475e-4dae-93ae-9b18199452a4")
 			(effects
@@ -7163,7 +7164,7 @@
 			(uuid "4b8f6bd6-1a9a-429e-a9e9-4a26b1f551a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c1876cad-f37f-43b2-bf89-e9d0d570a0f4")
 			(effects
@@ -9681,7 +9682,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "d8cab340-7461-4cdd-9086-c3a624029250")
@@ -9694,7 +9695,7 @@
 			)
 		)
 		(property "Value" "45.5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "b3573b2d-9b1c-40c8-9ff4-9b230b2fa0d0")
 			(effects
@@ -9853,7 +9854,7 @@
 			(uuid "1d37625f-04b2-468e-93b3-e77ce173472e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "23a7af57-82fb-4a77-9497-adc705594951")
 			(effects
@@ -16161,7 +16162,7 @@
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT1"
-			(at 0 1.2 360)
+			(at 0 1.2 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2ca89eb5-c671-49f5-9f7d-3979276115b4")
@@ -16174,7 +16175,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.2 360)
+			(at 0 -1.2 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1a0c802e-548f-452e-b92f-c93fed29903d")
